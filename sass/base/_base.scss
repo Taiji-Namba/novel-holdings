@@ -1,0 +1,70 @@
+@use "../mixin";
+@use "../setting";
+
+*,
+*::before,
+*::after {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "Noto Sans JP", sans-serif;
+  color: setting.$txt-color;
+  width: 100%;
+  margin: 0;
+  font-size: 1.6rem;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  font-weight: 700;
+  // vertical-align: top;
+}
+
+h5,
+h6,
+p {
+  // vertical-align: top;
+  font-weight: 400;
+}
+
+img {
+  height: auto;
+  max-width: 100%;
+  vertical-align: bottom;
+}
+
+a {
+  text-decoration: none;
+  font-size: 1.6rem;
+  display: inline-block;
+}
+
+ul {
+  list-style: none;
+  padding-inline: 0;
+  margin-block: 0;
+  font-size: 1.6rem;
+}
+
+th,
+td {
+  padding: 0;
+  font-size: 1.6rem;
+}
+
+textarea {
+  display: block; // textareaの下の謎の余白を消す
+  font-size: 1.6rem;
+}
+
+tbody {
+  width: 100%;
+}

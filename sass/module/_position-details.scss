@@ -1,0 +1,235 @@
+@use "../mixin";
+@use "../setting";
+
+.position-detail-fv {
+  width: 100svw;
+}
+
+.position-detail-fv__heading-container {
+  width: calc(1240 / 1440 * 100%);
+  max-width: 1240px;
+  aspect-ratio: 1240 / 435;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  margin-inline: auto;
+  position: relative;
+  text-align: center;
+
+  @include mixin.mq(tab) {
+    aspect-ratio: 1240 / 580;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  @include mixin.mq(sp) {
+    aspect-ratio: 1240 / 720;
+  }
+}
+
+.position-detail-fv__heading-container::before {
+  position: absolute;
+  top: calc(50% - 1.5rem);
+  left: calc((100% - 100svw) / 2);
+  z-index: -1;
+  content: "";
+  width: 100svw;
+  height: calc(50% + 1.5rem);
+  background-color: #e9dbb5;
+}
+
+.position-detail-fv__heading-container::after {
+  position: absolute;
+  top: 0;
+  left: 0;
+  content: "";
+  width: 100%;
+  height: 100%;
+  background-color: #000;
+  opacity: 0.5;
+  z-index: 3;
+}
+
+.position-detail-fv__heading-group {
+  width: 95%;
+  @include mixin.mq(tab) {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+}
+
+.position-detail-fv__subtitle {
+  color: setting.$accent-color-2;
+  font-size: 1.4rem;
+  font-weight: 400;
+  position: absolute;
+  top: calc(50% - 0.9rem - 4.2rem);
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 6;
+
+  @include mixin.mq(tab) {
+    position: static;
+    transform: translate(0);
+  }
+
+  @include mixin.mq(sp) {
+  }
+}
+
+.position-detail-fv__title {
+  color: #fff;
+  font-size: 4.2rem;
+  font-weight: 400;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 6;
+
+  @include mixin.mq(tab) {
+    position: static;
+    margin-top: 0.9rem;
+    font-size: 3.8rem;
+    transform: translate(0);
+  }
+
+  @include mixin.mq(sp) {
+    margin-top: 0.4rem;
+    font-size: 3rem;
+    line-height: 1.2;
+  }
+}
+
+.position-detail-fv__text-wrapper {
+  width: 100%;
+  background-color: #e9dbb5;
+  padding-block: 8.4rem;
+
+  @include mixin.mq(tab) {
+    padding-block: 7.2rem;
+  }
+
+  @include mixin.mq(sp) {
+    padding-block: 5.4rem;
+  }
+}
+
+.position-detail-fv__text {
+  width: 750px;
+  max-width: 80%;
+  font-size: 1.8rem;
+  line-height: 2;
+  color: #3b320f;
+  margin-inline: auto;
+  text-align: center;
+
+  @include mixin.mq(sp) {
+    font-size: 1.6rem;
+  }
+}
+
+.position-detail-main__inner {
+  padding-bottom: 18.8rem;
+
+  @include mixin.mq(tab) {
+    padding-bottom: 10.8rem;
+  }
+
+  @include mixin.mq(sp) {
+    padding-bottom: 7.8rem;
+  }
+}
+
+.position-detail-main__title {
+  font-size: 3.2rem;
+  line-height: 2;
+  font-weight: 400;
+  color: #000;
+  margin-block: 7.5rem;
+  text-align: center;
+
+  @include mixin.mq(tab) {
+    margin-block: 6.2rem;
+    font-size: 3rem;
+  }
+
+  @include mixin.mq(sp) {
+    margin-block: 5.8rem;
+    font-size: 2.4rem;
+  }
+}
+
+.position-detail__table {
+  margin-inline: auto;
+  border-spacing: 0;
+  max-width: 112.2rem;
+  width: 100%;
+}
+
+.position-detail__table-row {
+  width: 100%;
+  border-width: 1px;
+  border-style: none none solid none;
+  border-color: #e7e7e7;
+  display: flex;
+  flex-wrap: wrap;
+
+  @include mixin.mq(tab) {
+    border-style: none none none none;
+  }
+
+  &:first-of-type {
+    border-style: solid none solid none;
+
+    @include mixin.mq(tab) {
+      border-style: none none none none;
+    }
+  }
+}
+.position-detail__table-heading {
+  display: flex;
+  align-items: center;
+  font-size: 1.4rem;
+  font-weight: 700;
+  width: 20rem;
+  max-width: 100%;
+  padding-left: 4rem;
+  background-color: #f5f5f5;
+
+  @include mixin.mq(tab) {
+    width: 100%;
+    padding-block: 1.6rem;
+    padding-left: 3rem;
+    padding-right: 3rem;
+  }
+
+  @include mixin.mq(sp) {
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+}
+
+.position-detail__table-data {
+  font-size: 1.4rem;
+  line-height: 2;
+  width: 92.2rem;
+  max-width: 100%;
+  padding-block: 4rem;
+  padding-left: 4rem;
+
+  @include mixin.mq(tab) {
+    width: 100%;
+    padding-left: 3rem;
+    padding-right: 3rem;
+  }
+
+  @include mixin.mq(sp) {
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+}

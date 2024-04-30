@@ -1,0 +1,12 @@
+@use "../base";
+@use "../mixin";
+@use "../setting";
+@use "../module";
+
+.position-detail-fv__heading-container--director {
+  background-image: url(../../img/director.jpg);
+
+  @include mixin.mq(twice) {
+    background-image: url(../../img/director@2x.jpg);
+  }
+}

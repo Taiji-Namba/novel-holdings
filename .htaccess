@@ -1,0 +1,3 @@
+RewriteCond %{THE_REQUEST} ^.*/index.html [OR]
+RewriteCond %{THE_REQUEST} ^.*/index.shtml
+RewriteRule ^(.*)index.(html|shtml)$ https://the-connect-web.com/novel-holdings/$1 [R=301,L]

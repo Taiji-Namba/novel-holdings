@@ -1,0 +1,56 @@
+@use "base";
+@use "mixin";
+@use "module";
+@use "setting";
+
+body {
+  background-color: setting.$bg-color;
+}
+
+.bold {
+  font-weight: 700;
+}
+
+.sp-break {
+  display: none;
+  @include mixin.mq(sp) {
+    display: block;
+  }
+}
+
+.tab-break {
+  display: none;
+  @include mixin.mq(tab) {
+    display: block;
+  }
+}
+
+.pc-and-tab-break {
+  display: block;
+  @include mixin.mq(sp) {
+    display: none;
+  }
+}
+
+.pc-break {
+  display: block;
+  @include mixin.mq(tab) {
+    display: none;
+  }
+}
+
+.text-inline-blocked {
+  display: inline-block;
+}
+
+.main__inner {
+  margin-inline: auto;
+}
+
+.table-heading {
+  vertical-align: middle;
+}
+
+.table-heading--vertical-top {
+  margin-block: 0;
+}

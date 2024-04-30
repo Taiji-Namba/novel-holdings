@@ -1,0 +1,358 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head prefix="og: https://ogp.me/ns#">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>新卒採用エントリー | 株式会社Igatta Group(イガッタグループ)</title>
+    <meta
+      name="description"
+      content="新卒採用エントリーページ｜エントリーはこちらから"
+    />
+
+    <meta
+      property="og:url"
+      content="https://the-connect-web.com/novel-holdings/entry"
+    />
+    <meta property="og:type" content="website" />
+    <meta
+      property="og:title"
+      content="新卒採用エントリー | 株式会社Igatta Group(イガッタグループ)"
+    />
+    <meta
+      property="og:description"
+      content="新卒採用エントリーページ｜エントリーはこちらから"
+    />
+    <meta
+      property="og:site_name"
+      content="新卒採用エントリー | 株式会社Igatta Group(イガッタグループ)"
+    />
+    <meta
+      property="og:image"
+      content="https://the-connect-web.com/novel-holdings/img/ogp-image.jpg"
+    />
+
+    <meta property="twitter:card" content="summary_large_image" />
+    <meta
+      property="twitter:url"
+      content="https://the-connect-web.com/novel-holdings/entry"
+    />
+    <meta
+      property="twitter:title"
+      content="新卒採用エントリー | 株式会社Igatta Group(イガッタグループ)"
+    />
+    <meta
+      property="twitter:description"
+      content="新卒採用エントリーページ｜エントリーはこちらから"
+    />
+    <meta
+      property="twitter:image"
+      content="https://the-connect-web.com/novel-holdings/img/ogp-image.jpg"
+    />
+
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="/novel-holdings/icons/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="/novel-holdings/icons/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="/novel-holdings/icons/favicon-16x16.png"
+    />
+    <link
+      rel="mask-icon"
+      href="/novel-holdings/icons/safari-pinned-tab.svg"
+      color="#5bbad5"
+    />
+    <link rel="shortcut icon" href="/novel-holdings/icons/favicon.ico" />
+    <meta name="msapplication-TileColor" content="#da532c" />
+    <meta name="msapplication-config" content="/icons/browserconfig.xml" />
+    <meta name="theme-color" content="#ffffff" />
+
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/destyle.css@4.0.1/destyle.min.css"
+    />
+    <link rel="stylesheet" href="../css/style.css" />
+    <link rel="stylesheet" href="css/entry.css" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@700&display=swap"
+      rel="stylesheet"
+    />
+
+    <script
+      src="https://code.jquery.com/jquery-3.7.1.min.js"
+      integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo="
+      crossorigin="anonymous"
+    ></script>
+
+    <meta name="robots" content="noindex" />
+  </head>
+
+  <body class="entry sub-page">
+    <!--#include virtual="/novel-holdings/ssi/header/header_sub-page.shtml"-->
+    <main class="main entry__main">
+      <div class="main__inner entry-form">
+        <div class="entry-form__inner">
+          <h1 class="entry__title">
+            新卒採用<br class="sp-break" /><span class="orange-text"
+              >エントリーフォーム</span
+            >
+          </h1>
+          <p class="entry__lede">
+            弊社にご興味をお持ちいただき、<br
+              class="sp-break"
+            />ありがとうございます。<br />
+            下記をご入力の上、送信ください。
+          </p>
+
+          <form
+            method="post"
+            action="mail.php"
+            class="entry-form__body"
+            id="entry-form"
+          >
+            <table class="entry-form__table">
+              <tr class="table-row entry-form__table-row">
+                <th class="table-heading entry-form__table-heading">
+                  <span class="required-notice">必須</span>
+                  <label class="entry-form__item-name ml-minus-5" for="name"
+                    >お名前</label
+                  >
+                </th>
+                <td class="table-data entry-form__table-data">
+                  <input
+                    required
+                    id="name"
+                    class="entry-form__input"
+                    type="text"
+                    name="お名前"
+                    placeholder="例）長谷川　太郎"
+                    autocomplete="name"
+                  />
+                </td>
+              </tr>
+              <tr class="table-row entry-form__table-row">
+                <th class="table-heading entry-form__table-heading">
+                  <span class="required-notice">必須</span>
+                  <label class="entry-form__item-name ml-minus-5" for="age"
+                    >ご年齢</label
+                  >
+                </th>
+                <td class="table-data entry-form__table-data">
+                  <input
+                    required
+                    id="age"
+                    class="entry-form__input entry-form__input--short"
+                    type="number"
+                    name="ご年齢"
+                    placeholder="例）32"
+                    min="18"
+                  />
+                </td>
+              </tr>
+              <tr class="table-row entry-form__table-row">
+                <th class="table-heading entry-form__table-heading">
+                  <span class="required-notice">必須</span>
+                  <label class="entry-form__item-name ml-minus-5" for="email"
+                    >メールアドレス</label
+                  >
+                </th>
+                <td class="table-data entry-form__table-data">
+                  <input
+                    required
+                    id="email"
+                    class="entry-form__input"
+                    type="email"
+                    name="メールアドレス"
+                    autocomplete="email"
+                    placeholder="例）example@example.com"
+                  />
+                </td>
+              </tr>
+              <tr class="table-row entry-form__table-row">
+                <th
+                  class="table-heading entry-form__table-heading table-heading--vertical-top"
+                >
+                  <span class="required-notice">必須</span
+                  ><span class="entry-form__item-name">応募職種</span>
+                </th>
+                <td class="table-data entry-form__table-data">
+                  <label class="entry-form__radio-label">
+                    <input
+                      class="entry-form__radio-button"
+                      type="radio"
+                      name="応募職種"
+                      value="Webディレクター"
+                    /><span class="entry-form__radio-text"
+                      >Webディレクター</span
+                    >
+                  </label>
+                  <label class="entry-form__radio-label">
+                    <input
+                      class="entry-form__radio-button"
+                      type="radio"
+                      name="応募職種"
+                      value="Webエンジニア"
+                    /><span class="entry-form__radio-text">Webエンジニア</span>
+                  </label>
+                  <label class="entry-form__radio-label">
+                    <input
+                      class="entry-form__radio-button"
+                      type="radio"
+                      name="応募職種"
+                      value="Webデザイナー"
+                    /><span class="entry-form__radio-text">Webデザイナー</span>
+                  </label>
+                  <label class="entry-form__radio-label">
+                    <input
+                      class="entry-form__radio-button"
+                      type="radio"
+                      name="応募職種"
+                      value="Webマーケター"
+                    /><span class="entry-form__radio-text">Webマーケター</span>
+                  </label>
+                </td>
+              </tr>
+              <tr class="table-row entry-form__table-row">
+                <th class="table-heading entry-form__table-heading">
+                  <span class="required-notice">必須</span>
+                  <label
+                    class="entry-form__item-name ml-minus-5"
+                    for="desired-annual-income"
+                    >希望年収</label
+                  >
+                </th>
+                <td class="table-data entry-form__table-data">
+                  <input
+                    required
+                    id="desired-annual-income"
+                    class="entry-form__input entry-form__input--short"
+                    type="text"
+                    name="希望年収"
+                  />
+                </td>
+              </tr>
+              <tr class="table-row entry-form__table-row">
+                <th
+                  class="table-heading entry-form__table-heading table-heading--vertical-top pc-pt-7px"
+                >
+                  <span class="required-notice required-notice--gray"
+                    >必須</span
+                  >
+                  <label
+                    class="entry-form__item-name ml-minus-5"
+                    for="achievements"
+                    >実績</label
+                  >
+                </th>
+                <td class="table-data entry-form__table-data">
+                  <p class="entry-form__paragraph">
+                    これまでの開発実績の分かるGithubの<br
+                      class="sp-break"
+                    />URLや、公開しているWebサイトがあれば、<br />
+                    そのURLの添付をお願いします。
+                  </p>
+                  <textarea
+                    class="entry-form__textarea entry-form__textarea--large"
+                    name="実績"
+                    id="achievements"
+                  ></textarea>
+                </td>
+              </tr>
+              <tr class="table-row entry-form__table-row">
+                <th
+                  class="table-heading entry-form__table-heading table-heading--vertical-top"
+                >
+                  <span class="required-notice">必須</span>
+                  <label
+                    class="entry-form__item-name ml-minus-5"
+                    for="academic-background"
+                    >学歴</label
+                  >
+                </th>
+                <td class="table-data entry-form__table-data">
+                  <p class="entry-form__paragraph">
+                    高校以降の学歴をご記載下さい。
+                  </p>
+                  <textarea
+                    required
+                    class="entry-form__textarea entry-form__textarea--small"
+                    name="学歴"
+                    id="academic-background"
+                  ></textarea>
+                </td>
+              </tr>
+              <tr class="table-row entry-form__table-row">
+                <th
+                  class="table-heading entry-form__table-heading table-heading--vertical-top"
+                >
+                  <span class="required-notice">必須</span>
+                  <label
+                    class="entry-form__item-name ml-minus-5"
+                    for="about-myself"
+                    >自己PR</label
+                  >
+                </th>
+                <td class="table-data entry-form__table-data">
+                  <p class="entry-form__paragraph">
+                    簡単で結構ですので、<br
+                      class="sp-break"
+                    />あなたのPRポイントをご記載下さい。
+                  </p>
+                  <textarea
+                    required
+                    class="entry-form__textarea entry-form__textarea--small"
+                    name="自己PR"
+                    id="about-myself"
+                  ></textarea>
+                </td>
+              </tr>
+            </table>
+            <div class="entry-form__privacy-policy privacy-policy">
+              <label class="privacy-policy__label"
+                ><input
+                  required
+                  class="privacy-policy__checkbox"
+                  type="checkbox"
+                  id="privacy-check"
+                  name="個人情報の同意[]"
+                  value="同意する"
+                /><span class="privacy-policy__span"
+                  >個人情報保護方針に同意する</span
+                ></label
+              >
+            </div>
+            <button
+              disabled
+              class="entry-form__submit-button entry-cta__button button"
+              id="entry-submit"
+              type="submit"
+              value="エントリーする"
+            >
+              エントリーする
+            </button>
+          </form>
+        </div>
+      </div>
+    </main>
+
+    <!--#include virtual="/novel-holdings/ssi/footer_sub-page.shtml"-->
+    <script src="https://unpkg.com/micromodal/dist/micromodal.min.js"></script>
+    <script src="../js/script.js"></script>
+  </body>
+</html>

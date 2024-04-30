@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head prefix="og: https://ogp.me/ns#">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Webディレクター職 | 株式会社Igatta Group(イガッタグループ)</title>
+    <meta
+      name="description"
+      content="Webディレクター職の募集要項｜案件開始後のクライアントとのやり取りや社内制作チームとのやり取りを行い、円滑なプロジェクト進行の鍵を握ります。Webディレクターの業務範囲は多岐に渡りますが、プロジェクトリーダーを一番目指しやすい職業です。"
+    />
+
+    <meta
+      property="og:url"
+      content="https://the-connect-web.com/novel-holdings/director"
+    />
+    <meta property="og:type" content="website" />
+    <meta
+      property="og:title"
+      content="Webディレクター職 | 株式会社Igatta Group(イガッタグループ)"
+    />
+    <meta
+      property="og:description"
+      content="Webディレクター職の募集要項｜案件開始後のクライアントとのやり取りや社内制作チームとのやり取りを行い、円滑なプロジェクト進行の鍵を握ります。Webディレクターの業務範囲は多岐に渡りますが、プロジェクトリーダーを一番目指しやすい職業です。"
+    />
+    <meta
+      property="og:site_name"
+      content="Webディレクター職 | 株式会社Igatta Group(イガッタグループ)"
+    />
+    <meta
+      property="og:image"
+      content="https://the-connect-web.com/novel-holdings/img/ogp-image.jpg"
+    />
+
+    <meta property="twitter:card" content="summary_large_image" />
+    <meta
+      property="twitter:url"
+      content="https://the-connect-web.com/novel-holdings/director"
+    />
+    <meta
+      property="twitter:title"
+      content="Webディレクター職 | 株式会社Igatta Group(イガッタグループ)"
+    />
+    <meta
+      property="twitter:description"
+      content="Webディレクター職の募集要項｜案件開始後のクライアントとのやり取りや社内制作チームとのやり取りを行い、円滑なプロジェクト進行の鍵を握ります。Webディレクターの業務範囲は多岐に渡りますが、プロジェクトリーダーを一番目指しやすい職業です。"
+    />
+    <meta
+      property="twitter:image"
+      content="https://the-connect-web.com/novel-holdings/img/ogp-image.jpg"
+    />
+
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="/novel-holdings/icons/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="/novel-holdings/icons/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="/novel-holdings/icons/favicon-16x16.png"
+    />
+    <link
+      rel="mask-icon"
+      href="/novel-holdings/icons/safari-pinned-tab.svg"
+      color="#5bbad5"
+    />
+    <link rel="shortcut icon" href="/novel-holdings/icons/favicon.ico" />
+    <meta name="msapplication-TileColor" content="#da532c" />
+    <meta name="msapplication-config" content="/icons/browserconfig.xml" />
+    <meta name="theme-color" content="#ffffff" />
+
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/destyle.css@4.0.1/destyle.min.css"
+    />
+    <link rel="stylesheet" href="../css/style.css" />
+    <link rel="stylesheet" href="css/director.css" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@700&display=swap"
+      rel="stylesheet"
+    />
+
+    <script
+      src="https://code.jquery.com/jquery-3.7.1.min.js"
+      integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo="
+      crossorigin="anonymous"
+    ></script>
+
+    <meta name="robots" content="noindex" />
+  </head>
+
+  <body class="director position-detail sub-page">
+    <!--#include virtual="/novel-holdings/ssi/header/header_sub-page.shtml"-->
+    <div class="position-detail-fv">
+      <div
+        class="position-detail-fv__heading-container position-detail-fv__heading-container--director"
+      >
+        <div class="position-detail-fv__heading-group">
+          <h4 class="position-detail-fv__subtitle">新卒採用</h4>
+          <h1 class="position-detail-fv__title">
+            Web<br class="sp-break" />ディレクター職
+          </h1>
+        </div>
+      </div>
+      <div class="position-detail-fv__text-wrapper">
+        <p class="position-detail-fv__text">
+          <span class="text-inline-blocked">弊社には営業がいません。</span
+          ><span class="text-inline-blocked">基本的にインバウンド受注が</span
+          ><span class="text-inline-blocked">100%です。</span><br />
+          Webディレクターは<span class="text-inline-blocked"
+            >まず案件依頼を精査し、</span
+          ><span class="text-inline-blocked">社内リソースを鑑みて</span
+          ><span class="text-inline-blocked">受注可否を判断します。</span><br />
+          <span class="text-inline-blocked">案件開始後の</span
+          ><span class="text-inline-blocked">クライアントとの</span
+          ><span class="text-inline-blocked">やり取りや社内制作チームとの</span
+          ><span class="text-inline-blocked">やり取りを行い、</span><br />
+          円滑なプロジェクト進行の<span class="text-inline-blocked"
+            >鍵を握ります。</span
+          ><br />
+          <span class="text-inline-blocked">Webディレクターの</span
+          ><span class="text-inline-blocked">業務範囲は</span
+          ><span class="text-inline-blocked">多岐に渡りますが、</span
+          ><span class="text-inline-blocked">プロジェクトリーダーを</span
+          ><span class="text-inline-blocked">一番</span>目指し<span
+            class="text-inline-blocked"
+            >やすい</span
+          ><span class="text-inline-blocked">職業です。</span>
+        </p>
+      </div>
+    </div>
+    <main class="main director__main position-detail-main">
+      <div class="position-detail-main__inner">
+        <h2 class="position-detail-main__title">募集要項</h2>
+        <table class="table position-detail__table">
+          <tr class="table-row position-detail__table-row">
+            <th class="table-heading position-detail__table-heading">
+              職務内容
+            </th>
+            <td class="table-data position-detail__table-data">
+              ・クライアント企業との打ち合わせ・ヒアリング、<br
+                class="sp-break"
+              />クライアント企業の抱える課題や要件に対する企画・提案<br />
+              ・プロジェクトメンバーや外部パートナーの選定<br />
+              ・スケジュール・コスト管理
+              <br />・ユーザーテスト実施<br />
+              ・納品までのクオリティ管理
+              <br />・サイト公開後の更新や改善
+            </td>
+          </tr>
+          <tr class="table-row position-detail__table-row">
+            <th class="table-heading position-detail__table-heading">
+              応募資格
+            </th>
+            <td class="table-data position-detail__table-data">
+              <span class="bold">必須要件</span><br />
+              なし<br />
+              <span class="bold">歓迎要件</span><br />
+              ・中規模以上のサイトの運用や新規構築経験<br />
+              ・クライアント企業との折衝経験<br />
+              ・受託制作業務やプロジェクトチームでの実務経験<br />
+              ・アクセス解析などでのWebサイトの改善提案経験<br />
+            </td>
+          </tr>
+          <tr class="table-row position-detail__table-row">
+            <th class="table-heading position-detail__table-heading">
+              選考方法
+            </th>
+            <td class="table-data position-detail__table-data">
+              エントリーシート、適性検査、面接2回（2023年度入社新卒採用実績）
+            </td>
+          </tr>
+          <tr class="table-row position-detail__table-row">
+            <th class="table-heading position-detail__table-heading">
+              求める人物像・スキル
+            </th>
+            <td class="table-data position-detail__table-data">
+              【必須スキル・経験】<br />
+              ・なし、未経験者歓迎！<br />
+              【歓迎するスキル・経験】<br />
+              ・売り上げを向上させる施策の企画<br />
+              ・提案経験<br />
+              ・売り上げを向上させる施策をWEBサイトのデザインに落とし込んだ経験<br />
+              【求める人物像】<br />
+              ・コミュニケーション能力の高い方<br />
+              ・主体的に業務に取り組める方<br />
+              ・トライアンドエラーをすることに対して適応性のある方
+            </td>
+          </tr>
+          <tr class="table-row position-detail__table-row">
+            <th class="table-heading position-detail__table-heading">初任給</th>
+            <td class="table-data position-detail__table-data">
+              240,000円～500,000円<br
+                class="sp-break"
+              />（本人の能力・経験次第で変化します）
+            </td>
+          </tr>
+          <tr class="table-row position-detail__table-row">
+            <th class="table-heading position-detail__table-heading">
+              勤務時間
+            </th>
+            <td class="table-data position-detail__table-data">
+              フレックス勤務 37.5時間/週（コアタイムなし）<br
+                class="sp-break"
+              />リモート勤務可（条件あり）
+            </td>
+          </tr>
+          <tr class="table-row position-detail__table-row">
+            <th class="table-heading position-detail__table-heading">昇給</th>
+            <td class="table-data position-detail__table-data">年2回</td>
+          </tr>
+          <tr class="table-row position-detail__table-row">
+            <th class="table-heading position-detail__table-heading">賞与</th>
+            <td class="table-data position-detail__table-data">
+              年2回（6月、12月）
+            </td>
+          </tr>
+          <tr class="table-row position-detail__table-row">
+            <th class="table-heading position-detail__table-heading">
+              休日休暇
+            </th>
+            <td class="table-data position-detail__table-data">
+              週休2日制（土・日）、祝日、<br
+                class="sp-break"
+              />創立記念日（10月20日）、<br
+                class="sp-break"
+              />夏期・年末年始休暇（各7～9連休）、<br />
+              年次有給休暇（初年度10日、1時間単位で取得可）、リフレッシュ休暇、特別休暇<br
+                class="sp-break"
+              />※年間休日129日（2023年度）
+            </td>
+          </tr>
+          <tr class="table-row position-detail__table-row">
+            <th class="table-heading position-detail__table-heading">
+              福利厚生
+            </th>
+            <td class="table-data position-detail__table-data">
+              ・各種社会保険完備（雇用・労災・健康・厚生年金）<br />
+              ・交通費（30,000円迄）<br />
+              ・住宅手当（上限50,000円）<br />
+              ・書籍購入し放題（書籍の購入を全額負担します）<br />
+              ・社員同士のシャッフルランチ代全額補助<br />
+              ・社員旅行（過去実績：グアム、タイ、ハワイ、バリ島、ベトナム、ラスベガス）<br />
+              ・オフィスおかん（毎日300円分のランチが無料で食べられます）<br />
+              ・ドリンク無料<br />
+              ・デュアルディスプレイ完備
+            </td>
+          </tr>
+        </table>
+      </div>
+    </main>
+    <!--#include virtual="/novel-holdings/ssi/entry-cta/entry-cta.shtml"-->
+    <!--#include virtual="/novel-holdings/ssi/footer_sub-page.shtml"-->
+    <script src="https://unpkg.com/micromodal/dist/micromodal.min.js"></script>
+    <script src="../js/script.js"></script>
+  </body>
+</html>

@@ -1,0 +1,611 @@
+@use "../base";
+@use "../mixin";
+@use "../setting";
+@use "../module";
+
+.loading {
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 99999;
+  background-color: #fff;
+  text-align: center;
+}
+
+.loading__box {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  width: 100%;
+  display: none;
+}
+
+.loading__image-box {
+  text-align: center;
+}
+
+.loading__img {
+  max-width: 100%;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.fixed {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+}
+
+.fv__inner {
+  position: relative;
+  width: 100svw;
+  height: 100svh;
+
+  @include mixin.mq(tab) {
+    height: calc(100svh - 1.4rem);
+  }
+}
+
+.fv-slide {
+  overflow: hidden;
+  width: calc(1122 / 1440 * 100svw);
+  height: calc(1122 / 1440 * 100svw * 705 / 1122);
+  max-height: 95svh;
+
+  @include mixin.mq(tab) {
+    width: 80svw;
+    height: 80svh;
+  }
+  @include mixin.mq(sp) {
+    width: calc(315 / 375 * 100svw);
+    height: calc(100svh - 1.4rem - 4.8rem);
+  }
+}
+
+.fv__slide-container {
+  position: relative;
+  margin: 0 0 auto auto;
+
+  @include mixin.mq(tab) {
+    margin-top: 1.4rem;
+  }
+}
+
+.fv-slide__picture {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  animation: fv-slider 24s linear infinite;
+
+  &:nth-child(1) {
+    background-image: url(../img/firstview-img01.jpg);
+    animation-delay: -2s;
+
+    @include mixin.mq(twice) {
+      background-image: url(../img/firstview-img01@2x.jpg);
+    }
+
+    @include mixin.mq(three-times) {
+      background-image: url(../img/firstview-img01@3x.jpg);
+    }
+  }
+  &:nth-child(2) {
+    background-image: url(../img/firstview-img02.jpg);
+    animation-delay: 6s;
+
+    @include mixin.mq(twice) {
+      background-image: url(../img/firstview-img02@2x.jpg);
+    }
+
+    @include mixin.mq(three-times) {
+      background-image: url(../img/firstview-img02@3x.jpg);
+    }
+  }
+  &:nth-child(3) {
+    background-image: url(../img/firstview-img03.jpg);
+    animation-delay: 14s;
+
+    @include mixin.mq(twice) {
+      background-image: url(../img/firstview-img03@2x.jpg);
+    }
+
+    @include mixin.mq(three-times) {
+      background-image: url(../img/firstview-img03@3x.jpg);
+    }
+  }
+}
+
+@keyframes fv-slider {
+  0% {
+    opacity: 0;
+    transform: scale(1);
+  }
+  4.16% {
+    opacity: 1;
+  }
+  33.33% {
+    opacity: 1;
+  }
+  41.66% {
+    opacity: 0;
+    transform: scale(1.2);
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+.fv__colored-background {
+  content: "";
+  width: calc(1258 / 1440 * 100svw);
+  height: calc((1258 / 1440 * 100svw) * 575 / 1258);
+  background: linear-gradient(
+    to bottom,
+    setting.$accent-color-1 0%,
+    setting.$accent-color-2 100%
+  );
+
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  z-index: -1;
+
+  @include mixin.mq(tab) {
+    width: 80svw;
+    height: 75svh;
+  }
+
+  @include mixin.mq(sp) {
+    width: calc(316 / 375 * 100svw);
+    height: calc(522 / 667 * 100svh);
+  }
+}
+
+.fv__message {
+  position: absolute;
+  left: calc(133 / 1440 * 100%);
+  bottom: calc(137 / 818 * 100%);
+  z-index: 9;
+
+  @include mixin.mq(sp) {
+    max-width: 341px;
+    left: calc(17 / 375 * 100vw);
+    bottom: calc(74 / 667 * 100svh);
+  }
+}
+
+.section__img {
+  vertical-align: top;
+}
+
+.section__title-group {
+  text-align: center;
+}
+
+.section__title {
+  margin-top: 0.9rem;
+}
+
+.section__title--top-page {
+  font-size: 4rem;
+
+  @include mixin.mq(tab) {
+    font-size: 3.76rem;
+  }
+
+  @include mixin.mq(sp) {
+    font-size: 3rem;
+    line-height: 1.5;
+  }
+
+  @media only screen and (max-width: 336px) {
+    font-size: 2.86rem;
+  }
+}
+
+.section__inner {
+  width: 100%;
+  max-width: mixin.$layout-width-inner;
+  padding-inline: 2rem;
+
+  @include mixin.mq(sp) {
+    padding-inline: 1.6rem;
+  }
+
+  margin-inline: auto;
+}
+
+.mission-and-vision {
+  background-image: url(/novel-holdings/img/mission-bg.jpg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center bottom;
+
+  @include mixin.mq(twice) {
+    background-image: url(/novel-holdings/img/mission-bg@2x.jpg);
+  }
+
+  @include mixin.mq(wide) {
+    background-image: url(/novel-holdings/img/mission-bg@2x.jpg);
+  }
+}
+
+.mission-and-vision__inner {
+  padding-top: 7.8rem;
+  padding-bottom: 26.3rem;
+  width: 100%;
+
+  @include mixin.mq(tab) {
+    padding-top: 6.8rem;
+    padding-bottom: 20rem;
+  }
+
+  @include mixin.mq(sp) {
+    padding-top: 6.8rem;
+    padding-bottom: 10rem;
+  }
+}
+
+.mission-and-vision__contents {
+  display: flex;
+  flex-direction: column;
+  max-width: 1000px;
+  margin-top: 13.7rem;
+  margin-inline: auto;
+  padding-left: 2rem;
+  padding-right: 4.3rem;
+
+  @include mixin.mq(tab) {
+    margin-top: 10rem;
+    padding-inline: 0;
+  }
+
+  @include mixin.mq(sp) {
+    margin-top: 4.2rem;
+  }
+}
+
+.mission {
+  width: 100%;
+}
+
+.vision {
+  // margin-top: 11.1rem;
+  margin: 11.1rem 0 0 auto;
+  width: 100%;
+  max-width: 700px;
+  text-align: right;
+
+  @include mixin.mq(tab) {
+    margin-top: 10rem;
+  }
+
+  @include mixin.mq(sp) {
+    margin-top: 9rem;
+  }
+}
+
+.mission__catchphrase,
+.vision__catchphrase {
+  margin-top: 2.5rem;
+  font-size: 2.4rem;
+  line-height: 1.5;
+
+  @include mixin.mq(tab) {
+    font-size: 2.2rem;
+  }
+
+  @include mixin.mq(sp) {
+    font-size: 2rem;
+  }
+
+  @media only screen and (max-width: 336px) {
+    font-size: 1.9rem;
+  }
+}
+
+.mission__text,
+.vision__text {
+  margin-top: 2.5rem;
+  line-height: 2.5;
+  max-width: 700px;
+}
+
+.mission__text {
+  width: 88%;
+}
+
+.vision__text {
+  width: 95%;
+  margin-inline: auto 0;
+}
+
+.message__inner {
+  padding: 7.8rem 0 0;
+
+  @include mixin.mq(tab) {
+  }
+
+  @include mixin.mq(sp) {
+  }
+}
+
+.message__contents {
+  margin-top: 7.6rem;
+  padding-block: 2.3rem 2.4rem;
+  position: relative;
+
+  background-image: url(/novel-holdings/img/ceo-message.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+
+  @include mixin.mq(twice) {
+    background-image: url(/novel-holdings/img/ceo-message@2x.jpg);
+  }
+
+  @include mixin.mq(wide) {
+    background-image: url(/novel-holdings/img/ceo-message@2x.jpg);
+  }
+
+  @include mixin.mq(tab) {
+    background-size: contain;
+    background-position: center top;
+  }
+
+  @include mixin.mq(sp) {
+    margin-top: 4.3rem;
+  }
+}
+
+.message__text-group {
+  margin-left: clamp(1.6rem, -3.806rem + 19.31vw, 24rem);
+
+  @include mixin.mq(tab) {
+    text-shadow: 0 0 1rem #fff;
+    margin-inline: 4.8rem;
+    margin-top: 20rem;
+  }
+
+  @include mixin.mq(sp) {
+    margin-inline: 1.6rem;
+    margin-top: 18rem;
+  }
+}
+
+.message__heading {
+  font-size: 3.2rem;
+  font-weight: 400;
+  line-height: 1.4;
+
+  @include mixin.mq(tab) {
+    line-height: 1.5;
+    font-size: 3rem;
+  }
+
+  @include mixin.mq(sp) {
+    font-size: 2.4rem;
+  }
+}
+
+.message__text {
+  margin-top: 3rem;
+  max-width: 550px;
+  line-height: 2.3;
+
+  @include mixin.mq(tab) {
+    max-width: 95%;
+  }
+
+  @include mixin.mq(sp) {
+    max-width: 100%;
+  }
+}
+
+.ceo {
+  background-color: #fff;
+  padding-top: 1.6rem;
+  padding-bottom: 2.1rem;
+  padding-left: 2.6rem;
+  width: 29.8rem;
+  position: absolute;
+  bottom: 5.3rem;
+  right: 0;
+
+  @include mixin.mq(tab) {
+    padding-inline: 4.8rem;
+    width: 25rem;
+    left: 0;
+    right: auto;
+    top: 6rem;
+    bottom: auto;
+  }
+
+  @include mixin.mq(sp) {
+    padding-inline: 1.6rem 2rem;
+    width: 16rem;
+    top: 3.2rem;
+  }
+}
+
+.ceo__img {
+  margin-top: 2rem;
+
+  @include mixin.mq(sp) {
+    max-width: 80%;
+  }
+}
+
+.job-list__inner {
+  padding: 8rem 0 9.7rem;
+  max-width: none;
+}
+
+.job-list__lede {
+  margin-top: 4.3rem;
+  text-align: center;
+  line-height: 2;
+}
+
+.job-list__group-wrapper {
+  padding: 5.8rem 5.8rem 21.6rem;
+  margin-top: 6.9rem;
+  width: 100%;
+  background: linear-gradient(
+    90deg,
+    transparent 0% calc(182 / 1440 * 100%),
+    #f9f9f9 calc(182 / 1440 * 100%) 100%
+  );
+
+  @include mixin.mq(tab) {
+    background: linear-gradient(90deg, transparent 0% 5%, #f9f9f9 5% 100%);
+    padding-inline: 1.6rem;
+  }
+}
+
+.job-list__group {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  row-gap: 13.3rem;
+  column-gap: 9.8rem;
+  margin-inline: auto;
+  width: 960px;
+  max-width: 95%;
+  position: relative;
+
+  @include mixin.mq(tab) {
+    column-gap: 1.8rem;
+  }
+
+  @include mixin.mq(sp) {
+    column-gap: 1.6rem;
+    row-gap: 16rem;
+  }
+}
+
+.job-list__item {
+  // width: clamp(27rem, 22.4rem + 14.37vw, 43.1008rem);
+  min-width: 27rem;
+  width: calc(22.4rem + 14.37vw);
+  max-width: 43.1008rem;
+  aspect-ratio: 431 / 267;
+  position: relative;
+  margin-inline: auto;
+}
+
+@media only screen and (min-width: mixin.$layout-width-inner) {
+  .job-list__item {
+    width: 431px;
+  }
+}
+
+.job-list__item--director {
+  background-image: url(/novel-holdings/img/director.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+
+  @include mixin.mq(twice) {
+    background-image: url(/novel-holdings/img/director@2x.jpg);
+  }
+}
+
+.job-list__item--engineer {
+  background-image: url(/novel-holdings/img/frontend.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+
+  @include mixin.mq(twice) {
+    background-image: url(/novel-holdings/img/frontend@2x.jpg);
+  }
+}
+
+.job-list__item--designer {
+  background-image: url(/novel-holdings/img/designer.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+
+  @include mixin.mq(twice) {
+    background-image: url(/novel-holdings/img/designer@2x.jpg);
+  }
+}
+
+.job-list__item--marketer {
+  background-image: url(/novel-holdings/img/marketer.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+
+  @include mixin.mq(twice) {
+    background-image: url(/novel-holdings/img/marketer@2x.jpg);
+  }
+}
+
+.job-list__explanation {
+  width: 431px;
+  max-width: 100%;
+  position: absolute;
+  top: calc(188 / 267 * 100%);
+  left: 2rem;
+
+  @include mixin.mq(tab) {
+    left: 1.8rem;
+  }
+  @include mixin.mq(sp) {
+    left: 1.6rem;
+  }
+}
+
+.job-list__name {
+  color: #fff;
+  background-color: setting.$txt-color;
+  font-size: 1.2rem;
+  padding: 0.35rem 1.65rem;
+  display: inline-block;
+}
+
+.job-list__text-panel {
+  width: 100%;
+  background-color: #fff;
+  box-shadow: 0 0.3rem 0.6rem rgba($color: #000000, $alpha: 0.16);
+  padding: 1.95rem 1.7rem;
+  position: relative;
+
+  @include mixin.mq(sp) {
+    padding-inline: 1.5rem;
+  }
+}
+
+.job-list__text-panel::after {
+  content: url(/novel-holdings/img/article-more-icon.svg);
+  width: 1.3rem;
+  height: 1.3rem;
+  position: absolute;
+  top: 50%;
+  right: calc(20 / 431 * 100%);
+  transform: translate(calc(20 / 431 * 100%), -50%);
+}
+
+.job-list__text {
+  font-size: 1.2rem;
+  line-height: 1.7;
+  display: flex;
+  align-items: center;
+  width: 90%;
+  max-width: 30.5rem;
+}

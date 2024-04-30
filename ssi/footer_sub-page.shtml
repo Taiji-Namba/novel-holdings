@@ -1,0 +1,8 @@
+<footer class="footer">
+  <div class="footer__inner">
+    <!--#include virtual="/novel-holdings/ssi/logo-group/logo-group_sub-page.shtml"-->
+    <p class="copy-right">
+      Copyright© IGATTA GROUP co.,Ltd. All Rights Reserved.
+    </p>
+  </div>
+</footer>

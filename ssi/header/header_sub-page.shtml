@@ -1,0 +1,74 @@
+<header class="header sub-page-header">
+  <div class="header__inner">
+    <!--#include virtual="/novel-holdings/ssi/logo-group/logo-group_sub-page.shtml"-->
+    <nav class="gnav">
+      <div class="gnav__inner">
+        <ul class="gnav__list">
+          <li class="gnav__item">
+            <a href="../#mission-and-vision" class="gnav__anchor"
+              >Mission&Vision</a
+            >
+          </li>
+          <li class="gnav__item">
+            <a href="../#message" class="gnav__anchor">Message</a>
+          </li>
+          <li class="gnav__item">
+            <a href="../#job-list" class="gnav__anchor">Job List</a>
+          </li>
+          <li class="gnav__item">
+            <!--#include virtual="/novel-holdings/ssi/modal/login-modal_header.shtml"-->
+          </li>
+          <li class="gnav__item">
+            <a href="../entry/" class="gnav__anchor button button__entry"
+              >エントリーはこちら</a
+            >
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <!--#include virtual="/novel-holdings/ssi/modal/login-modal_burger.shtml"-->
+
+    <button
+      type="button"
+      class="burger-button"
+      id="burger-button"
+      aria-controls="burger-nav"
+      aria-expanded="false"
+      aria-label="メニューを開く"
+    ></button>
+    <nav class="burger-menu" id="burger-nav">
+      <ul class="burger-menu__list">
+        <li class="burger-menu__item">
+          <!--#include virtual="/novel-holdings/ssi/logo-group/logo-group_sub-page.shtml"-->
+        </li>
+        <li class="burger-menu__item">
+          <a class="burger-menu__anchor" href="../#mission-and-vision"
+            >Mission&Vision</a
+          >
+        </li>
+        <li class="burger-menu__item">
+          <a class="burger-menu__anchor" href="../#message">Message</a>
+        </li>
+        <li class="burger-menu__item">
+          <a class="burger-menu__anchor" href="../#job-list">Job List</a>
+        </li>
+        <li class="burger-menu__item">
+          <button
+            class="button button__my-page"
+            data-micromodal-trigger="login-modal-burger"
+            type="button"
+          >
+            MY PAGEはこちら
+          </button>
+        </li>
+        <li class="burger-menu__item">
+          <a class="burger-menu__anchor button button__entry" href="../entry/"
+            >エントリーはこちら</a
+          >
+        </li>
+      </ul>
+      <div id="js-focus-trap" tabindex="0"></div>
+    </nav>
+  </div>
+</header>

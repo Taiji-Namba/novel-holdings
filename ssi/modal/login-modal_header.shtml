@@ -1,0 +1,70 @@
+<div class="modal" id="login-modal-header" aria-hidden="true">
+  <div class="modal__overlay" tabindex="-1" data-micromodal-close>
+    <div
+      class="modal__container"
+      role="dialog"
+      aria-modal="true"
+      aria-labelledby="login-modal-header-title"
+    >
+      <button
+        class="modal__close"
+        aria-label="Close modal"
+        data-micromodal-close
+        type="button"
+      >
+        <img
+          src="/novel-holdings/ssi/modal/close-mark.svg"
+          alt="MYPAGEログインモーダル 閉ボタン"
+          class="close-mark"
+          data-micromodal-close
+        />
+      </button>
+      <h2 class="modal__title" id="login-modal-header-title">
+        MY PAGE-ログイン
+      </h2>
+      <form
+        id="form-modal-header"
+        method="post"
+        action="login.php"
+        class="modal__form"
+      >
+        <label class="modal__form-label">
+          メールアドレス
+          <input
+            class="modal__input"
+            type="email"
+            name="メールアドレス"
+            autocomplete="email"
+            placeholder="例） example@example.com"
+            required
+          />
+        </label>
+        <label class="modal__form-label">
+          パスワード<input
+            class="modal__input"
+            type="password"
+            name="パスワード"
+            required
+        /></label>
+        <input
+          id="submit-modal-header"
+          type="submit"
+          class="modal__button"
+          value="サインイン"
+        />
+      </form>
+      <div class="modal__sign-up-wrapper">
+        <a href="/novel-holdings/entry/" class="modal__sign-up"
+          >新規登録はこちら</a
+        >
+      </div>
+    </div>
+  </div>
+</div>
+<button
+  class="button button__my-page"
+  data-micromodal-trigger="login-modal-header"
+  type="button"
+>
+  MY PAGEはこちら
+</button>
