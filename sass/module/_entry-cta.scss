@@ -2,7 +2,7 @@
 @use "../setting";
 
 .entry-cta {
-  background-image: url(/intermediate-ex/ssi/entry-cta/cta-bg-img.jpg);
+  background-image: url(/novel-holdings/ssi/entry-cta/cta-bg-img.jpg);
   background-position: center;
   background-size: cover;
   height: auto;
@@ -104,7 +104,7 @@
 }
 
 .entry-cta__button::after {
-  content: url(/intermediate-ex/ssi/entry-cta/btn-more-icon.svg);
+  content: url(/novel-holdings/ssi/entry-cta/btn-more-icon.svg);
   position: absolute;
   top: 50%;
   right: calc(42 / 330 * 100%);

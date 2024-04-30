@@ -1,6 +1,6 @@
 <header class="header sub-page-header">
   <div class="header__inner">
-    <!--#include virtual="/intermediate-ex/ssi/logo-group/logo-group_sub-page.shtml"-->
+    <!--#include virtual="/novel-holdings/ssi/logo-group/logo-group_sub-page.shtml"-->
     <nav class="gnav">
       <div class="gnav__inner">
         <ul class="gnav__list">
@@ -16,7 +16,7 @@
             <a href="../#job-list" class="gnav__anchor">Job List</a>
           </li>
           <li class="gnav__item">
-            <!--#include virtual="/intermediate-ex/ssi/modal/login-modal_header.shtml"-->
+            <!--#include virtual="/novel-holdings/ssi/modal/login-modal_header.shtml"-->
           </li>
           <li class="gnav__item">
             <a href="../entry/" class="gnav__anchor button button__entry"
@@ -27,7 +27,7 @@
       </div>
     </nav>
 
-    <!--#include virtual="/intermediate-ex/ssi/modal/login-modal_burger.shtml"-->
+    <!--#include virtual="/novel-holdings/ssi/modal/login-modal_burger.shtml"-->
 
     <button
       type="button"
@@ -40,7 +40,7 @@
     <nav class="burger-menu" id="burger-nav">
       <ul class="burger-menu__list">
         <li class="burger-menu__item">
-          <!--#include virtual="/intermediate-ex/ssi/logo-group/logo-group_sub-page.shtml"-->
+          <!--#include virtual="/novel-holdings/ssi/logo-group/logo-group_sub-page.shtml"-->
         </li>
         <li class="burger-menu__item">
           <a class="burger-menu__anchor" href="../#mission-and-vision"

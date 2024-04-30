@@ -11,7 +11,7 @@
 
     <meta
       property="og:url"
-      content="https://the-connect-web.com/intermediate-ex/engineer"
+      content="https://the-connect-web.com/novel-holdings/engineer"
     />
     <meta property="og:type" content="website" />
     <meta
@@ -28,13 +28,13 @@
     />
     <meta
       property="og:image"
-      content="https://the-connect-web.com/intermediate-ex/img/ogp-image.jpg"
+      content="https://the-connect-web.com/novel-holdings/img/ogp-image.jpg"
     />
 
     <meta property="twitter:card" content="summary_large_image" />
     <meta
       property="twitter:url"
-      content="https://the-connect-web.com/intermediate-ex/engineer"
+      content="https://the-connect-web.com/novel-holdings/engineer"
     />
     <meta
       property="twitter:title"
@@ -46,32 +46,32 @@
     />
     <meta
       property="twitter:image"
-      content="https://the-connect-web.com/intermediate-ex/img/ogp-image.jpg"
+      content="https://the-connect-web.com/novel-holdings/img/ogp-image.jpg"
     />
 
     <link
       rel="apple-touch-icon"
       sizes="180x180"
-      href="/intermediate-ex/icons/apple-touch-icon.png"
+      href="/novel-holdings/icons/apple-touch-icon.png"
     />
     <link
       rel="icon"
       type="image/png"
       sizes="32x32"
-      href="/intermediate-ex/icons/favicon-32x32.png"
+      href="/novel-holdings/icons/favicon-32x32.png"
     />
     <link
       rel="icon"
       type="image/png"
       sizes="16x16"
-      href="/intermediate-ex/icons/favicon-16x16.png"
+      href="/novel-holdings/icons/favicon-16x16.png"
     />
     <link
       rel="mask-icon"
-      href="/intermediate-ex/icons/safari-pinned-tab.svg"
+      href="/novel-holdings/icons/safari-pinned-tab.svg"
       color="#5bbad5"
     />
-    <link rel="shortcut icon" href="/intermediate-ex/icons/favicon.ico" />
+    <link rel="shortcut icon" href="/novel-holdings/icons/favicon.ico" />
     <meta name="msapplication-TileColor" content="#da532c" />
     <meta name="msapplication-config" content="/icons/browserconfig.xml" />
     <meta name="theme-color" content="#ffffff" />
@@ -104,7 +104,7 @@
   </head>
 
   <body class="engineer position-detail sub-page">
-    <!--#include virtual="/intermediate-ex/ssi/header/header_sub-page.shtml"-->
+    <!--#include virtual="/novel-holdings/ssi/header/header_sub-page.shtml"-->
     <div class="position-detail-fv">
       <div
         class="position-detail-fv__heading-container position-detail-fv__heading-container--engineer"
@@ -239,8 +239,8 @@
         </table>
       </div>
     </main>
-    <!--#include virtual="/intermediate-ex/ssi/entry-cta/entry-cta.shtml"-->
-    <!--#include virtual="/intermediate-ex/ssi/footer_sub-page.shtml"-->
+    <!--#include virtual="/novel-holdings/ssi/entry-cta/entry-cta.shtml"-->
+    <!--#include virtual="/novel-holdings/ssi/footer_sub-page.shtml"-->
     <script src="https://unpkg.com/micromodal/dist/micromodal.min.js"></script>
     <script src="../js/script.js"></script>
   </body>

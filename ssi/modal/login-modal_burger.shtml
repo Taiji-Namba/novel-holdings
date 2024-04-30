@@ -13,7 +13,7 @@
         type="button"
       >
         <img
-          src="/intermediate-ex/ssi/modal/close-mark.svg"
+          src="/novel-holdings/ssi/modal/close-mark.svg"
           alt="MYPAGEログインモーダル 閉ボタン"
           class="close-mark"
           data-micromodal-close
@@ -54,7 +54,7 @@
         />
       </form>
       <div class="modal__sign-up-wrapper">
-        <a href="/intermediate-ex/entry/" class="modal__sign-up"
+        <a href="/novel-holdings/entry/" class="modal__sign-up"
           >新規登録はこちら</a
         >
       </div>

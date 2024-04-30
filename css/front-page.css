@@ -82,7 +82,7 @@ tbody {
 }
 
 .entry-cta {
-  background-image: url(/intermediate-ex/ssi/entry-cta/cta-bg-img.jpg);
+  background-image: url(/novel-holdings/ssi/entry-cta/cta-bg-img.jpg);
   background-position: center;
   background-size: cover;
   height: auto;
@@ -188,7 +188,7 @@ tbody {
 }
 
 .entry-cta__button::after {
-  content: url(/intermediate-ex/ssi/entry-cta/btn-more-icon.svg);
+  content: url(/novel-holdings/ssi/entry-cta/btn-more-icon.svg);
   position: absolute;
   top: 50%;
   right: 12.7272727273%;
@@ -307,8 +307,18 @@ tbody {
   z-index: 100;
   visibility: visible;
   width: 100%;
-  animation: slideDown 0.3s ease-in-out;
+  -webkit-animation: slideDown 0.3s ease-in-out;
+          animation: slideDown 0.3s ease-in-out;
   background-color: #fff;
+}
+
+@-webkit-keyframes slideDown {
+  0% {
+    transform: translateY(-100%);
+  }
+  100% {
+    transform: translateY(0%);
+  }
 }
 
 @keyframes slideDown {
@@ -353,7 +363,7 @@ tbody {
   width: 2rem;
   height: 2rem;
   border: 0;
-  background-image: url(/intermediate-ex/ssi/header/img/burger-icon.svg);
+  background-image: url(/novel-holdings/ssi/header/img/burger-icon.svg);
   background-position: center;
   background-repeat: no-repeat;
   cursor: pointer;
@@ -381,7 +391,7 @@ tbody {
 }
 
 .burger-button.open {
-  background-image: url(/intermediate-ex/ssi/header/img/close.svg);
+  background-image: url(/novel-holdings/ssi/header/img/close.svg);
   position: fixed;
   right: 1.6rem;
   top: 3.3rem;
@@ -953,11 +963,13 @@ tbody {
   width: 100%;
   height: 100%;
   opacity: 0;
-  animation: fv-slider 24s linear infinite;
+  -webkit-animation: fv-slider 24s linear infinite;
+          animation: fv-slider 24s linear infinite;
 }
 .fv-slide__picture:nth-child(1) {
   background-image: url(../img/firstview-img01.jpg);
-  animation-delay: -2s;
+  -webkit-animation-delay: -2s;
+          animation-delay: -2s;
 }
 @media screen and (-webkit-min-device-pixel-ratio: 1.5) {
   .fv-slide__picture:nth-child(1) {
@@ -971,7 +983,8 @@ tbody {
 }
 .fv-slide__picture:nth-child(2) {
   background-image: url(../img/firstview-img02.jpg);
-  animation-delay: 6s;
+  -webkit-animation-delay: 6s;
+          animation-delay: 6s;
 }
 @media screen and (-webkit-min-device-pixel-ratio: 1.5) {
   .fv-slide__picture:nth-child(2) {
@@ -985,7 +998,8 @@ tbody {
 }
 .fv-slide__picture:nth-child(3) {
   background-image: url(../img/firstview-img03.jpg);
-  animation-delay: 14s;
+  -webkit-animation-delay: 14s;
+          animation-delay: 14s;
 }
 @media screen and (-webkit-min-device-pixel-ratio: 1.5) {
   .fv-slide__picture:nth-child(3) {
@@ -995,6 +1009,26 @@ tbody {
 @media screen and (-webkit-min-device-pixel-ratio: 2.5) {
   .fv-slide__picture:nth-child(3) {
     background-image: url(../img/firstview-img03@3x.jpg);
+  }
+}
+
+@-webkit-keyframes fv-slider {
+  0% {
+    opacity: 0;
+    transform: scale(1);
+  }
+  4.16% {
+    opacity: 1;
+  }
+  33.33% {
+    opacity: 1;
+  }
+  41.66% {
+    opacity: 0;
+    transform: scale(1.2);
+  }
+  100% {
+    opacity: 0;
   }
 }
 
@@ -1099,19 +1133,19 @@ tbody {
 }
 
 .mission-and-vision {
-  background-image: url(/intermediate-ex/img/mission-bg.jpg);
+  background-image: url(/novel-holdings/img/mission-bg.jpg);
   background-repeat: no-repeat;
   background-size: contain;
   background-position: center bottom;
 }
 @media screen and (-webkit-min-device-pixel-ratio: 1.5) {
   .mission-and-vision {
-    background-image: url(/intermediate-ex/img/mission-bg@2x.jpg);
+    background-image: url(/novel-holdings/img/mission-bg@2x.jpg);
   }
 }
 @media screen and (min-width: 1441px) and (-webkit-max-device-pixel-ratio: 1.1) {
   .mission-and-vision {
-    background-image: url(/intermediate-ex/img/mission-bg@2x.jpg);
+    background-image: url(/novel-holdings/img/mission-bg@2x.jpg);
   }
 }
 
@@ -1223,19 +1257,19 @@ tbody {
   margin-top: 7.6rem;
   padding-block: 2.3rem 2.4rem;
   position: relative;
-  background-image: url(/intermediate-ex/img/ceo-message.jpg);
+  background-image: url(/novel-holdings/img/ceo-message.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
 }
 @media screen and (-webkit-min-device-pixel-ratio: 1.5) {
   .message__contents {
-    background-image: url(/intermediate-ex/img/ceo-message@2x.jpg);
+    background-image: url(/novel-holdings/img/ceo-message@2x.jpg);
   }
 }
 @media screen and (min-width: 1441px) and (-webkit-max-device-pixel-ratio: 1.1) {
   .message__contents {
-    background-image: url(/intermediate-ex/img/ceo-message@2x.jpg);
+    background-image: url(/novel-holdings/img/ceo-message@2x.jpg);
   }
 }
 @media screen and (max-width: 1439px) {
@@ -1402,50 +1436,50 @@ tbody {
   }
 }
 .job-list__item--director {
-  background-image: url(/intermediate-ex/img/director.jpg);
+  background-image: url(/novel-holdings/img/director.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
 }
 @media screen and (-webkit-min-device-pixel-ratio: 1.5) {
   .job-list__item--director {
-    background-image: url(/intermediate-ex/img/director@2x.jpg);
+    background-image: url(/novel-holdings/img/director@2x.jpg);
   }
 }
 
 .job-list__item--engineer {
-  background-image: url(/intermediate-ex/img/frontend.jpg);
+  background-image: url(/novel-holdings/img/frontend.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
 }
 @media screen and (-webkit-min-device-pixel-ratio: 1.5) {
   .job-list__item--engineer {
-    background-image: url(/intermediate-ex/img/frontend@2x.jpg);
+    background-image: url(/novel-holdings/img/frontend@2x.jpg);
   }
 }
 
 .job-list__item--designer {
-  background-image: url(/intermediate-ex/img/designer.jpg);
+  background-image: url(/novel-holdings/img/designer.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
 }
 @media screen and (-webkit-min-device-pixel-ratio: 1.5) {
   .job-list__item--designer {
-    background-image: url(/intermediate-ex/img/designer@2x.jpg);
+    background-image: url(/novel-holdings/img/designer@2x.jpg);
   }
 }
 
 .job-list__item--marketer {
-  background-image: url(/intermediate-ex/img/marketer.jpg);
+  background-image: url(/novel-holdings/img/marketer.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
 }
 @media screen and (-webkit-min-device-pixel-ratio: 1.5) {
   .job-list__item--marketer {
-    background-image: url(/intermediate-ex/img/marketer@2x.jpg);
+    background-image: url(/novel-holdings/img/marketer@2x.jpg);
   }
 }
 
@@ -1489,7 +1523,7 @@ tbody {
 }
 
 .job-list__text-panel::after {
-  content: url(/intermediate-ex/img/article-more-icon.svg);
+  content: url(/novel-holdings/img/article-more-icon.svg);
   width: 1.3rem;
   height: 1.3rem;
   position: absolute;
@@ -1506,4 +1540,5 @@ tbody {
   width: 90%;
   max-width: 30.5rem;
 }
+
 /*# sourceMappingURL=front-page.css.map */

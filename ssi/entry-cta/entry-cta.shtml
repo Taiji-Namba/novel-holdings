@@ -3,7 +3,7 @@
     <div class="entry-cta__inner">
       <div class="entry-cta__contents">
         <img
-          src="/intermediate-ex/ssi/entry-cta/cta-logo.svg"
+          src="/novel-holdings/ssi/entry-cta/cta-logo.svg"
           alt="Igatta Group ロゴマーク"
           class="entry-cta__logo"
         />
@@ -26,7 +26,7 @@
             class="sp-break"
           />面接にお越しいただけると幸いです。
         </p>
-        <a href="/intermediate-ex/entry/" class="entry-cta__button button"
+        <a href="/novel-holdings/entry/" class="entry-cta__button button"
           ><span class="entry-cta__anchor-text">エントリーはこちら</span></a
         >
       </div>
