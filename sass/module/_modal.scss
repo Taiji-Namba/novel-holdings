@@ -1,0 +1,106 @@
+@use "../mixin";
+@use "../setting";
+
+.modal {
+  display: none;
+}
+.modal.modal-open {
+  display: block;
+}
+.modal__overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 1000;
+  background: rgba(0, 0, 0, 0.8);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.modal__container {
+  background-color: #fff;
+  padding: 2rem;
+  margin-inline: auto;
+  width: 50rem;
+  max-width: 90%;
+  overflow-y: auto;
+  position: relative;
+}
+.modal__close {
+  position: absolute;
+  right: 2rem;
+  top: 2rem;
+}
+
+.modal__title {
+  font-size: 2.4rem;
+  line-height: 1.5;
+  margin-top: 4rem;
+}
+
+.modal__form {
+  margin-top: 2.2rem;
+}
+
+.modal__form-label {
+  font-size: 1.4rem;
+  color: #626d66;
+  display: block;
+  text-align: left;
+}
+
+.modal__form-label:nth-of-type(2) {
+  margin-top: 2.2rem;
+}
+
+.modal__input {
+  margin-top: 1.1rem;
+  font-size: 1.6rem;
+  display: block;
+  border: 1px solid #dcdfe6;
+  border-radius: 4px;
+  padding-left: 1.4rem;
+  padding-block: 1.2rem;
+  width: 100%;
+  height: 4rem;
+}
+
+.modal__input::placeholder {
+  color: #c1c1c1;
+}
+
+.modal__button {
+  background-color: #1e5099;
+  color: #fff;
+  font-size: 1.4rem;
+  font-weight: 700;
+  border: none;
+  border-radius: 4px;
+  width: 13rem;
+  height: 3.8rem;
+  margin-top: 3.4rem;
+  margin-inline: auto;
+  display: block;
+  text-align: center;
+
+  @include mixin.mq(tab) {
+    width: 60%;
+    height: 5.6rem;
+  }
+
+  @include mixin.mq(sp) {
+    width: 80%;
+  }
+}
+
+.modal__sign-up-wrapper {
+  text-align: right;
+  margin-top: 5.5rem;
+}
+
+.modal__sign-up {
+  color: #448aff;
+  font-size: 1.4rem;
+}

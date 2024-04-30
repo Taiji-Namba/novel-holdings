@@ -1,0 +1,13 @@
+<div class="logo-group">
+  <a href="#" class="logo-group__anchor">
+    <img
+      class="logo-group__mark"
+      src="/intermediate-ex/ssi/logo-group/igatta-recruit-logo.svg"
+      alt="Igatta Group 新卒採用 ロゴ"
+    />
+    <p class="logo-group__text">
+      <span class="logo-group__text--large">Igatta Group</span><br />
+      <span class="logo-group__text--small">新卒採用サイト</span>
+    </p>
+  </a>
+</div>

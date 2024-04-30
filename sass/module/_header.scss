@@ -1,0 +1,153 @@
+@use "../mixin";
+@use "../setting";
+
+.header {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 100;
+  width: 100%;
+  background-color: transparent;
+
+  @include mixin.mq(tab) {
+    background-color: #fff;
+  }
+}
+
+.sub-page-header {
+  position: static;
+  background-color: #fff;
+}
+
+.header__inner {
+  margin: 0 auto;
+  width: 100%;
+  max-width: mixin.$layout-width-inner;
+  padding: 2.5rem 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  @include mixin.mq(tab) {
+    padding-inline: 1.8rem;
+  }
+  @include mixin.mq(sp) {
+    padding-inline: 1.6rem;
+  }
+}
+
+.header--sticky {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  opacity: 1;
+  z-index: 100;
+  visibility: visible;
+  width: 100%;
+  animation: slideDown 0.3s ease-in-out;
+  background-color: #fff;
+}
+
+@keyframes slideDown {
+  0% {
+    transform: translateY(-100%);
+  }
+  100% {
+    transform: translateY(0%);
+  }
+}
+
+.gnav {
+  @include mixin.mq(tab) {
+    display: none;
+  }
+}
+
+.gnav__list {
+  display: flex;
+  align-items: center;
+}
+
+.gnav__item {
+  text-align: center;
+  margin-right: 2.9rem;
+
+  &:nth-of-type(4) {
+    margin-right: 1.2rem;
+  }
+  &:last-of-type {
+    margin-right: 0;
+  }
+}
+
+.gnav__anchor {
+  font-size: 1.3rem;
+}
+
+.top-page-header .gnav__anchor:not(.button) {
+  color: #fff;
+}
+
+.burger-button {
+  width: 2rem;
+  height: 2rem;
+  border: 0;
+  background-image: url(/intermediate-ex/ssi/header/img/burger-icon.svg);
+  background-position: center;
+  background-repeat: no-repeat;
+  cursor: pointer;
+  z-index: 1000;
+  display: none;
+
+  @include mixin.mq(tab) {
+    display: block;
+  }
+}
+
+.burger-menu {
+  width: 100vw;
+  height: 100vh;
+  background: rgba(255, 255, 255, 0.9);
+  position: fixed;
+  left: 0;
+  top: 0;
+  z-index: 100;
+  pointer-events: none;
+  opacity: 0;
+  transition: opacity 0.3s linear;
+  text-align: center;
+}
+
+.burger-button.open {
+  background-image: url(/intermediate-ex/ssi/header/img/close.svg);
+  position: fixed;
+  right: 1.6rem;
+  top: 3.3rem;
+}
+
+.burger-menu.open {
+  pointer-events: auto;
+  opacity: 1;
+}
+
+.burger-menu__list {
+  margin-top: 20%;
+  display: flex;
+  flex-direction: column;
+  row-gap: 5rem;
+}
+
+.burger-menu__item {
+  font-size: 1.3rem;
+}
+
+.burger-menu__anchor {
+  display: inline-block;
+}
+
+.burger-menu .button {
+  width: 20rem;
+  line-height: 6.9rem;
+  border-radius: 6rem;
+}

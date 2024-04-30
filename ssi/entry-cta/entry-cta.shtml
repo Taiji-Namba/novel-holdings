@@ -1,0 +1,35 @@
+<section class="entry-cta">
+  <div class="translucent-orange-gradation">
+    <div class="entry-cta__inner">
+      <div class="entry-cta__contents">
+        <img
+          src="/intermediate-ex/ssi/entry-cta/cta-logo.svg"
+          alt="Igatta Group ロゴマーク"
+          class="entry-cta__logo"
+        />
+        <h2 class="entry-cta__heading">
+          <span class="sp-pl-2rem">熱い気持ちを持った方、</span
+          ><br class="sp-break" /><span class="sp-pl-2rem"
+            >募集しています。</span
+          >
+        </h2>
+        <p class="entry-cta__text">
+          まずはカジュアルランチから。<br
+            class="sp-break"
+          />皆様の就活の思い、悩みの相談に乗ります。<br /><span
+            class="sp-mt-16px"
+          ></span
+          >また弊社のオフィスツアー・<br
+            class="sp-break"
+          />社員との座談会も行います。<br /><span class="sp-mt-16px"></span
+          >価値観が合えば、<br
+            class="sp-break"
+          />面接にお越しいただけると幸いです。
+        </p>
+        <a href="/intermediate-ex/entry/" class="entry-cta__button button"
+          ><span class="entry-cta__anchor-text">エントリーはこちら</span></a
+        >
+      </div>
+    </div>
+  </div>
+</section>

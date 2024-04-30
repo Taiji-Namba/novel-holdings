@@ -1,0 +1,31 @@
+@use "../mixin";
+@use "../setting";
+
+.footer {
+  width: 100%;
+}
+
+.footer__inner {
+  width: 100%;
+  padding-inline: 2rem;
+  max-width: mixin.$layout-width-inner;
+  padding-block: 49px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  @include mixin.mq(tab) {
+    padding-inline: 1.8rem;
+  }
+
+  @include mixin.mq(sp) {
+    padding-inline: 1.6rem;
+    flex-direction: column;
+    row-gap: 3.2rem;
+  }
+}
+
+.copy-right {
+  font-size: 1rem;
+}

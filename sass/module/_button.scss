@@ -1,0 +1,21 @@
+@use "../mixin";
+@use "../setting";
+
+.button {
+  font-size: 1.3rem;
+  color: #fff;
+  // padding-block: 1.6rem;
+  width: 18rem;
+  line-height: 5rem;
+  border: none;
+  border-radius: 3rem;
+  cursor: pointer;
+}
+
+.button__my-page {
+  background-color: setting.$accent-color-2;
+}
+
+.button__entry {
+  background-color: setting.$accent-color-1;
+}

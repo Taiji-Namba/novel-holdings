@@ -1,0 +1,441 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head prefix="og: https://ogp.me/ns#">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>採用情報 | 株式会社Igatta Group(イガッタグループ)</title>
+    <meta
+      name="description"
+      content="Webマーケティングを中心にクライアントの売上向上に特化した精鋭集団、株式会社Igatta Groupの採用サイトです。"
+    />
+
+    <meta
+      property="og:url"
+      content="https://the-connect-web.com/intermediate-ex/"
+    />
+    <meta property="og:type" content="website" />
+    <meta
+      property="og:title"
+      content="採用情報 | 株式会社Igatta Group(イガッタグループ)"
+    />
+    <meta
+      property="og:description"
+      content="Webマーケティングを中心にクライアントの売上向上に特化した精鋭集団、株式会社Igatta Groupの採用サイトです。"
+    />
+    <meta
+      property="og:site_name"
+      content="採用情報 | 株式会社Igatta Group(イガッタグループ)"
+    />
+    <meta
+      property="og:image"
+      content="https://the-connect-web.com/intermediate-ex/img/ogp-image.jpg"
+    />
+
+    <meta property="twitter:card" content="summary_large_image" />
+    <meta
+      property="twitter:url"
+      content="https://the-connect-web.com/intermediate-ex/"
+    />
+    <meta
+      property="twitter:title"
+      content="採用情報 | 株式会社Igatta Group(イガッタグループ)"
+    />
+    <meta
+      property="twitter:description"
+      content="Webマーケティングを中心にクライアントの売上向上に特化した精鋭集団、株式会社Igatta Groupの採用サイトです。"
+    />
+    <meta
+      property="twitter:image"
+      content="https://the-connect-web.com/intermediate-ex/img/ogp-image.jpg"
+    />
+
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="/intermediate-ex/icons/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="/intermediate-ex/icons/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="/intermediate-ex/icons/favicon-16x16.png"
+    />
+    <link
+      rel="mask-icon"
+      href="/intermediate-ex/icons/safari-pinned-tab.svg"
+      color="#5bbad5"
+    />
+    <link rel="shortcut icon" href="/intermediate-ex/icons/favicon.ico" />
+    <meta name="msapplication-TileColor" content="#da532c" />
+    <meta name="msapplication-config" content="/icons/browserconfig.xml" />
+    <meta name="theme-color" content="#ffffff" />
+
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/destyle.css@4.0.1/destyle.min.css"
+    />
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/front-page.css" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@700&display=swap"
+      rel="stylesheet"
+    />
+
+    <script
+      src="https://code.jquery.com/jquery-3.7.1.min.js"
+      integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo="
+      crossorigin="anonymous"
+    ></script>
+
+    <meta name="robots" content="noindex" />
+  </head>
+
+  <body class="top-page">
+    <div id="loading" class="loading">
+      <div class="loading__box" id="loading-box">
+        <!--#include virtual="./ssi/logo-group/logo-group_top-page.shtml"-->
+      </div>
+    </div>
+    <header class="header top-page-header">
+      <div class="header__inner">
+        <!--#include virtual="./ssi/logo-group/logo-group_top-page.shtml"-->
+        <nav class="gnav">
+          <div class="gnav__inner">
+            <ul class="gnav__list">
+              <li class="gnav__item">
+                <a href="#mission-and-vision" class="gnav__anchor"
+                  >Mission&Vision</a
+                >
+              </li>
+              <li class="gnav__item">
+                <a href="#message" class="gnav__anchor">Message</a>
+              </li>
+              <li class="gnav__item">
+                <a href="#job-list" class="gnav__anchor">Job List</a>
+              </li>
+              <li class="gnav__item">
+                <!--#include virtual="/intermediate-ex/ssi/modal/login-modal_header.shtml"-->
+              </li>
+              <li class="gnav__item">
+                <a href="./entry/" class="gnav__anchor button button__entry"
+                  >エントリーはこちら</a
+                >
+              </li>
+            </ul>
+          </div>
+        </nav>
+
+        <!--#include virtual="/intermediate-ex/ssi/modal/login-modal_burger.shtml"-->
+
+        <button
+          type="button"
+          class="burger-button"
+          id="burger-button"
+          aria-controls="burger-nav"
+          aria-expanded="false"
+          aria-label="メニューを開く"
+        ></button>
+
+        <nav class="burger-menu" id="burger-nav">
+          <ul class="burger-menu__list">
+            <li class="burger-menu__item">
+              <!--#include virtual="/intermediate-ex/ssi/logo-group/logo-group_top-page.shtml"-->
+            </li>
+            <li class="burger-menu__item">
+              <a class="burger-menu__anchor" href="#mission-and-vision"
+                >Mission&Vision</a
+              >
+            </li>
+            <li class="burger-menu__item">
+              <a class="burger-menu__anchor" href="#message">Message</a>
+            </li>
+            <li class="burger-menu__item">
+              <a class="burger-menu__anchor" href="#job-list">Job List</a>
+            </li>
+            <li class="burger-menu__item">
+              <button
+                class="button button__my-page"
+                data-micromodal-trigger="login-modal-burger"
+                type="button"
+              >
+                MY PAGEはこちら
+              </button>
+            </li>
+            <li class="burger-menu__item">
+              <a
+                class="burger-menu__anchor button button__entry"
+                href="./entry/"
+                >エントリーはこちら</a
+              >
+            </li>
+          </ul>
+          <div id="js-focus-trap" tabindex="0"></div>
+        </nav>
+      </div>
+    </header>
+
+    <div class="fv">
+      <div class="fv__inner">
+        <div class="fv__slide-container fv-slide">
+          <div class="fv-slide__picture"></div>
+          <div class="fv-slide__picture"></div>
+          <div class="fv-slide__picture"></div>
+        </div>
+        <div class="fv__colored-background"></div>
+        <h2 class="fv__message">
+          <img
+            src="./img/firstview-message.svg"
+            alt="最高に面白い仕事で、この世界を揺らせ。"
+            class="fv__message-img"
+          />
+        </h2>
+      </div>
+    </div>
+
+    <main class="main top-page__main">
+      <div class="main__inner">
+        <section class="section mission-and-vision" id="mission-and-vision">
+          <div class="section__inner mission-and-vision__inner">
+            <div class="section__title-group">
+              <h5 class="section__sub-title">
+                <img
+                  src="./img/mission-and-vision.svg"
+                  alt="Mission&Vision"
+                  class="section__img"
+                />
+              </h5>
+              <h2 class="section__title section__title--top-page">
+                Igatta Groupの<br class="sp-break" />ミッション・ビジョン
+              </h2>
+            </div>
+            <div class="mission-and-vision__contents">
+              <section class="mission">
+                <h3 class="mission__title">
+                  <img
+                    src="./img/mission.svg"
+                    alt="Mission"
+                    class="mission__img"
+                  />
+                </h3>
+                <h4 class="mission__catchphrase">
+                  未来のビジネスを創る、<br />クライアントのWebパートナー<br
+                    class="sp-break"
+                  />として共に成功を
+                </h4>
+                <p class="mission__text">
+                  Igatta GroupはWebの<span class="text-inline-blocked"
+                    >トータル</span
+                  ><span class="text-inline-blocked">サポート</span
+                  ><span class="text-inline-blocked">を</span
+                  ><span class="text-inline-blocked">行う</span
+                  ><span class="text-inline-blocked">会社であり、</span
+                  ><span class="text-inline-blocked">クライアントの</span
+                  ><span class="text-inline-blocked">売上を</span
+                  ><span class="text-inline-blocked">伸ばす</span
+                  ><span class="text-inline-blocked">ことを</span
+                  ><span class="text-inline-blocked">専門と</span
+                  ><span class="text-inline-blocked">しています。</span><br />
+                  <span class="text-inline-blocked">"Webパートナー"</span
+                  ><span class="text-inline-blocked">という</span
+                  ><span class="text-inline-blocked">表現は、</span
+                  ><span class="text-inline-blocked">IgattaGroupが</span
+                  ><span class="text-inline-blocked">単なる</span
+                  ><span class="text-inline-blocked">サービス</span
+                  ><span class="text-inline-blocked">提供者</span
+                  ><span class="text-inline-blocked">ではなく、</span
+                  ><span class="text-inline-blocked">クライアント</span
+                  ><span class="text-inline-blocked">と</span
+                  ><span class="text-inline-blocked">共に</span
+                  ><span class="text-inline-blocked">連携し、</span
+                  ><span class="text-inline-blocked">協力して</span
+                  ><span class="text-inline-blocked">ビジネス</span
+                  ><span class="text-inline-blocked">を</span
+                  ><span class="text-inline-blocked">進化</span
+                  ><span class="text-inline-blocked">させて</span
+                  ><span class="text-inline-blocked">いく</span
+                  ><span class="text-inline-blocked">存在</span
+                  ><span class="text-inline-blocked">で</span
+                  ><span class="text-inline-blocked">ある</span
+                  ><span class="text-inline-blocked">こと</span
+                  ><span class="text-inline-blocked">を</span
+                  ><span class="text-inline-blocked">表して</span
+                  ><span class="text-inline-blocked">います。</span>
+                </p>
+              </section>
+              <section class="vision">
+                <h3 class="vision__title">
+                  <img
+                    src="./img/vision.svg"
+                    alt="Vision"
+                    class="vision__img"
+                  />
+                </h3>
+                <h4 class="vision__catchphrase">
+                  日本の魅力をWebで輝かせる<br />Igatta Groupが目指す社会を創る
+                </h4>
+                <p class="vision__text">
+                  Igatta Groupが目指す社会は、<br
+                    class="sp-break"
+                  />優れたサービスや商品が世に出て<br
+                    class="sp-break"
+                  />皆の役に立つことです。<br />Webを活用することで、<br
+                    class="sp-break"
+                  />これらの優れたサービスや商品を<br
+                    class="sp-break"
+                  />より多くの人々に知ってもらい、<br />売上を伸ばし、事業を成長させる<br
+                    class="sp-break"
+                  />ことができる社会を目指します。
+                </p>
+              </section>
+            </div>
+          </div>
+        </section>
+        <section class="section message" id="message">
+          <div class="section__inner message__inner">
+            <div class="section__title-group">
+              <h5 class="section__sub-title">
+                <img
+                  src="./img/message.svg"
+                  alt="Message"
+                  class="section__img"
+                />
+              </h5>
+              <h2 class="section__title section__title--top-page">
+                社長メッセージ
+              </h2>
+            </div>
+            <div class="message__contents">
+              <div class="message__text-group">
+                <h3 class="message__heading">
+                  技術革新をも乗りこなし、<br class="tab-break" />未来を切り拓け
+                </h3>
+                <p class="message__text">
+                  Igatta
+                  Groupのルーツは、1990年代初頭のインターネット黎明期の頃にさかのぼります。<br />まだWebマーケティングという言葉が一般に知れ渡る前に「この先の時代、インターネットでの集客がメインになるはず！」と当時大手印刷会社に努めていた私はIgatta
+                  Groupの創業を決めます。<br />しかし、当初は荒波の連続でした。なにせ「チラシ」と「ポスター」で集客をしていた時代です。「ネットで集客なんてできるの？」という懐疑的な声を沢山いただき、クライアント先に営業をするたびにお断りを頂いておりました。「何か怪しいもの」と捉えられていたのです。<br />しかし、1999年にとある町工場のサイトを弊社が公開した後に、その町工場はBBCなどで世界的に取り上げられることになります。<br />
+                  日本への取材前にWebブラウジングしていたBBC記者が、弊社作のサイトを偶然見つけたのです。サイト内では「クライアントの魅力を伝える」ことを徹底したため、それが伝わったのだと思います。<br />これにより国内でも大きな話題となり、大手企業を中心に受注をいただくことになりました。<br />挑戦で成長してきた会社です。みなさんの熱い応募、お待ちしています。
+                </p>
+              </div>
+              <div class="ceo">
+                <h6 class="ceo__position">代表取締役社長</h6>
+                <h6 class="ceo__name">
+                  <img
+                    src="./img/ceo-name.svg"
+                    alt="三浦吉茂"
+                    class="ceo__img"
+                  />
+                </h6>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="section job-list" id="job-list">
+          <div class="section__inner job-list__inner">
+            <div class="section__title-group">
+              <h5 class="section__sub-title">
+                <img
+                  src="./img/job-list.svg"
+                  alt="Job List"
+                  class="section__img"
+                />
+              </h5>
+              <h2 class="section__title section__title--top-page">
+                募集職種一覧
+              </h2>
+              <p class="job-list__lede">
+                それぞれの募集職種の<br
+                  class="sp-break"
+                />詳細は個別ページで解説しています。
+              </p>
+            </div>
+            <div class="job-list__group-wrapper">
+              <div class="job-list__group">
+                <a
+                  href="./director/"
+                  class="job-list__item job-list__item--director"
+                >
+                  <div class="job-list__explanation">
+                    <p class="job-list__name">WEB DIRECTOR</p>
+                    <div class="job-list__text-panel">
+                      <p class="job-list__text">
+                        Webディレクターはクライアントとの打ち合わせから、プロジェクト全体の進捗管理までを行います。
+                      </p>
+                    </div>
+                  </div>
+                </a>
+
+                <a
+                  href="./engineer/"
+                  class="job-list__item job-list__item--engineer"
+                >
+                  <div class="job-list__explanation">
+                    <p class="job-list__name">WEB ENGINEER</p>
+                    <div class="job-list__text-panel">
+                      <p class="job-list__text">
+                        WebエンジニアはクライアントのWebサイトや自社サイトのフロント・バックエンド両方の開発・改修を行います。
+                      </p>
+                    </div>
+                  </div>
+                </a>
+
+                <a
+                  href="./designer/"
+                  class="job-list__item job-list__item--designer"
+                >
+                  <div class="job-list__explanation">
+                    <p class="job-list__name">WEB DESIGNER</p>
+                    <div class="job-list__text-panel">
+                      <p class="job-list__text">
+                        WebデザイナーはクライアントのWebサイトや自社サイトのデザイン・コーディングを行います。
+                      </p>
+                    </div>
+                  </div>
+                </a>
+
+                <a
+                  href="./marketer/"
+                  class="job-list__item job-list__item--marketer"
+                >
+                  <div class="job-list__explanation">
+                    <p class="job-list__name">WEB MARKETER</p>
+                    <div class="job-list__text-panel">
+                      <p class="job-list__text">
+                        WebマーケターはクライアントのWebサイトや自社サイトの広告運用やLPO、EC運用などを行います。
+                      </p>
+                    </div>
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+        </section>
+      </div>
+    </main>
+    <!--#include virtual="./ssi/entry-cta/entry-cta.shtml"-->
+    <footer class="footer">
+      <div class="footer__inner">
+        <!--#include virtual="/intermediate-ex/ssi/logo-group/logo-group_top-page.shtml"-->
+        <p class="copy-right">
+          Copyright© IGATTA GROUP co.,Ltd. All Rights Reserved.
+        </p>
+      </div>
+    </footer>
+
+    <script src="https://unpkg.com/micromodal/dist/micromodal.min.js"></script>
+    <script src="js/script.js"></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>

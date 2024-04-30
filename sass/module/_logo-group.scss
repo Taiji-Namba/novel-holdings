@@ -1,0 +1,86 @@
+@use "../setting";
+@use "../mixin";
+
+.logo-group {
+  height: 5.1rem;
+
+  @include mixin.mq(sp) {
+    height: 3.6rem;
+  }
+}
+
+.header .logo-group__anchor,
+.footer .logo-group__anchor {
+  display: flex;
+}
+
+.burger-menu .logo-group__anchor {
+  display: inline-block;
+}
+
+.logo-group__mark {
+  margin-right: 1.4rem;
+  width: 4.2rem;
+  aspect-ratio: 42/ 51;
+  display: inline-block;
+
+  @include mixin.mq(sp) {
+    width: 3.1rem;
+    margin-right: 1.1rem;
+  }
+}
+
+.logo-group__text {
+  color: setting.$accent-color-1;
+  vertical-align: top;
+  display: inline-block;
+  margin-top: auto;
+  margin-bottom: 0;
+  text-align: left;
+}
+
+.logo-group__text--large {
+  font-size: 2rem;
+  font-weight: 700;
+  margin-bottom: 0.5rem;
+  display: inline-block;
+
+  @include mixin.mq(sp) {
+    font-size: 1.4rem;
+    margin-bottom: 0.2rem;
+  }
+}
+
+.logo-group__text--small {
+  font-size: 1.2rem;
+  font-weight: 700;
+  display: inline-block;
+
+  @include mixin.mq(sp) {
+    font-size: 1rem;
+  }
+}
+
+.footer .logo-group__text {
+  display: flex;
+  flex-direction: column-reverse;
+  justify-content: center;
+}
+
+.footer .logo-group__text--large {
+  margin-bottom: 0;
+  line-height: 1.4;
+}
+
+.footer .logo-group__text--small {
+  margin-bottom: 0.5rem;
+  line-height: 1.4;
+
+  @include mixin.mq(sp) {
+    margin-bottom: 0.2rem;
+  }
+}
+
+.footer .logo-group__text br {
+  display: none;
+}
