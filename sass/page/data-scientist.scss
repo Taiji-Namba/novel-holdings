@@ -1,0 +1,12 @@
+@use "../base";
+@use "../mixin";
+@use "../setting";
+@use "../module";
+
+.position-detail-fv__heading-container--data-scientist {
+  background-image: url(../../img/data-scientist.jpeg);
+
+  @include mixin.mq(twice) {
+    background-image: url(../../img/data-scientist@2x.jpeg);
+  }
+}

@@ -3,28 +3,30 @@
   <head prefix="og: https://ogp.me/ns#">
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Webデザイナー職 | 株式会社Novel Holdings(イガッタグループ)</title>
+    <title>
+      データサイエンティスト職 | 株式会社Novel Holdings(イガッタグループ)
+    </title>
     <meta
       name="description"
-      content="Webデザイナー職の募集要項｜弊社のWebデザイナーはWebサイトだけでなく、アプリやECサイトのデザインまで手掛けます。また、デザインは成果に直結する部分でもあるので、ディレクターやマーケターとの連携も重要になります。繁忙度にもよりますが、HTMLコーディングまで担当することもよくあります。"
+      content="データサイエンティスト職の募集要項｜弊社のデータサイエンティストはWebサイトだけでなく、アプリやECサイトのデザインまで手掛けます。また、デザインは成果に直結する部分でもあるので、ディレクターやマーケターとの連携も重要になります。繁忙度にもよりますが、HTMLコーディングまで担当することもよくあります。"
     />
 
     <meta
       property="og:url"
-      content="https://the-connect-web.com/novel-holdings/designer"
+      content="https://the-connect-web.com/novel-holdings/data-scientist"
     />
     <meta property="og:type" content="website" />
     <meta
       property="og:title"
-      content="Webデザイナー職 | 株式会社Novel Holdings(イガッタグループ)"
+      content="データサイエンティスト職 | 株式会社Novel Holdings(イガッタグループ)"
     />
     <meta
       property="og:description"
-      content="Webデザイナー職の募集要項｜弊社のWebデザイナーはWebサイトだけでなく、アプリやECサイトのデザインまで手掛けます。また、デザインは成果に直結する部分でもあるので、ディレクターやマーケターとの連携も重要になります。繁忙度にもよりますが、HTMLコーディングまで担当することもよくあります。"
+      content="データサイエンティスト職の募集要項｜弊社のデータサイエンティストはWebサイトだけでなく、アプリやECサイトのデザインまで手掛けます。また、デザインは成果に直結する部分でもあるので、ディレクターやマーケターとの連携も重要になります。繁忙度にもよりますが、HTMLコーディングまで担当することもよくあります。"
     />
     <meta
       property="og:site_name"
-      content="Webデザイナー職 | 株式会社Novel Holdings(イガッタグループ)"
+      content="データサイエンティスト職 | 株式会社Novel Holdings(イガッタグループ)"
     />
     <meta
       property="og:image"
@@ -34,15 +36,15 @@
     <meta property="twitter:card" content="summary_large_image" />
     <meta
       property="twitter:url"
-      content="https://the-connect-web.com/novel-holdings/designer"
+      content="https://the-connect-web.com/novel-holdings/data-scientist"
     />
     <meta
       property="twitter:title"
-      content="Webデザイナー職 | 株式会社Novel Holdings(イガッタグループ)"
+      content="データサイエンティスト職 | 株式会社Novel Holdings(イガッタグループ)"
     />
     <meta
       property="twitter:description"
-      content="Webデザイナー職の募集要項｜弊社のWebデザイナーはWebサイトだけでなく、アプリやECサイトのデザインまで手掛けます。また、デザインは成果に直結する部分でもあるので、ディレクターやマーケターとの連携も重要になります。繁忙度にもよりますが、HTMLコーディングまで担当することもよくあります。"
+      content="データサイエンティスト職の募集要項｜弊社のデータサイエンティストはWebサイトだけでなく、アプリやECサイトのデザインまで手掛けます。また、デザインは成果に直結する部分でもあるので、ディレクターやマーケターとの連携も重要になります。繁忙度にもよりますが、HTMLコーディングまで担当することもよくあります。"
     />
     <meta
       property="twitter:image"
@@ -81,7 +83,7 @@
       href="https://unpkg.com/destyle.css@4.0.1/destyle.min.css"
     />
     <link rel="stylesheet" href="../css/style.css" />
-    <link rel="stylesheet" href="css/designer.css" />
+    <link rel="stylesheet" href="css/data-scientist.css" />
 
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -103,22 +105,22 @@
     <meta name="robots" content="noindex" />
   </head>
 
-  <body class="designer position-detail sub-page">
+  <body class="data-scientist position-detail sub-page">
     <!--#include virtual="/novel-holdings/ssi/header/header_sub-page.shtml"-->
     <div class="position-detail-fv">
       <div
-        class="position-detail-fv__heading-container position-detail-fv__heading-container--designer"
+        class="position-detail-fv__heading-container position-detail-fv__heading-container--data-scientist"
       >
         <div class="position-detail-fv__heading-group">
           <h4 class="position-detail-fv__subtitle">キャリア採用</h4>
           <h1 class="position-detail-fv__title">
-            Web<br class="sp-break" />デザイナー職
+            データ<br class="sp-break" />サイエンティスト職
           </h1>
         </div>
       </div>
       <div class="position-detail-fv__text-wrapper">
         <p class="position-detail-fv__text">
-          弊社のWebデザイナーはWebサイトだけでなく、<br
+          弊社のデータサイエンティストはWebサイトだけでなく、<br
             class="pc-and-tab-break"
           />アプリやECサイトのデザインまで手掛けます。<br />
           また、デザインは成果に直結する部分でもあるので、<br
@@ -128,7 +130,7 @@
         </p>
       </div>
     </div>
-    <main class="main designer __main position-detail-main">
+    <main class="main data-scientist __main position-detail-main">
       <div class="position-detail-main__inner">
         <h2 class="position-detail-main__title">募集要項</h2>
         <table class="table position-detail__table">

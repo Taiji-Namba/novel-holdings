@@ -397,14 +397,14 @@
                 </a>
 
                 <a
-                  href="./designer/"
-                  class="job-list__item job-list__item--designer"
+                  href="./data-scientist/"
+                  class="job-list__item job-list__item--data-scientist"
                 >
                   <div class="job-list__explanation">
-                    <p class="job-list__name">WEB DESIGNER</p>
+                    <p class="job-list__name">データサイエンティスト</p>
                     <div class="job-list__text-panel">
                       <p class="job-list__text">
-                        WebデザイナーはクライアントのWebサイトや自社サイトのデザイン・コーディングを行います。
+                        データサイエンティストは、データに基づいた分析やAI技術活用を行い、各種プロセスのスマート化や新規アイディアの創出などを行います。
                       </p>
                     </div>
                   </div>

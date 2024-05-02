@@ -1345,15 +1345,15 @@ tbody {
     background-image: url(/novel-holdings/img/sales@2x.jpeg);
   }
 }
-.job-list__item--designer {
-  background-image: url(/novel-holdings/img/designer.jpg);
+.job-list__item--data-scientist {
+  background-image: url(/novel-holdings/img/data-scientist.jpeg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
 }
 @media screen and (-webkit-min-device-pixel-ratio: 1.5) {
-  .job-list__item--designer {
-    background-image: url(/novel-holdings/img/designer@2x.jpg);
+  .job-list__item--data-scientist {
+    background-image: url(/novel-holdings/img/data-scientist@2x.jpeg);
   }
 }
 .job-list__item--marketer {

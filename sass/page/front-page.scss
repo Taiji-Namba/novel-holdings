@@ -538,14 +538,14 @@
   }
 }
 
-.job-list__item--designer {
-  background-image: url(/novel-holdings/img/designer.jpg);
+.job-list__item--data-scientist {
+  background-image: url(/novel-holdings/img/data-scientist.jpeg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
 
   @include mixin.mq(twice) {
-    background-image: url(/novel-holdings/img/designer@2x.jpg);
+    background-image: url(/novel-holdings/img/data-scientist@2x.jpeg);
   }
 }
 

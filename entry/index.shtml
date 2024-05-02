@@ -217,8 +217,10 @@
                       class="entry-form__radio-button"
                       type="radio"
                       name="応募職種"
-                      value="Webデザイナー"
-                    /><span class="entry-form__radio-text">Webデザイナー</span>
+                      value="データサイエンティスト"
+                    /><span class="entry-form__radio-text"
+                      >データサイエンティスト</span
+                    >
                   </label>
                   <label class="entry-form__radio-label">
                     <input

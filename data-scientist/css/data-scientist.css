@@ -869,12 +869,12 @@ tbody {
   }
 }
 
-.position-detail-fv__heading-container--designer {
-  background-image: url(../../img/designer.jpg);
+.position-detail-fv__heading-container--data-scientist {
+  background-image: url(../../img/data-scientist.jpeg);
 }
 @media screen and (-webkit-min-device-pixel-ratio: 1.5) {
-  .position-detail-fv__heading-container--designer {
-    background-image: url(../../img/designer@2x.jpg);
+  .position-detail-fv__heading-container--data-scientist {
+    background-image: url(../../img/data-scientist@2x.jpeg);
   }
 }
-/*# sourceMappingURL=designer.css.map */
+/*# sourceMappingURL=data-scientist.css.map */
