@@ -3,10 +3,10 @@
   <head prefix="og: https://ogp.me/ns#">
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>採用情報 | 株式会社Igatta Group(イガッタグループ)</title>
+    <title>採用情報 | 株式会社Novel Holdings(イガッタグループ)</title>
     <meta
       name="description"
-      content="Webマーケティングを中心にクライアントの売上向上に特化した精鋭集団、株式会社Igatta Groupの採用サイトです。"
+      content="Webマーケティングを中心にクライアントの売上向上に特化した精鋭集団、株式会社Novel Holdingsの採用サイトです。"
     />
 
     <meta
@@ -16,15 +16,15 @@
     <meta property="og:type" content="website" />
     <meta
       property="og:title"
-      content="採用情報 | 株式会社Igatta Group(イガッタグループ)"
+      content="採用情報 | 株式会社Novel Holdings(イガッタグループ)"
     />
     <meta
       property="og:description"
-      content="Webマーケティングを中心にクライアントの売上向上に特化した精鋭集団、株式会社Igatta Groupの採用サイトです。"
+      content="Webマーケティングを中心にクライアントの売上向上に特化した精鋭集団、株式会社Novel Holdingsの採用サイトです。"
     />
     <meta
       property="og:site_name"
-      content="採用情報 | 株式会社Igatta Group(イガッタグループ)"
+      content="採用情報 | 株式会社Novel Holdings(イガッタグループ)"
     />
     <meta
       property="og:image"
@@ -38,11 +38,11 @@
     />
     <meta
       property="twitter:title"
-      content="採用情報 | 株式会社Igatta Group(イガッタグループ)"
+      content="採用情報 | 株式会社Novel Holdings(イガッタグループ)"
     />
     <meta
       property="twitter:description"
-      content="Webマーケティングを中心にクライアントの売上向上に特化した精鋭集団、株式会社Igatta Groupの採用サイトです。"
+      content="Webマーケティングを中心にクライアントの売上向上に特化した精鋭集団、株式会社Novel Holdingsの採用サイトです。"
     />
     <meta
       property="twitter:image"
@@ -225,7 +225,7 @@
                 />
               </h5>
               <h2 class="section__title section__title--top-page">
-                Igatta Groupの<br class="sp-break" />ミッション・ビジョン
+                Novel Holdingsの<br class="sp-break" />ミッション・ビジョン
               </h2>
             </div>
             <div class="mission-and-vision__contents">
@@ -243,7 +243,7 @@
                   />として共に成功を
                 </h4>
                 <p class="mission__text">
-                  Igatta GroupはWebの<span class="text-inline-blocked"
+                  Novel HoldingsはWebの<span class="text-inline-blocked"
                     >トータル</span
                   ><span class="text-inline-blocked">サポート</span
                   ><span class="text-inline-blocked">を</span
@@ -291,10 +291,11 @@
                   />
                 </h3>
                 <h4 class="vision__catchphrase">
-                  日本の魅力をWebで輝かせる<br />Igatta Groupが目指す社会を創る
+                  日本の魅力をWebで輝かせる<br />Novel
+                  Holdingsが目指す社会を創る
                 </h4>
                 <p class="vision__text">
-                  Igatta Groupが目指す社会は、<br
+                  Novel Holdingsが目指す社会は、<br
                     class="sp-break"
                   />優れたサービスや商品が世に出て<br
                     class="sp-break"
@@ -436,7 +437,7 @@
       <div class="footer__inner">
         <!--#include virtual="/novel-holdings/ssi/logo-group/logo-group_top-page.shtml"-->
         <p class="copy-right">
-          Copyright© IGATTA GROUP co.,Ltd. All Rights Reserved.
+          Copyright© Novel Holdings co.,Ltd. All Rights Reserved.
         </p>
       </div>
     </footer>

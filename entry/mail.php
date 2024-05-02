@@ -632,7 +632,7 @@ function refererCheck($Referer_check,$Referer_check_domain){
 	}
 }
 function copyright(){
-	echo '<a style="display:block;text-align:center;margin:15px 0;font-size:11px;color:#aaa;text-decoration:none" href="https://the-connect-web.com/novel-holdings/" target="_blank">- Igatta Group -</a>';
+	echo '<a style="display:block;text-align:center;margin:15px 0;font-size:11px;color:#aaa;text-decoration:none" href="https://the-connect-web.com/novel-holdings/" target="_blank">- Novel Holdings -</a>';
 }
 //----------------------------------------------------------------------
 //  関数定義(END)
