@@ -190,9 +190,15 @@
     <div class="fv">
       <div class="fv__inner">
         <div class="fv__slide-container fv-slide">
-          <div class="fv-slide__picture"></div>
-          <div class="fv-slide__picture"></div>
-          <div class="fv-slide__picture"></div>
+          <div class="fv-slide__picture">
+            <div class="semi-transparent"></div>
+          </div>
+          <div class="fv-slide__picture">
+            <div class="semi-transparent"></div>
+          </div>
+          <div class="fv-slide__picture">
+            <div class="semi-transparent"></div>
+          </div>
         </div>
         <div class="fv__colored-background"></div>
         <h2 class="fv__message">

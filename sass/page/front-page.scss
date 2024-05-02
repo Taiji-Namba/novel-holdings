@@ -71,7 +71,6 @@
 .fv__slide-container {
   position: relative;
   margin: 0 0 auto auto;
-
   @include mixin.mq(tab) {
     margin-top: 1.4rem;
   }
@@ -122,6 +121,12 @@
       background-position: 60% center;
     }
   }
+}
+
+.semi-transparent {
+  width: 100%;
+  height: 100%;
+  background-color: rgba($color: #000000, $alpha: 0.05);
 }
 
 @keyframes fv-slider {
