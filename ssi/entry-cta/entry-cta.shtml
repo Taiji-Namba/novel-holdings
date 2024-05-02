@@ -8,23 +8,21 @@
           class="entry-cta__logo"
         />
         <h2 class="entry-cta__heading">
-          <span class="sp-pl-2rem">熱い気持ちを持った方、</span
+          <span class="sp-pl-2rem">挑戦が好きな方、</span
           ><br class="sp-break" /><span class="sp-pl-2rem"
-            >募集しています。</span
+            >お待ちしています。</span
           >
         </h2>
         <p class="entry-cta__text">
           まずはカジュアルランチから。<br
             class="sp-break"
-          />皆様の就活の思い、悩みの相談に乗ります。<br /><span
+          />皆様のキャリアの思い、悩みの相談に乗ります。<br /><span
             class="sp-mt-16px"
           ></span
           >また弊社のオフィスツアー・<br
             class="sp-break"
           />社員との座談会も行います。<br /><span class="sp-mt-16px"></span
-          >価値観が合えば、<br
-            class="sp-break"
-          />面接にお越しいただけると幸いです。
+          >価値観が合えば、<br class="sp-break" />ぜひ面接にお越しください。
         </p>
         <a href="/novel-holdings/entry/" class="entry-cta__button button"
           ><span class="entry-cta__anchor-text">エントリーはこちら</span></a
