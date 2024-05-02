@@ -983,6 +983,14 @@ tbody {
   }
 }
 
+@media only screen and (max-width: 1024px) {
+  .fv-slide__picture {
+    background-position: 70% center;
+  }
+  .fv-slide__picture:nth-child(3) {
+    background-position: 60% center;
+  }
+}
 @keyframes fv-slider {
   0% {
     opacity: 0;
