@@ -10,3 +10,9 @@
     background-image: url(../../img/data-scientist@2x.jpeg);
   }
 }
+
+.position-detail-fv__title--data-scientist {
+  @include mixin.mq(sp-ms) {
+    font-size: 2.86rem;
+  }
+}

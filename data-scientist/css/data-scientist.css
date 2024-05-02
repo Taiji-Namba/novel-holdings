@@ -876,4 +876,10 @@ tbody {
     background-image: url(../../img/data-scientist@2x.jpeg);
   }
 }
+
+@media screen and (max-width: 374px) {
+  .position-detail-fv__title--data-scientist {
+    font-size: 2.86rem;
+  }
+}
 /*# sourceMappingURL=data-scientist.css.map */
