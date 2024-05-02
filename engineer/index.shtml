@@ -121,28 +121,26 @@
       </div>
       <div class="position-detail-fv__text-wrapper">
         <p class="position-detail-fv__text">
-          <span class="text-inline-blocked">弊社には営業がいません。</span
-          ><span class="text-inline-blocked">基本的にインバウンド受注が</span
-          ><span class="text-inline-blocked">100%です。</span><br />
-          ソフトウェアエンジニアは<span class="text-inline-blocked"
-            >まず案件依頼を精査し、</span
-          ><span class="text-inline-blocked">社内リソースを鑑みて</span
-          ><span class="text-inline-blocked">受注可否を判断します。</span><br />
-          <span class="text-inline-blocked">案件開始後の</span
-          ><span class="text-inline-blocked">クライアントとの</span
-          ><span class="text-inline-blocked">やり取りや社内制作チームとの</span
-          ><span class="text-inline-blocked">やり取りを行い、</span><br />
-          円滑なプロジェクト進行の<span class="text-inline-blocked"
-            >鍵を握ります。</span
-          ><br />
-          <span class="text-inline-blocked">ソフトウェアエンジニアの</span
-          ><span class="text-inline-blocked">業務範囲は</span
-          ><span class="text-inline-blocked">多岐に渡りますが、</span
-          ><span class="text-inline-blocked">プロジェクトリーダーを</span
-          ><span class="text-inline-blocked">一番</span>目指し<span
-            class="text-inline-blocked"
-            >やすい</span
-          ><span class="text-inline-blocked">職業です。</span>
+          AIソリューション分野を中心に、<br
+            class="tab-break"
+          />Webアプリケーション開発を<br
+            class="sp-break"
+          />担当していただきます。<br /><span class="sp-text-spacing"></span>
+          機械学習や深層学習といったAI開発をはじめ、アプリやインフラ開発など、<br
+            class="pc-and-tab-break"
+          />
+          多岐に渡る領域に携わることができます。<br /><span
+            class="sp-text-spacing"
+          ></span>
+          サービス企画から要件定義、設計、<br
+            class="sp-break"
+          />開発、運用まで一連を手掛けます。<br /><span
+            class="sp-text-spacing"
+          ></span>
+          はじめは各々の得意分野からお任せしますが、<br
+            class="pc-and-tab-break"
+          />
+          最終的にはフルスタックエンジニアを目指していただけます。
         </p>
       </div>
     </div>
