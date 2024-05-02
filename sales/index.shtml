@@ -118,9 +118,44 @@
       </div>
       <div class="position-detail-fv__text-wrapper">
         <p class="position-detail-fv__text">
-          弊社のSass企画営業はフロントからバックエンドまで広く対応します。<br />
-          基本的にサイト・システムの実装のみならず、要件定義フェーズから関わります。<br />
-          HTMLコーディングはWebデザイナーが構築している場合もありますが、より複雑なJavaScript,PHPの実装、ECサイトの機能実装をメインに行います。<br />他社と比較して、フルスタックエンジニアを目指しやすい環境と言えます。
+          <span class="text-inline-blocked">中核事業の一つである</span
+          ><span class="text-inline-blocked">Sass</span
+          ><span class="text-inline-blocked">プロダクトの</span
+          ><span class="text-inline-blocked">企画営業に</span>携わって<span
+            class="text-inline-blocked"
+            >いただきます。</span
+          ><br /><span class="sp-text-spacing"></span
+          >具体的には、当社の顧客ニーズ<span class="text-inline-blocked"
+            >予測</span
+          ><span class="text-inline-blocked">AI</span
+          ><span class="text-inline-blocked">サービス</span
+          ><span class="text-inline-blocked">「TIDE」</span
+          ><span class="text-inline-blocked">や、</span
+          ><br class="pc-and-tab-break" />
+          <span class="text-inline-blocked">街作り</span
+          ><span class="text-inline-blocked">コンサルティング</span
+          ><span class="text-inline-blocked">AI</span
+          ><span class="text-inline-blocked">サービス</span
+          ><span class="text-inline-blocked">「DIVA」</span
+          ><span class="text-inline-blocked">に</span
+          ><span class="text-inline-blocked">関わる</span
+          ><span class="text-inline-blocked">企画立案・</span
+          ><br class="pc-and-tab-break" /><span class="text-inline-blocked"
+            >ソリューションの</span
+          ><span class="text-inline-blocked">提案に</span
+          ><span class="text-inline-blocked">加え、</span
+          ><span class="text-inline-blocked">新規事業</span
+          ><span class="text-inline-blocked">立案の</span
+          ><span class="text-inline-blocked">ための</span
+          ><span class="text-inline-blocked">マーケット</span
+          ><span class="text-inline-blocked">調査、</span
+          ><br class="pc-and-tab-break" /><span class="text-inline-blocked"
+            >事業</span
+          ><span class="text-inline-blocked">計画</span
+          ><span class="text-inline-blocked">立案</span
+          ><span class="text-inline-blocked">等も</span
+          ><span class="text-inline-blocked">行って</span
+          ><span class="text-inline-blocked">いただきます。</span>
         </p>
       </div>
     </div>
@@ -133,9 +168,8 @@
               職務内容
             </th>
             <td class="table-data position-detail__table-data">
-              ・案件の要件定義<br />・HTML,CSS,JavaScriptなどのコーディング<br />
-              ・Vue.js,Reactなどのフロントエンド<br />・PHP,WordPress,Cake.php,EC
-              CUBEなどのバックエンド
+              <br />・マーケット調査
+              <br />・企画立案<br />・クライアントへの企画提案<br />・新規、既存顧客へのセールス
             </td>
           </tr>
           <tr class="table-row position-detail__table-row">
@@ -166,11 +200,10 @@
             </th>
             <td class="table-data position-detail__table-data">
               【必須スキル・経験】<br />
-              ・なし、未経験者歓迎！<br />
+              ・法人営業経験3年以上<br />
               【歓迎するスキル・経験】<br />
-              ・Webサイトやシステムの公開経験<br />
-              ・OSSへの貢献や技術書の執筆<br />
-              ・Gitを使ったチーム開発<br />
+              ・不動産業界でのビジネス経験<br />
+              ・チームマネジメント経験<br />
               【求める人物像】<br />
               ・コミュニケーション能力の高い方<br />
               ・主体的に業務に取り組める方<br />
@@ -178,9 +211,9 @@
             </td>
           </tr>
           <tr class="table-row position-detail__table-row">
-            <th class="table-heading position-detail__table-heading">初任給</th>
+            <th class="table-heading position-detail__table-heading">給与</th>
             <td class="table-data position-detail__table-data">
-              240,000円～500,000円<br
+              450万円～900万円<br
                 class="sp-break"
               />（本人の能力・経験次第で変化します）
             </td>
