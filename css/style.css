@@ -913,6 +913,16 @@ body {
   }
 }
 
+.sp-text-spacing {
+  display: none;
+}
+@media screen and (max-width: 767px) {
+  .sp-text-spacing {
+    display: block;
+    margin-top: 1.8rem;
+  }
+}
+
 .text-inline-blocked {
   display: inline-block;
 }
