@@ -75,11 +75,11 @@ tbody {
 }
 
 .button__my-page {
-  background-color: #ffb800;
+  background-color: #e38414;
 }
 
 .button__entry {
-  background-color: #ff8a00;
+  background-color: #12852d;
 }
 
 .entry-cta {
@@ -91,7 +91,7 @@ tbody {
 }
 
 .translucent-orange-gradation {
-  background: linear-gradient(to bottom, rgba(255, 138, 0, 0.9) 0%, rgba(255, 184, 0, 0.9) 100%);
+  background: linear-gradient(to bottom, rgba(27, 187, 64, 0.9) 0%, rgba(137, 227, 91, 0.9) 100%);
   height: auto;
   width: 100%;
 }
@@ -560,7 +560,7 @@ tbody {
 }
 
 .logo-group__text {
-  color: #ff8a00;
+  color: #12852d;
   vertical-align: top;
   display: inline-block;
   margin-top: auto;
@@ -654,7 +654,7 @@ tbody {
   content: "";
   width: 100svw;
   height: calc(50% + 1.5rem);
-  background-color: #e9dbb5;
+  background-color: #f3f7f1;
 }
 
 .position-detail-fv__heading-container::after {
@@ -683,7 +683,7 @@ tbody {
 }
 
 .position-detail-fv__subtitle {
-  color: #ffb800;
+  color: #89e35b;
   font-size: 1.4rem;
   font-weight: 400;
   position: absolute;
@@ -726,7 +726,7 @@ tbody {
 
 .position-detail-fv__text-wrapper {
   width: 100%;
-  background-color: #e9dbb5;
+  background-color: #f3f7f1;
   padding-block: 8.4rem;
 }
 @media screen and (max-width: 1439px) {
@@ -881,7 +881,7 @@ tbody {
 }
 
 .orange-text {
-  color: #ff8a00;
+  color: #12852d;
 }
 
 .entry__lede {
@@ -1010,7 +1010,7 @@ tbody {
   display: block;
   width: 1.2rem;
   height: 1.2rem;
-  background-color: #ff8a00;
+  background-color: #12852d;
   border-radius: 50%;
   position: absolute;
   top: 50%;
@@ -1045,7 +1045,7 @@ tbody {
 
 .entry-form__input:focus,
 .entry-form__textarea:focus {
-  outline: 2px solid #ff8a00;
+  outline: 2px solid #12852d;
 }
 
 .entry-form__input--short {
@@ -1072,7 +1072,7 @@ tbody {
 
 .required-notice {
   color: #fff;
-  background-color: #ff8a00;
+  background-color: #12852d;
   padding: 0.4rem 0.9rem 0.3rem;
   margin-right: 1.5rem;
 }
@@ -1123,7 +1123,7 @@ tbody {
   display: block;
   width: 0.5rem;
   height: 0.9rem;
-  border: solid #ff8a00;
+  border: solid #12852d;
   border-width: 0 2px 2px 0;
   position: absolute;
   top: 50%;
@@ -1133,18 +1133,18 @@ tbody {
 
 /* Focus State */
 .privacy-policy__checkbox:focus + .privacy-policy__span::before {
-  outline: 2px solid #ff8a00; /* Outline color when focused */
+  outline: 2px solid #12852d; /* Outline color when focused */
 }
 
 .entry-form__submit-button {
-  background-color: #ff8a00;
+  background-color: #12852d;
   box-shadow: none;
   border: none;
   margin-top: 9.8rem;
 }
 
 .entry-form__submit-button:disabled {
-  background-color: rgba(255, 138, 0, 0.5);
+  background-color: rgba(18, 133, 45, 0.5);
 }
 
 .pc-pt-7px {
