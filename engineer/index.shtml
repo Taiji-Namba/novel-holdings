@@ -3,28 +3,30 @@
   <head prefix="og: https://ogp.me/ns#">
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Webディレクター職 | 株式会社Novel Holdings(イガッタグループ)</title>
+    <title>
+      ソフトウェアエンジニア職 | 株式会社Novel Holdings(イガッタグループ)
+    </title>
     <meta
       name="description"
-      content="Webディレクター職の募集要項｜案件開始後のクライアントとのやり取りや社内制作チームとのやり取りを行い、円滑なプロジェクト進行の鍵を握ります。Webディレクターの業務範囲は多岐に渡りますが、プロジェクトリーダーを一番目指しやすい職業です。"
+      content="ソフトウェアエンジニア職の募集要項｜案件開始後のクライアントとのやり取りや社内制作チームとのやり取りを行い、円滑なプロジェクト進行の鍵を握ります。ソフトウェアエンジニアの業務範囲は多岐に渡りますが、プロジェクトリーダーを一番目指しやすい職業です。"
     />
 
     <meta
       property="og:url"
-      content="https://the-connect-web.com/novel-holdings/director"
+      content="https://the-connect-web.com/novel-holdings/engineer"
     />
     <meta property="og:type" content="website" />
     <meta
       property="og:title"
-      content="Webディレクター職 | 株式会社Novel Holdings(イガッタグループ)"
+      content="ソフトウェアエンジニア職 | 株式会社Novel Holdings(イガッタグループ)"
     />
     <meta
       property="og:description"
-      content="Webディレクター職の募集要項｜案件開始後のクライアントとのやり取りや社内制作チームとのやり取りを行い、円滑なプロジェクト進行の鍵を握ります。Webディレクターの業務範囲は多岐に渡りますが、プロジェクトリーダーを一番目指しやすい職業です。"
+      content="ソフトウェアエンジニア職の募集要項｜案件開始後のクライアントとのやり取りや社内制作チームとのやり取りを行い、円滑なプロジェクト進行の鍵を握ります。ソフトウェアエンジニアの業務範囲は多岐に渡りますが、プロジェクトリーダーを一番目指しやすい職業です。"
     />
     <meta
       property="og:site_name"
-      content="Webディレクター職 | 株式会社Novel Holdings(イガッタグループ)"
+      content="ソフトウェアエンジニア職 | 株式会社Novel Holdings(イガッタグループ)"
     />
     <meta
       property="og:image"
@@ -34,15 +36,15 @@
     <meta property="twitter:card" content="summary_large_image" />
     <meta
       property="twitter:url"
-      content="https://the-connect-web.com/novel-holdings/director"
+      content="https://the-connect-web.com/novel-holdings/engineer"
     />
     <meta
       property="twitter:title"
-      content="Webディレクター職 | 株式会社Novel Holdings(イガッタグループ)"
+      content="ソフトウェアエンジニア職 | 株式会社Novel Holdings(イガッタグループ)"
     />
     <meta
       property="twitter:description"
-      content="Webディレクター職の募集要項｜案件開始後のクライアントとのやり取りや社内制作チームとのやり取りを行い、円滑なプロジェクト進行の鍵を握ります。Webディレクターの業務範囲は多岐に渡りますが、プロジェクトリーダーを一番目指しやすい職業です。"
+      content="ソフトウェアエンジニア職の募集要項｜案件開始後のクライアントとのやり取りや社内制作チームとのやり取りを行い、円滑なプロジェクト進行の鍵を握ります。ソフトウェアエンジニアの業務範囲は多岐に渡りますが、プロジェクトリーダーを一番目指しやすい職業です。"
     />
     <meta
       property="twitter:image"
@@ -81,7 +83,7 @@
       href="https://unpkg.com/destyle.css@4.0.1/destyle.min.css"
     />
     <link rel="stylesheet" href="../css/style.css" />
-    <link rel="stylesheet" href="css/director.css" />
+    <link rel="stylesheet" href="css/engineer.css" />
 
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -103,16 +105,16 @@
     <meta name="robots" content="noindex" />
   </head>
 
-  <body class="director position-detail sub-page">
+  <body class="engineer position-detail sub-page">
     <!--#include virtual="/novel-holdings/ssi/header/header_sub-page.shtml"-->
     <div class="position-detail-fv">
       <div
-        class="position-detail-fv__heading-container position-detail-fv__heading-container--director"
+        class="position-detail-fv__heading-container position-detail-fv__heading-container--engineer"
       >
         <div class="position-detail-fv__heading-group">
           <h4 class="position-detail-fv__subtitle">キャリア採用</h4>
           <h1 class="position-detail-fv__title">
-            Web<br class="sp-break" />ディレクター職
+            ソフトウェア<br class="sp-break" />エンジニア職
           </h1>
         </div>
       </div>
@@ -121,7 +123,7 @@
           <span class="text-inline-blocked">弊社には営業がいません。</span
           ><span class="text-inline-blocked">基本的にインバウンド受注が</span
           ><span class="text-inline-blocked">100%です。</span><br />
-          Webディレクターは<span class="text-inline-blocked"
+          ソフトウェアエンジニアは<span class="text-inline-blocked"
             >まず案件依頼を精査し、</span
           ><span class="text-inline-blocked">社内リソースを鑑みて</span
           ><span class="text-inline-blocked">受注可否を判断します。</span><br />
@@ -132,7 +134,7 @@
           円滑なプロジェクト進行の<span class="text-inline-blocked"
             >鍵を握ります。</span
           ><br />
-          <span class="text-inline-blocked">Webディレクターの</span
+          <span class="text-inline-blocked">ソフトウェアエンジニアの</span
           ><span class="text-inline-blocked">業務範囲は</span
           ><span class="text-inline-blocked">多岐に渡りますが、</span
           ><span class="text-inline-blocked">プロジェクトリーダーを</span
@@ -143,7 +145,7 @@
         </p>
       </div>
     </div>
-    <main class="main director__main position-detail-main">
+    <main class="main engineer__main position-detail-main">
       <div class="position-detail-main__inner">
         <h2 class="position-detail-main__title">募集要項</h2>
         <table class="table position-detail__table">

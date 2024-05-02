@@ -90,7 +90,11 @@ tbody {
 }
 
 .translucent-orange-gradation {
-  background: linear-gradient(to bottom, rgba(27, 187, 64, 0.9) 0%, rgba(137, 227, 91, 0.9) 100%);
+  background: linear-gradient(
+    to bottom,
+    rgba(27, 187, 64, 0.9) 0%,
+    rgba(137, 227, 91, 0.9) 100%
+  );
   height: auto;
   width: 100%;
 }
@@ -869,12 +873,12 @@ tbody {
   }
 }
 
-.position-detail-fv__heading-container--director {
-  background-image: url(../../img/director.jpg);
+.position-detail-fv__heading-container--engineer {
+  background-image: url(../../img/engineer.jpeg);
 }
 @media screen and (-webkit-min-device-pixel-ratio: 1.5) {
-  .position-detail-fv__heading-container--director {
-    background-image: url(../../img/director@2x.jpg);
+  .position-detail-fv__heading-container--engineer {
+    background-image: url(../../img/engineer@2x.jpeg);
   }
 }
-/*# sourceMappingURL=director.css.map */
+/*# sourceMappingURL=engineer.css.map */

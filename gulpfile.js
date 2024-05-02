@@ -40,16 +40,16 @@ const compileEntrySass = () => {
     .pipe(dest("./entry/css", { sourcemaps: "." }));
 };
 
-// sass/page/director.scssをコンパイル
-const compileDirectorSass = () => {
-  return src("sass/page/director.scss", { sourcemaps: true })
+// sass/page/engineer.scssをコンパイル
+const compileEngineerSass = () => {
+  return src("sass/page/engineer.scss", { sourcemaps: true })
     .pipe(
       sass({
         outputStyle: "expanded",
       }).on("error", sass.logError)
     )
     .pipe(postcss([autoprefixer({ grid: true })]))
-    .pipe(dest("./director/css", { sourcemaps: "." }));
+    .pipe(dest("./engineer/css", { sourcemaps: "." }));
 };
 
 // sass/page/sales.scssをコンパイル
@@ -97,7 +97,7 @@ const watchSassFiles = () => {
       compileStyleSass,
       compileFrontPageSass,
       compileEntrySass,
-      compileDirectorSass,
+      compileEngineerSass,
       compileSalesSass,
       compileDesignerSass,
       compileMarketerSass

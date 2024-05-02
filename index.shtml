@@ -372,14 +372,14 @@
             <div class="job-list__group-wrapper">
               <div class="job-list__group">
                 <a
-                  href="./director/"
-                  class="job-list__item job-list__item--director"
+                  href="./engineer/"
+                  class="job-list__item job-list__item--engineer"
                 >
                   <div class="job-list__explanation">
-                    <p class="job-list__name">WEB DIRECTOR</p>
+                    <p class="job-list__name">ソフトウェアエンジニア</p>
                     <div class="job-list__text-panel">
                       <p class="job-list__text">
-                        Webディレクターはクライアントとの打ち合わせから、プロジェクト全体の進捗管理までを行います。
+                        ソフトウェアエンジニアは、日本有数の不動産テクノロジー集団を目指し、提案〜開発、運用まで幅広く担当します。
                       </p>
                     </div>
                   </div>

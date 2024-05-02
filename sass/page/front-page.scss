@@ -516,14 +516,14 @@
   }
 }
 
-.job-list__item--director {
-  background-image: url(/novel-holdings/img/director.jpg);
+.job-list__item--engineer {
+  background-image: url(/novel-holdings/img/engineer.jpeg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
 
   @include mixin.mq(twice) {
-    background-image: url(/novel-holdings/img/director@2x.jpg);
+    background-image: url(/novel-holdings/img/engineer@2x.jpeg);
   }
 }
 
