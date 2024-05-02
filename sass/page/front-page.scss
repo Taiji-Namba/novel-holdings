@@ -90,39 +90,27 @@
   animation: fv-slider 24s linear infinite;
 
   &:nth-child(1) {
-    background-image: url(../img/firstview-img01.jpg);
+    background-image: url(../img/firstview-img01.jpeg);
     animation-delay: -2s;
 
     @include mixin.mq(twice) {
-      background-image: url(../img/firstview-img01@2x.jpg);
-    }
-
-    @include mixin.mq(three-times) {
-      background-image: url(../img/firstview-img01@3x.jpg);
+      background-image: url(../img/firstview-img01@2x.jpeg);
     }
   }
   &:nth-child(2) {
-    background-image: url(../img/firstview-img02.jpg);
+    background-image: url(../img/firstview-img02.jpeg);
     animation-delay: 6s;
 
     @include mixin.mq(twice) {
-      background-image: url(../img/firstview-img02@2x.jpg);
-    }
-
-    @include mixin.mq(three-times) {
-      background-image: url(../img/firstview-img02@3x.jpg);
+      background-image: url(../img/firstview-img02@2x.jpeg);
     }
   }
   &:nth-child(3) {
-    background-image: url(../img/firstview-img03.jpg);
+    background-image: url(../img/firstview-img03.jpeg);
     animation-delay: 14s;
 
     @include mixin.mq(twice) {
-      background-image: url(../img/firstview-img03@2x.jpg);
-    }
-
-    @include mixin.mq(three-times) {
-      background-image: url(../img/firstview-img03@3x.jpg);
+      background-image: url(../img/firstview-img03@2x.jpeg);
     }
   }
 }
