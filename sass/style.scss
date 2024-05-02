@@ -25,6 +25,28 @@ body {
   }
 }
 
+.only-ipad-break {
+  display: none;
+  @include mixin.mq(ipad) {
+    display: block;
+  }
+
+  @include mixin.mq(sp) {
+    display: none;
+  }
+}
+
+.only-tab-break {
+  display: none;
+  @include mixin.mq(tab) {
+    display: block;
+  }
+
+  @include mixin.mq(sp) {
+    display: none;
+  }
+}
+
 .pc-and-tab-break {
   display: block;
   @include mixin.mq(sp) {

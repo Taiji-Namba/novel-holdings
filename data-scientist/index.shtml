@@ -121,13 +121,35 @@
       </div>
       <div class="position-detail-fv__text-wrapper">
         <p class="position-detail-fv__text">
-          弊社のデータサイエンティストはWebサイトだけでなく、<br
-            class="pc-and-tab-break"
-          />アプリやECサイトのデザインまで手掛けます。<br />
-          また、デザインは成果に直結する部分でもあるので、<br
-            class="pc-and-tab-break"
-          />ディレクターやマーケターとの連携も重要になります。<br />
-          繁忙度にもよりますが、HTMLコーディングまで担当することもよくあります。
+          データサイエンティストは、<span class="text-inline-blocked"
+            >機械学習</span
+          ><span class="text-inline-blocked">などの</span
+          ><span class="text-inline-blocked">最先端技術を</span
+          ><span class="text-inline-blocked">駆使した</span
+          ><br class="only-ipad-break" /><span class="text-inline-blocked"
+            >過去</span
+          ><span class="text-inline-blocked">データに</span
+          ><span class="text-inline-blocked">基づいて、</span
+          ><span class="text-inline-blocked">各</span
+          ><span class="text-inline-blocked">プロダクトに</span
+          ><span class="text-inline-blocked">関わる</span
+          ><span class="text-inline-blocked">クライアント</span
+          ><span class="text-inline-blocked">の</span
+          ><br class="only-ipad-break" />システムや<span
+            class="text-inline-blocked"
+            >プロセスの</span
+          ><span class="text-inline-blocked">DX化を</span
+          ><span class="text-inline-blocked">目指します。</span><br /><span
+            class="text-inline-blocked"
+            >都市開発事業の</span
+          ><span class="text-inline-blocked">非連続的成長に</span
+          ><span class="text-inline-blocked">向けた、</span
+          ><br class="only-tab-break" /><span class="text-inline-blocked"
+            >PoC・</span
+          ><span class="text-inline-blocked">開発</span
+          ><span class="text-inline-blocked">プロジェクトに</span
+          ><span class="text-inline-blocked">携わって</span
+          ><span class="text-inline-blocked">いただきます。</span>
         </p>
       </div>
     </div>
