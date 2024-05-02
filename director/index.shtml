@@ -110,7 +110,7 @@
         class="position-detail-fv__heading-container position-detail-fv__heading-container--director"
       >
         <div class="position-detail-fv__heading-group">
-          <h4 class="position-detail-fv__subtitle">新卒採用</h4>
+          <h4 class="position-detail-fv__subtitle">キャリア採用</h4>
           <h1 class="position-detail-fv__title">
             Web<br class="sp-break" />ディレクター職
           </h1>
@@ -181,7 +181,7 @@
               選考方法
             </th>
             <td class="table-data position-detail__table-data">
-              エントリーシート、適性検査、面接2回（2023年度入社新卒採用実績）
+              エントリーシート、適性検査、面接2回（2023年度入社キャリア採用実績）
             </td>
           </tr>
           <tr class="table-row position-detail__table-row">

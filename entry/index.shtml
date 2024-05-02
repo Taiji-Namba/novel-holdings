@@ -3,10 +3,12 @@
   <head prefix="og: https://ogp.me/ns#">
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>新卒採用エントリー | 株式会社Igatta Group(イガッタグループ)</title>
+    <title>
+      キャリア採用エントリー | 株式会社Igatta Group(イガッタグループ)
+    </title>
     <meta
       name="description"
-      content="新卒採用エントリーページ｜エントリーはこちらから"
+      content="キャリア採用エントリーページ｜エントリーはこちらから"
     />
 
     <meta
@@ -16,15 +18,15 @@
     <meta property="og:type" content="website" />
     <meta
       property="og:title"
-      content="新卒採用エントリー | 株式会社Igatta Group(イガッタグループ)"
+      content="キャリア採用エントリー | 株式会社Igatta Group(イガッタグループ)"
     />
     <meta
       property="og:description"
-      content="新卒採用エントリーページ｜エントリーはこちらから"
+      content="キャリア採用エントリーページ｜エントリーはこちらから"
     />
     <meta
       property="og:site_name"
-      content="新卒採用エントリー | 株式会社Igatta Group(イガッタグループ)"
+      content="キャリア採用エントリー | 株式会社Igatta Group(イガッタグループ)"
     />
     <meta
       property="og:image"
@@ -38,11 +40,11 @@
     />
     <meta
       property="twitter:title"
-      content="新卒採用エントリー | 株式会社Igatta Group(イガッタグループ)"
+      content="キャリア採用エントリー | 株式会社Igatta Group(イガッタグループ)"
     />
     <meta
       property="twitter:description"
-      content="新卒採用エントリーページ｜エントリーはこちらから"
+      content="キャリア採用エントリーページ｜エントリーはこちらから"
     />
     <meta
       property="twitter:image"
@@ -109,7 +111,7 @@
       <div class="main__inner entry-form">
         <div class="entry-form__inner">
           <h1 class="entry__title">
-            新卒採用<br class="sp-break" /><span class="orange-text"
+            キャリア採用<br class="sp-break" /><span class="orange-text"
               >エントリーフォーム</span
             >
           </h1>
