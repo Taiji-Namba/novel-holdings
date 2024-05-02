@@ -19,11 +19,13 @@ $(function () {
     runLoadingAnimation();
   });
 
-  // 職種一覧のsalesの.job-list__textの高さを取得
-  var salesTextHeight = $(".job-list__item--sales .job-list__text").height();
+  // 職種一覧のdata-scientistの.job-list__textの高さを取得
+  var dataScientistTextHeight = $(
+    ".job-list__item--data-scientist .job-list__text"
+  ).height();
 
-  // .job-list__textの高さをsalesの高さに合わせる
-  $(".job-list__text").height(salesTextHeight);
+  // .job-list__textの高さをdata-scientistの高さに合わせる
+  $(".job-list__text").height(dataScientistTextHeight);
 
   $(document).ready(function () {
     // ページ読み込み時の処理
