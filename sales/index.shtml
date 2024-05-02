@@ -3,10 +3,10 @@
   <head prefix="og: https://ogp.me/ns#">
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Sass企画営業職 | 株式会社Novel Holdings(イガッタグループ)</title>
+    <title>SaaS企画営業職 | 株式会社Novel Holdings(イガッタグループ)</title>
     <meta
       name="description"
-      content="Sass企画営業職の募集要項｜弊社のSass企画営業はフロントからバックエンドまで広く対応します。基本的にサイト・システムの実装のみならず、要件定義フェーズから関わります。"
+      content="SaaS企画営業職の募集要項｜弊社のSaaS企画営業はフロントからバックエンドまで広く対応します。基本的にサイト・システムの実装のみならず、要件定義フェーズから関わります。"
     />
 
     <meta
@@ -16,15 +16,15 @@
     <meta property="og:type" content="website" />
     <meta
       property="og:title"
-      content="Sass企画営業職 | 株式会社Novel Holdings(イガッタグループ)"
+      content="SaaS企画営業職 | 株式会社Novel Holdings(イガッタグループ)"
     />
     <meta
       property="og:description"
-      content="Sass企画営業職の募集要項｜弊社のSass企画営業はフロントからバックエンドまで広く対応します。基本的にサイト・システムの実装のみならず、要件定義フェーズから関わります。"
+      content="SaaS企画営業職の募集要項｜弊社のSaaS企画営業はフロントからバックエンドまで広く対応します。基本的にサイト・システムの実装のみならず、要件定義フェーズから関わります。"
     />
     <meta
       property="og:site_name"
-      content="Sass企画営業職 | 株式会社Novel Holdings(イガッタグループ)"
+      content="SaaS企画営業職 | 株式会社Novel Holdings(イガッタグループ)"
     />
     <meta
       property="og:image"
@@ -38,11 +38,11 @@
     />
     <meta
       property="twitter:title"
-      content="Sass企画営業職 | 株式会社Novel Holdings(イガッタグループ)"
+      content="SaaS企画営業職 | 株式会社Novel Holdings(イガッタグループ)"
     />
     <meta
       property="twitter:description"
-      content="Sass企画営業職の募集要項｜弊社のSass企画営業はフロントからバックエンドまで広く対応します。基本的にサイト・システムの実装のみならず、要件定義フェーズから関わります。"
+      content="SaaS企画営業職の募集要項｜弊社のSaaS企画営業はフロントからバックエンドまで広く対応します。基本的にサイト・システムの実装のみならず、要件定義フェーズから関わります。"
     />
     <meta
       property="twitter:image"
@@ -112,14 +112,14 @@
         <div class="position-detail-fv__heading-group">
           <h4 class="position-detail-fv__subtitle">キャリア採用</h4>
           <h1 class="position-detail-fv__title">
-            Sass<br class="sp-break" />企画営業職
+            SaaS<br class="sp-break" />企画営業職
           </h1>
         </div>
       </div>
       <div class="position-detail-fv__text-wrapper">
         <p class="position-detail-fv__text">
           <span class="text-inline-blocked">中核事業の一つである</span
-          ><span class="text-inline-blocked">Sass</span
+          ><span class="text-inline-blocked">SaaS</span
           ><span class="text-inline-blocked">プロダクトの</span
           ><span class="text-inline-blocked">企画営業に</span>携わって<span
             class="text-inline-blocked"

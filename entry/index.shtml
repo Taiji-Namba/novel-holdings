@@ -209,8 +209,8 @@
                       class="entry-form__radio-button"
                       type="radio"
                       name="応募職種"
-                      value="Sass企画営業"
-                    /><span class="entry-form__radio-text">Sass企画営業</span>
+                      value="SaaS企画営業"
+                    /><span class="entry-form__radio-text">SaaS企画営業</span>
                   </label>
                   <label class="entry-form__radio-label">
                     <input
