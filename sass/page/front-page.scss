@@ -549,14 +549,14 @@
   }
 }
 
-.job-list__item--marketer {
-  background-image: url(/novel-holdings/img/marketer.jpg);
+.job-list__item--agent {
+  background-image: url(/novel-holdings/img/agent.jpeg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
 
   @include mixin.mq(twice) {
-    background-image: url(/novel-holdings/img/marketer@2x.jpg);
+    background-image: url(/novel-holdings/img/agent@2x.jpeg);
   }
 }
 

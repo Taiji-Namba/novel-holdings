@@ -3,28 +3,30 @@
   <head prefix="og: https://ogp.me/ns#">
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Webマーケター職 | 株式会社Novel Holdings(イガッタグループ)</title>
+    <title>
+      不動産売買エージェント職 | 株式会社Novel Holdings(イガッタグループ)
+    </title>
     <meta
       name="description"
-      content="Webマーケター職の募集要項｜Webマーケター職はクライアントサイトのアクセス解析から改善策の提案や、広告運用などを行います。また自社メディアの利益最大化もお任せします。"
+      content="不動産売買エージェント職の募集要項｜不動産売買エージェント職はクライアントサイトのアクセス解析から改善策の提案や、広告運用などを行います。また自社メディアの利益最大化もお任せします。"
     />
 
     <meta
       property="og:url"
-      content="https://the-connect-web.com/novel-holdings/marketer"
+      content="https://the-connect-web.com/novel-holdings/agent"
     />
     <meta property="og:type" content="website" />
     <meta
       property="og:title"
-      content="Webマーケター職 | 株式会社Novel Holdings(イガッタグループ)"
+      content="不動産売買エージェント職 | 株式会社Novel Holdings(イガッタグループ)"
     />
     <meta
       property="og:description"
-      content="Webマーケター職の募集要項｜Webマーケター職はクライアントサイトのアクセス解析から改善策の提案や、広告運用などを行います。また自社メディアの利益最大化もお任せします。"
+      content="不動産売買エージェント職の募集要項｜不動産売買エージェント職はクライアントサイトのアクセス解析から改善策の提案や、広告運用などを行います。また自社メディアの利益最大化もお任せします。"
     />
     <meta
       property="og:site_name"
-      content="Webマーケター職 | 株式会社Novel Holdings(イガッタグループ)"
+      content="不動産売買エージェント職 | 株式会社Novel Holdings(イガッタグループ)"
     />
     <meta
       property="og:image"
@@ -34,15 +36,15 @@
     <meta property="twitter:card" content="summary_large_image" />
     <meta
       property="twitter:url"
-      content="https://the-connect-web.com/novel-holdings/marketer"
+      content="https://the-connect-web.com/novel-holdings/agent"
     />
     <meta
       property="twitter:title"
-      content="Webマーケター職 | 株式会社Novel Holdings(イガッタグループ)"
+      content="不動産売買エージェント職 | 株式会社Novel Holdings(イガッタグループ)"
     />
     <meta
       property="twitter:description"
-      content="Webマーケター職の募集要項｜Webマーケター職はクライアントサイトのアクセス解析から改善策の提案や、広告運用などを行います。また自社メディアの利益最大化もお任せします。"
+      content="不動産売買エージェント職の募集要項｜不動産売買エージェント職はクライアントサイトのアクセス解析から改善策の提案や、広告運用などを行います。また自社メディアの利益最大化もお任せします。"
     />
     <meta
       property="twitter:image"
@@ -81,7 +83,7 @@
       href="https://unpkg.com/destyle.css@4.0.1/destyle.min.css"
     />
     <link rel="stylesheet" href="../css/style.css" />
-    <link rel="stylesheet" href="css/marketer.css" />
+    <link rel="stylesheet" href="css/agent.css" />
 
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -103,22 +105,22 @@
     <meta name="robots" content="noindex" />
   </head>
 
-  <body class="marketer position-detail sub-page">
+  <body class="agent position-detail sub-page">
     <!--#include virtual="/novel-holdings/ssi/header/header_sub-page.shtml"-->
     <div class="position-detail-fv">
       <div
-        class="position-detail-fv__heading-container position-detail-fv__heading-container--marketer"
+        class="position-detail-fv__heading-container position-detail-fv__heading-container--agent"
       >
         <div class="position-detail-fv__heading-group">
           <h4 class="position-detail-fv__subtitle">キャリア採用</h4>
           <h1 class="position-detail-fv__title">
-            Web<br class="sp-break" />マーケター職
+            不動産<br class="sp-break" />売買エージェント職
           </h1>
         </div>
       </div>
       <div class="position-detail-fv__text-wrapper">
         <p class="position-detail-fv__text">
-          Webマーケター職はクライアントサイトのアクセス解析から<br
+          不動産売買エージェント職はクライアントサイトのアクセス解析から<br
             class="pc-and-tab-break"
           />改善策の提案や、広告運用などを行います。<br />
           また自社メディアの利益最大化も<br
@@ -130,7 +132,7 @@
         </p>
       </div>
     </div>
-    <main class="main marketer __main position-detail-main">
+    <main class="main agent __main position-detail-main">
       <div class="position-detail-main__inner">
         <h2 class="position-detail-main__title">募集要項</h2>
         <table class="table position-detail__table">

@@ -227,8 +227,10 @@
                       class="entry-form__radio-button"
                       type="radio"
                       name="応募職種"
-                      value="Webマーケター"
-                    /><span class="entry-form__radio-text">Webマーケター</span>
+                      value="不動産売買エージェント"
+                    /><span class="entry-form__radio-text"
+                      >不動産売買エージェント</span
+                    >
                   </label>
                 </td>
               </tr>

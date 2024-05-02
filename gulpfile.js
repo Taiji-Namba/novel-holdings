@@ -76,16 +76,16 @@ const compileDataScientistSass = () => {
     .pipe(dest("./data-scientist/css", { sourcemaps: "." }));
 };
 
-// sass/page/marketer.scssをコンパイル
-const compileMarketerSass = () => {
-  return src("sass/page/marketer.scss", { sourcemaps: true })
+// sass/page/agent.scssをコンパイル
+const compileAgentSass = () => {
+  return src("sass/page/agent.scss", { sourcemaps: true })
     .pipe(
       sass({
         outputStyle: "expanded",
       }).on("error", sass.logError)
     )
     .pipe(postcss([autoprefixer({ grid: true })]))
-    .pipe(dest("./marketer/css", { sourcemaps: "." }));
+    .pipe(dest("./agent/css", { sourcemaps: "." }));
 };
 
 // Sassファイルを監視
@@ -100,7 +100,7 @@ const watchSassFiles = () => {
       compileEngineerSass,
       compileSalesSass,
       compileDataScientistSass,
-      compileMarketerSass
+      compileAgentSass
     )
   );
 };

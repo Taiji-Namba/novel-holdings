@@ -869,12 +869,12 @@ tbody {
   }
 }
 
-.position-detail-fv__heading-container--marketer {
-  background-image: url(../../img/marketer.jpg);
+.position-detail-fv__heading-container--agent {
+  background-image: url(../../img/agent.jpeg);
 }
 @media screen and (-webkit-min-device-pixel-ratio: 1.5) {
-  .position-detail-fv__heading-container--marketer {
-    background-image: url(../../img/marketer@2x.jpg);
+  .position-detail-fv__heading-container--agent {
+    background-image: url(../../img/agent@2x.jpeg);
   }
 }
-/*# sourceMappingURL=marketer.css.map */
+/*# sourceMappingURL=agent.css.map */

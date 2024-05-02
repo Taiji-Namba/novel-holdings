@@ -410,15 +410,12 @@
                   </div>
                 </a>
 
-                <a
-                  href="./marketer/"
-                  class="job-list__item job-list__item--marketer"
-                >
+                <a href="./agent/" class="job-list__item job-list__item--agent">
                   <div class="job-list__explanation">
-                    <p class="job-list__name">WEB MARKETER</p>
+                    <p class="job-list__name">不動産売買エージェント</p>
                     <div class="job-list__text-panel">
                       <p class="job-list__text">
-                        WebマーケターはクライアントのWebサイトや自社サイトの広告運用やLPO、EC運用などを行います。
+                        不動産売買エージェントはクライアントのWebサイトや自社サイトの広告運用やLPO、EC運用などを行います。
                       </p>
                     </div>
                   </div>
