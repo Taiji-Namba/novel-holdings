@@ -1052,10 +1052,14 @@ tbody {
   bottom: 16.7481662592%;
   z-index: 9;
 }
+@media screen and (max-width: 1439px) {
+  .fv__message {
+    bottom: calc(16.7481662592% + 3svh);
+  }
+}
 @media screen and (max-width: 767px) {
   .fv__message {
     left: 4.5333333333vw;
-    bottom: 13.0944527736svh;
   }
 }
 

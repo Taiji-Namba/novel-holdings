@@ -184,9 +184,12 @@
   bottom: calc(137 / 818 * 100%);
   z-index: 9;
 
+  @include mixin.mq(tab) {
+    bottom: calc(137 / 818 * 100% + 3svh);
+  }
+
   @include mixin.mq(sp) {
     left: calc(17 / 375 * 100vw);
-    bottom: calc(74 / 667 * 100svh + 2svh);
   }
 }
 
