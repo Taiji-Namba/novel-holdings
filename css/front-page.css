@@ -1074,6 +1074,9 @@ tbody {
 }
 
 .fv__message {
+  font-size: clamp(5.6rem, 3.5424rem + 6.43vw, 12.8rem);
+  line-height: 1.5;
+  color: #fff;
   position: absolute;
   left: 9.2361111111%;
   bottom: 16.7481662592%;
@@ -1081,9 +1084,8 @@ tbody {
 }
 @media screen and (max-width: 767px) {
   .fv__message {
-    max-width: 341px;
     left: 4.5333333333vw;
-    bottom: 11.0944527736svh;
+    bottom: 13.0944527736svh;
   }
 }
 

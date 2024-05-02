@@ -176,15 +176,17 @@
 }
 
 .fv__message {
+  font-size: clamp(5.6rem, 3.5424rem + 6.43vw, 12.8rem);
+  line-height: 1.5;
+  color: #fff;
   position: absolute;
   left: calc(133 / 1440 * 100%);
   bottom: calc(137 / 818 * 100%);
   z-index: 9;
 
   @include mixin.mq(sp) {
-    max-width: 341px;
     left: calc(17 / 375 * 100vw);
-    bottom: calc(74 / 667 * 100svh);
+    bottom: calc(74 / 667 * 100svh + 2svh);
   }
 }
 
