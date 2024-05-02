@@ -1418,15 +1418,15 @@ tbody {
   }
 }
 
-.job-list__item--engineer {
-  background-image: url(/novel-holdings/img/frontend.jpg);
+.job-list__item--sales {
+  background-image: url(/novel-holdings/img/sales.jpeg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
 }
 @media screen and (-webkit-min-device-pixel-ratio: 1.5) {
-  .job-list__item--engineer {
-    background-image: url(/novel-holdings/img/frontend@2x.jpg);
+  .job-list__item--sales {
+    background-image: url(/novel-holdings/img/sales@2x.jpeg);
   }
 }
 

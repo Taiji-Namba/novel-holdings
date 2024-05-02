@@ -869,12 +869,12 @@ tbody {
   }
 }
 
-.position-detail-fv__heading-container--engineer {
-  background-image: url(../../img/frontend.jpg);
+.position-detail-fv__heading-container--sales {
+  background-image: url(../../img/sales.jpeg);
 }
 @media screen and (-webkit-min-device-pixel-ratio: 1.5) {
-  .position-detail-fv__heading-container--engineer {
-    background-image: url(../../img/frontend@2x.jpg);
+  .position-detail-fv__heading-container--sales {
+    background-image: url(../../img/sales@2x.jpeg);
   }
 }
-/*# sourceMappingURL=engineer.css.map */
+/*# sourceMappingURL=sales.css.map */

@@ -385,15 +385,12 @@
                   </div>
                 </a>
 
-                <a
-                  href="./engineer/"
-                  class="job-list__item job-list__item--engineer"
-                >
+                <a href="./sales/" class="job-list__item job-list__item--sales">
                   <div class="job-list__explanation">
                     <p class="job-list__name">WEB ENGINEER</p>
                     <div class="job-list__text-panel">
                       <p class="job-list__text">
-                        WebエンジニアはクライアントのWebサイトや自社サイトのフロント・バックエンド両方の開発・改修を行います。
+                        Sass企画営業はクライアントのWebサイトや自社サイトのフロント・バックエンド両方の開発・改修を行います。
                       </p>
                     </div>
                   </div>

@@ -19,13 +19,11 @@ $(function () {
     runLoadingAnimation();
   });
 
-  // 職種一覧のengineerの.job-list__textの高さを取得
-  var engineerTextHeight = $(
-    ".job-list__item--engineer .job-list__text"
-  ).height();
+  // 職種一覧のsalesの.job-list__textの高さを取得
+  var salesTextHeight = $(".job-list__item--sales .job-list__text").height();
 
-  // .job-list__textの高さをengineerの高さに合わせる
-  $(".job-list__text").height(engineerTextHeight);
+  // .job-list__textの高さをsalesの高さに合わせる
+  $(".job-list__text").height(salesTextHeight);
 
   $(document).ready(function () {
     // ページ読み込み時の処理
