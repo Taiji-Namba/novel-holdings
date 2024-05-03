@@ -876,4 +876,10 @@ tbody {
     background-image: url(../../img/agent@2x.jpeg);
   }
 }
+
+@media screen and (max-width: 374px) {
+  .position-detail-fv__title--agent {
+    font-size: 2.86rem;
+  }
+}
 /*# sourceMappingURL=agent.css.map */

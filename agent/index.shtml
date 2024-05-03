@@ -114,7 +114,9 @@
       >
         <div class="position-detail-fv__heading-group">
           <h4 class="position-detail-fv__subtitle">キャリア採用</h4>
-          <h1 class="position-detail-fv__title">
+          <h1
+            class="position-detail-fv__title position-detail-fv__title--agent"
+          >
             不動産<br class="sp-break" />売買エージェント職
           </h1>
         </div>
