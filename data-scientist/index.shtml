@@ -164,11 +164,8 @@
               職務内容
             </th>
             <td class="table-data position-detail__table-data">
-              ・ヒアリングから参加<br />
-              ・デザインの作成<br />
-              ・画像加工<br />
-              ・アートディレクション<br />
-              ・静的コーディング<br />
+              PoC・開発プロジェクトにおける<br />・データ分析<br />
+              ・AIアルゴリズム<br />・ソフトウェア開発<br />・顧客折衝・報告
             </td>
           </tr>
           <tr class="table-row position-detail__table-row">
@@ -177,12 +174,11 @@
             </th>
             <td class="table-data position-detail__table-data">
               <span class="bold">必須要件</span><br />
-              なし<br />
+              ・自然言語処理、画像認識、機械学習等のアルゴリズムやソフトウェアの開発経験<br />
+              ・AIフレームワーク(Pytorch、Tensorflow、scikit-learn、statmodels等)の使用経験<br />
               <span class="bold">歓迎要件</span><br />
-              ・中規模以上のサイトの運用や新規構築経験<br />
-              ・クライアント企業との折衝経験<br />
-              ・受託制作業務やプロジェクトチームでの実務経験<br />
-              ・アクセス解析などでのWebサイトの改善提案経験
+              ・顧客向け設計資料、報告資料の作成及び顧客折衝経験<br />
+              ・クラウド環境でのシステム構築・運用経験（AWS、GCP、MS Azure）<br />・AI技術開発、PoC等のセールス経験<br />
             </td>
           </tr>
           <tr class="table-row position-detail__table-row">
@@ -199,11 +195,11 @@
             </th>
             <td class="table-data position-detail__table-data">
               【必須スキル・経験】<br />
-              ・なし、未経験者歓迎！<br />
+              ・自然言語処理、画像認識、機械学習等のアルゴリズムやソフトウェアの開発経験<br />
+              ・AIフレームワーク(Pytorch、Tensorflow、scikit-learn、statmodels等)の使用経験<br />
               【歓迎するスキル・経験】<br />
-              ・Photoshop.Illustratorを使った経験<br />
-              ・FigmaでのUIデザイン<br />
-              ・バナー広告の制作<br />
+              ・顧客向け設計資料、報告資料の作成及び顧客折衝経験<br />
+              ・クラウド環境でのシステム構築・運用経験（AWS、GCP、MS Azure）<br />・AI技術開発、PoC等のセールス経験<br />
               【求める人物像】<br />
               ・コミュニケーション能力の高い方<br />
               ・主体的に業務に取り組める方<br />
