@@ -1223,6 +1223,11 @@ tbody {
   width: 100%;
   margin-inline: auto 0;
 }
+@media screen and (max-width: 767px) {
+  .vision__text {
+    width: 90%;
+  }
+}
 
 .message__inner {
   padding: 7.8rem 0 0;

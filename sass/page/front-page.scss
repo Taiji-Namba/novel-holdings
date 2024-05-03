@@ -337,6 +337,10 @@
 .vision__text {
   width: 100%;
   margin-inline: auto 0;
+
+  @include mixin.mq(sp) {
+    width: 90%;
+  }
 }
 
 .message__inner {
