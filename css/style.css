@@ -876,6 +876,15 @@ body {
   font-weight: 700;
 }
 
+.sp-ms-break {
+  display: none;
+}
+@media screen and (max-width: 374px) {
+  .sp-ms-break {
+    display: block;
+  }
+}
+
 .sp-break {
   display: none;
 }

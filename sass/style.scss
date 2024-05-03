@@ -11,6 +11,13 @@ body {
   font-weight: 700;
 }
 
+.sp-ms-break {
+  display: none;
+  @include mixin.mq(sp-ms) {
+    display: block;
+  }
+}
+
 .sp-break {
   display: none;
   @include mixin.mq(sp) {
