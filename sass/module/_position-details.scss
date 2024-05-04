@@ -36,7 +36,7 @@
   content: "";
   width: 100svw;
   height: calc(50% + 1.5rem);
-  background-color: #e9dbb5;
+  background-color: #f3f7f1;
 }
 
 .position-detail-fv__heading-container::after {
@@ -107,7 +107,7 @@
 
 .position-detail-fv__text-wrapper {
   width: 100%;
-  background-color: #e9dbb5;
+  background-color: #f3f7f1;
   padding-block: 8.4rem;
 
   @include mixin.mq(tab) {

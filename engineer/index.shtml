@@ -3,10 +3,13 @@
   <head prefix="og: https://ogp.me/ns#">
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Webエンジニア職 | 株式会社Igatta Group(イガッタグループ)</title>
+    <title>
+      ソフトウェアエンジニア職 | 株式会社Novel
+      Holdings(ノヴェルホールディングス)
+    </title>
     <meta
       name="description"
-      content="Webエンジニア職の募集要項｜弊社のWebエンジニアはフロントからバックエンドまで広く対応します。基本的にサイト・システムの実装のみならず、要件定義フェーズから関わります。"
+      content="ソフトウェアエンジニア職の募集要項｜AIソリューション分野を中心に、Webアプリケーション開発を担当していただきます。機械学習や深層学習といったAI開発をはじめ、アプリやインフラ開発など、多岐に渡る領域に携わることができます。手掛ける工程は、サービス企画から要件定義、設計、開発、運用まで一連です。はじめは各々の得意分野からお任せしますが、最終的にはフルスタックエンジニアを目指していただけます。"
     />
 
     <meta
@@ -16,15 +19,15 @@
     <meta property="og:type" content="website" />
     <meta
       property="og:title"
-      content="Webエンジニア職 | 株式会社Igatta Group(イガッタグループ)"
+      content="ソフトウェアエンジニア職 | 株式会社Novel Holdings(ノヴェルホールディングス)"
     />
     <meta
       property="og:description"
-      content="Webエンジニア職の募集要項｜弊社のWebエンジニアはフロントからバックエンドまで広く対応します。基本的にサイト・システムの実装のみならず、要件定義フェーズから関わります。"
+      content="ソフトウェアエンジニア職の募集要項｜AIソリューション分野を中心に、Webアプリケーション開発を担当していただきます。機械学習や深層学習といったAI開発をはじめ、アプリやインフラ開発など、多岐に渡る領域に携わることができます。手掛ける工程は、サービス企画から要件定義、設計、開発、運用まで一連です。はじめは各々の得意分野からお任せしますが、最終的にはフルスタックエンジニアを目指していただけます。"
     />
     <meta
       property="og:site_name"
-      content="Webエンジニア職 | 株式会社Igatta Group(イガッタグループ)"
+      content="ソフトウェアエンジニア職 | 株式会社Novel Holdings(ノヴェルホールディングス)"
     />
     <meta
       property="og:image"
@@ -38,11 +41,11 @@
     />
     <meta
       property="twitter:title"
-      content="Webエンジニア職 | 株式会社Igatta Group(イガッタグループ)"
+      content="ソフトウェアエンジニア職 | 株式会社Novel Holdings(ノヴェルホールディングス)"
     />
     <meta
       property="twitter:description"
-      content="Webエンジニア職の募集要項｜弊社のWebエンジニアはフロントからバックエンドまで広く対応します。基本的にサイト・システムの実装のみならず、要件定義フェーズから関わります。"
+      content="ソフトウェアエンジニア職の募集要項｜AIソリューション分野を中心に、Webアプリケーション開発を担当していただきます。機械学習や深層学習といったAI開発をはじめ、アプリやインフラ開発など、多岐に渡る領域に携わることができます。手掛ける工程は、サービス企画から要件定義、設計、開発、運用まで一連です。はじめは各々の得意分野からお任せしますが、最終的にはフルスタックエンジニアを目指していただけます。"
     />
     <meta
       property="twitter:image"
@@ -110,21 +113,38 @@
         class="position-detail-fv__heading-container position-detail-fv__heading-container--engineer"
       >
         <div class="position-detail-fv__heading-group">
-          <h4 class="position-detail-fv__subtitle">新卒採用</h4>
+          <h4 class="position-detail-fv__subtitle">キャリア採用</h4>
           <h1 class="position-detail-fv__title">
-            Web<br class="sp-break" />エンジニア職
+            ソフトウェア<br class="sp-break" />エンジニア職
           </h1>
         </div>
       </div>
       <div class="position-detail-fv__text-wrapper">
         <p class="position-detail-fv__text">
-          弊社のWebエンジニアはフロントからバックエンドまで広く対応します。<br />
-          基本的にサイト・システムの実装のみならず、要件定義フェーズから関わります。<br />
-          HTMLコーディングはWebデザイナーが構築している場合もありますが、より複雑なJavaScript,PHPの実装、ECサイトの機能実装をメインに行います。<br />他社と比較して、フルスタックエンジニアを目指しやすい環境と言えます。
+          AIソリューション分野を中心に、<br
+            class="tab-break"
+          />Webアプリケーション開発を<br
+            class="sp-break"
+          />担当していただきます。<br /><span class="sp-text-spacing"></span>
+          機械学習や深層学習といったAI開発をはじめ、アプリやインフラ開発など、<br
+            class="pc-and-tab-break"
+          />
+          多岐に渡る領域に携わることができます。<br /><span
+            class="sp-text-spacing"
+          ></span>
+          サービス企画から要件定義、設計、<br
+            class="sp-break"
+          />開発、運用まで一連を手掛けます。<br /><span
+            class="sp-text-spacing"
+          ></span>
+          はじめは各々の得意分野からお任せしますが、<br
+            class="pc-and-tab-break"
+          />
+          最終的にはフルスタックエンジニアを目指していただけます。
         </p>
       </div>
     </div>
-    <main class="main engineer __main position-detail-main">
+    <main class="main engineer__main position-detail-main">
       <div class="position-detail-main__inner">
         <h2 class="position-detail-main__title">募集要項</h2>
         <table class="table position-detail__table">
@@ -133,9 +153,13 @@
               職務内容
             </th>
             <td class="table-data position-detail__table-data">
-              ・案件の要件定義<br />・HTML,CSS,JavaScriptなどのコーディング<br />
-              ・Vue.js,Reactなどのフロントエンド<br />・PHP,WordPress,Cake.php,EC
-              CUBEなどのバックエンド
+              Webアプリケーションにおける<br />
+              ・サービス企画<br />
+              ・要件定義<br />
+              ・設計<br />
+              ・開発<br />
+              ・運用<br />
+              といった一連の工程
             </td>
           </tr>
           <tr class="table-row position-detail__table-row">
@@ -146,10 +170,8 @@
               <span class="bold">必須要件</span><br />
               なし<br />
               <span class="bold">歓迎要件</span><br />
-              ・中規模以上のサイトの運用や新規構築経験<br />
-              ・クライアント企業との折衝経験<br />
-              ・受託制作業務やプロジェクトチームでの実務経験<br />
-              ・アクセス解析などでのWebサイトの改善提案経験
+              ・フロントエンド開発経験<br />・バックエンド開発経験<br />
+              ・パブリッククラウド環境上での開発経験<br />・開発マネジメント経験<br />
             </td>
           </tr>
           <tr class="table-row position-detail__table-row">
@@ -157,7 +179,7 @@
               選考方法
             </th>
             <td class="table-data position-detail__table-data">
-              エントリーシート、適性検査、面接2回（2023年度入社新卒採用実績）
+              エントリーシート、適性検査、面接2回（2023年度入社キャリア採用実績）
             </td>
           </tr>
           <tr class="table-row position-detail__table-row">
@@ -166,11 +188,12 @@
             </th>
             <td class="table-data position-detail__table-data">
               【必須スキル・経験】<br />
-              ・なし、未経験者歓迎！<br />
+              ・いずれかの商用システム開発経験<br />
+              ・Github(Gitlab)等を利用した開発経験<br />
+              ・外部顧客と連携した要求分析、要件定義、仕様作成経験<br />
               【歓迎するスキル・経験】<br />
-              ・Webサイトやシステムの公開経験<br />
-              ・OSSへの貢献や技術書の執筆<br />
-              ・Gitを使ったチーム開発<br />
+              ・HTML、CSS、JSなどのフロントエンド<br />・Java、Pythonなどのバックエンド<br />
+              ・パブリッククラウド環境上での開発経験<br />・開発マネジメント経験<br />
               【求める人物像】<br />
               ・コミュニケーション能力の高い方<br />
               ・主体的に業務に取り組める方<br />
@@ -178,9 +201,9 @@
             </td>
           </tr>
           <tr class="table-row position-detail__table-row">
-            <th class="table-heading position-detail__table-heading">初任給</th>
+            <th class="table-heading position-detail__table-heading">給与</th>
             <td class="table-data position-detail__table-data">
-              240,000円～500,000円<br
+              450万円～900万円<br
                 class="sp-break"
               />（本人の能力・経験次第で変化します）
             </td>

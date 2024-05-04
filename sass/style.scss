@@ -11,6 +11,13 @@ body {
   font-weight: 700;
 }
 
+.sp-ms-break {
+  display: none;
+  @include mixin.mq(sp-ms) {
+    display: block;
+  }
+}
+
 .sp-break {
   display: none;
   @include mixin.mq(sp) {
@@ -25,6 +32,28 @@ body {
   }
 }
 
+.only-ipad-break {
+  display: none;
+  @include mixin.mq(ipad) {
+    display: block;
+  }
+
+  @include mixin.mq(sp) {
+    display: none;
+  }
+}
+
+.only-tab-break {
+  display: none;
+  @include mixin.mq(tab) {
+    display: block;
+  }
+
+  @include mixin.mq(sp) {
+    display: none;
+  }
+}
+
 .pc-and-tab-break {
   display: block;
   @include mixin.mq(sp) {
@@ -36,6 +65,14 @@ body {
   display: block;
   @include mixin.mq(tab) {
     display: none;
+  }
+}
+
+.sp-text-spacing {
+  display: none;
+  @include mixin.mq(sp) {
+    display: block;
+    margin-top: 1.8rem;
   }
 }
 

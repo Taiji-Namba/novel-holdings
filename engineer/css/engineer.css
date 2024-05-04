@@ -74,11 +74,11 @@ tbody {
 }
 
 .button__my-page {
-  background-color: #ffb800;
+  background-color: #e38414;
 }
 
 .button__entry {
-  background-color: #ff8a00;
+  background-color: #12852d;
 }
 
 .entry-cta {
@@ -90,7 +90,7 @@ tbody {
 }
 
 .translucent-orange-gradation {
-  background: linear-gradient(to bottom, rgba(255, 138, 0, 0.9) 0%, rgba(255, 184, 0, 0.9) 100%);
+  background: linear-gradient(to bottom, rgba(27, 187, 64, 0.9) 0%, rgba(137, 227, 91, 0.9) 100%);
   height: auto;
   width: 100%;
 }
@@ -384,7 +384,6 @@ tbody {
   background-image: url(/novel-holdings/ssi/header/img/close.svg);
   position: fixed;
   right: 1.6rem;
-  top: 3.3rem;
 }
 
 .burger-menu.open {
@@ -559,12 +558,16 @@ tbody {
 }
 
 .logo-group__text {
-  color: #ff8a00;
+  color: #12852d;
   vertical-align: top;
   display: inline-block;
   margin-top: auto;
   margin-bottom: 0;
   text-align: left;
+}
+
+.loading .logo-group__text {
+  vertical-align: bottom;
 }
 
 .logo-group__text--large {
@@ -653,7 +656,7 @@ tbody {
   content: "";
   width: 100svw;
   height: calc(50% + 1.5rem);
-  background-color: #e9dbb5;
+  background-color: #f3f7f1;
 }
 
 .position-detail-fv__heading-container::after {
@@ -682,7 +685,7 @@ tbody {
 }
 
 .position-detail-fv__subtitle {
-  color: #ffb800;
+  color: #89e35b;
   font-size: 1.4rem;
   font-weight: 400;
   position: absolute;
@@ -725,7 +728,7 @@ tbody {
 
 .position-detail-fv__text-wrapper {
   width: 100%;
-  background-color: #e9dbb5;
+  background-color: #f3f7f1;
   padding-block: 8.4rem;
 }
 @media screen and (max-width: 1439px) {
@@ -866,11 +869,11 @@ tbody {
 }
 
 .position-detail-fv__heading-container--engineer {
-  background-image: url(../../img/frontend.jpg);
+  background-image: url(../../img/engineer.jpeg);
 }
 @media screen and (-webkit-min-device-pixel-ratio: 1.5) {
   .position-detail-fv__heading-container--engineer {
-    background-image: url(../../img/frontend@2x.jpg);
+    background-image: url(../../img/engineer@2x.jpeg);
   }
 }
 /*# sourceMappingURL=engineer.css.map */

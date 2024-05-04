@@ -71,7 +71,6 @@
 .fv__slide-container {
   position: relative;
   margin: 0 0 auto auto;
-
   @include mixin.mq(tab) {
     margin-top: 1.4rem;
   }
@@ -90,41 +89,44 @@
   animation: fv-slider 24s linear infinite;
 
   &:nth-child(1) {
-    background-image: url(../img/firstview-img01.jpg);
+    background-image: url(../img/firstview-img01.jpeg);
     animation-delay: -2s;
 
     @include mixin.mq(twice) {
-      background-image: url(../img/firstview-img01@2x.jpg);
-    }
-
-    @include mixin.mq(three-times) {
-      background-image: url(../img/firstview-img01@3x.jpg);
+      background-image: url(../img/firstview-img01@2x.jpeg);
     }
   }
   &:nth-child(2) {
-    background-image: url(../img/firstview-img02.jpg);
+    background-image: url(../img/firstview-img02.jpeg);
     animation-delay: 6s;
 
     @include mixin.mq(twice) {
-      background-image: url(../img/firstview-img02@2x.jpg);
-    }
-
-    @include mixin.mq(three-times) {
-      background-image: url(../img/firstview-img02@3x.jpg);
+      background-image: url(../img/firstview-img02@2x.jpeg);
     }
   }
   &:nth-child(3) {
-    background-image: url(../img/firstview-img03.jpg);
+    background-image: url(../img/firstview-img03.jpeg);
     animation-delay: 14s;
 
     @include mixin.mq(twice) {
-      background-image: url(../img/firstview-img03@2x.jpg);
-    }
-
-    @include mixin.mq(three-times) {
-      background-image: url(../img/firstview-img03@3x.jpg);
+      background-image: url(../img/firstview-img03@2x.jpeg);
     }
   }
+}
+
+@media only screen and (max-width: 1024px) {
+  .fv-slide__picture {
+    background-position: 70% center;
+    &:nth-child(3) {
+      background-position: 60% center;
+    }
+  }
+}
+
+.semi-transparent {
+  width: 100%;
+  height: 100%;
+  background-color: rgba($color: #000000, $alpha: 0.05);
 }
 
 @keyframes fv-slider {
@@ -174,15 +176,20 @@
 }
 
 .fv__message {
+  font-size: clamp(5.6rem, 3.5424rem + 6.43vw, 12.8rem);
+  line-height: 1.5;
+  color: #fff;
   position: absolute;
   left: calc(133 / 1440 * 100%);
   bottom: calc(137 / 818 * 100%);
   z-index: 9;
 
+  @include mixin.mq(tab) {
+    bottom: calc(137 / 818 * 100% + 3svh);
+  }
+
   @include mixin.mq(sp) {
-    max-width: 341px;
     left: calc(17 / 375 * 100vw);
-    bottom: calc(74 / 667 * 100svh);
   }
 }
 
@@ -273,7 +280,7 @@
   }
 
   @include mixin.mq(sp) {
-    margin-top: 4.2rem;
+    margin-top: 6.2rem;
   }
 }
 
@@ -324,12 +331,16 @@
 }
 
 .mission__text {
-  width: 88%;
+  width: 100%;
 }
 
 .vision__text {
-  width: 95%;
+  width: 100%;
   margin-inline: auto 0;
+
+  @include mixin.mq(sp) {
+    width: 90%;
+  }
 }
 
 .message__inner {
@@ -381,7 +392,7 @@
 
   @include mixin.mq(sp) {
     margin-inline: 1.6rem;
-    margin-top: 18rem;
+    margin-top: 14rem;
   }
 }
 
@@ -512,47 +523,47 @@
   }
 }
 
-.job-list__item--director {
-  background-image: url(/novel-holdings/img/director.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center center;
-
-  @include mixin.mq(twice) {
-    background-image: url(/novel-holdings/img/director@2x.jpg);
-  }
-}
-
 .job-list__item--engineer {
-  background-image: url(/novel-holdings/img/frontend.jpg);
+  background-image: url(/novel-holdings/img/engineer.jpeg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
 
   @include mixin.mq(twice) {
-    background-image: url(/novel-holdings/img/frontend@2x.jpg);
+    background-image: url(/novel-holdings/img/engineer@2x.jpeg);
   }
 }
 
-.job-list__item--designer {
-  background-image: url(/novel-holdings/img/designer.jpg);
+.job-list__item--sales {
+  background-image: url(/novel-holdings/img/sales.jpeg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
 
   @include mixin.mq(twice) {
-    background-image: url(/novel-holdings/img/designer@2x.jpg);
+    background-image: url(/novel-holdings/img/sales@2x.jpeg);
   }
 }
 
-.job-list__item--marketer {
-  background-image: url(/novel-holdings/img/marketer.jpg);
+.job-list__item--data-scientist {
+  background-image: url(/novel-holdings/img/data-scientist.jpeg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
 
   @include mixin.mq(twice) {
-    background-image: url(/novel-holdings/img/marketer@2x.jpg);
+    background-image: url(/novel-holdings/img/data-scientist@2x.jpeg);
+  }
+}
+
+.job-list__item--agent {
+  background-image: url(/novel-holdings/img/agent.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+
+  @include mixin.mq(twice) {
+    background-image: url(/novel-holdings/img/agent@2x.jpeg);
   }
 }
 

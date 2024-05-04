@@ -40,18 +40,6 @@ const compileEntrySass = () => {
     .pipe(dest("./entry/css", { sourcemaps: "." }));
 };
 
-// sass/page/director.scssをコンパイル
-const compileDirectorSass = () => {
-  return src("sass/page/director.scss", { sourcemaps: true })
-    .pipe(
-      sass({
-        outputStyle: "expanded",
-      }).on("error", sass.logError)
-    )
-    .pipe(postcss([autoprefixer({ grid: true })]))
-    .pipe(dest("./director/css", { sourcemaps: "." }));
-};
-
 // sass/page/engineer.scssをコンパイル
 const compileEngineerSass = () => {
   return src("sass/page/engineer.scss", { sourcemaps: true })
@@ -64,28 +52,40 @@ const compileEngineerSass = () => {
     .pipe(dest("./engineer/css", { sourcemaps: "." }));
 };
 
-// sass/page/designer.scssをコンパイル
-const compileDesignerSass = () => {
-  return src("sass/page/designer.scss", { sourcemaps: true })
+// sass/page/sales.scssをコンパイル
+const compileSalesSass = () => {
+  return src("sass/page/sales.scss", { sourcemaps: true })
     .pipe(
       sass({
         outputStyle: "expanded",
       }).on("error", sass.logError)
     )
     .pipe(postcss([autoprefixer({ grid: true })]))
-    .pipe(dest("./designer/css", { sourcemaps: "." }));
+    .pipe(dest("./sales/css", { sourcemaps: "." }));
 };
 
-// sass/page/marketer.scssをコンパイル
-const compileMarketerSass = () => {
-  return src("sass/page/marketer.scss", { sourcemaps: true })
+// sass/page/data-scientist.scssをコンパイル
+const compileDataScientistSass = () => {
+  return src("sass/page/data-scientist.scss", { sourcemaps: true })
     .pipe(
       sass({
         outputStyle: "expanded",
       }).on("error", sass.logError)
     )
     .pipe(postcss([autoprefixer({ grid: true })]))
-    .pipe(dest("./marketer/css", { sourcemaps: "." }));
+    .pipe(dest("./data-scientist/css", { sourcemaps: "." }));
+};
+
+// sass/page/agent.scssをコンパイル
+const compileAgentSass = () => {
+  return src("sass/page/agent.scss", { sourcemaps: true })
+    .pipe(
+      sass({
+        outputStyle: "expanded",
+      }).on("error", sass.logError)
+    )
+    .pipe(postcss([autoprefixer({ grid: true })]))
+    .pipe(dest("./agent/css", { sourcemaps: "." }));
 };
 
 // Sassファイルを監視
@@ -97,10 +97,10 @@ const watchSassFiles = () => {
       compileStyleSass,
       compileFrontPageSass,
       compileEntrySass,
-      compileDirectorSass,
       compileEngineerSass,
-      compileDesignerSass,
-      compileMarketerSass
+      compileSalesSass,
+      compileDataScientistSass,
+      compileAgentSass
     )
   );
 };

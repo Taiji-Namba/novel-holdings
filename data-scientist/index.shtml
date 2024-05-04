@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head prefix="og: https://ogp.me/ns#">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>
+      データサイエンティスト職 | 株式会社Novel
+      Holdings(ノヴェルホールディングス)
+    </title>
+    <meta
+      name="description"
+      content="データサイエンティスト職の募集要項｜データサイエンティストは、機械学習などの最先端技術を駆使した過去データに基づいて、各プロダクトに関わるクライアントのシステムやプロセスのDX化を目指します。不動産業界を牽引する非連続的な成長に向けた、PoC・開発プロジェクトに携わっていただきます。"
+    />
+
+    <meta
+      property="og:url"
+      content="https://the-connect-web.com/novel-holdings/data-scientist"
+    />
+    <meta property="og:type" content="website" />
+    <meta
+      property="og:title"
+      content="データサイエンティスト職 | 株式会社Novel Holdings(ノヴェルホールディングス)"
+    />
+    <meta
+      property="og:description"
+      content="データサイエンティスト職の募集要項｜データサイエンティストは、機械学習などの最先端技術を駆使した過去データに基づいて、各プロダクトに関わるクライアントのシステムやプロセスのDX化を目指します。不動産業界を牽引する非連続的な成長に向けた、PoC・開発プロジェクトに携わっていただきます。"
+    />
+    <meta
+      property="og:site_name"
+      content="データサイエンティスト職 | 株式会社Novel Holdings(ノヴェルホールディングス)"
+    />
+    <meta
+      property="og:image"
+      content="https://the-connect-web.com/novel-holdings/img/ogp-image.jpg"
+    />
+
+    <meta property="twitter:card" content="summary_large_image" />
+    <meta
+      property="twitter:url"
+      content="https://the-connect-web.com/novel-holdings/data-scientist"
+    />
+    <meta
+      property="twitter:title"
+      content="データサイエンティスト職 | 株式会社Novel Holdings(ノヴェルホールディングス)"
+    />
+    <meta
+      property="twitter:description"
+      content="データサイエンティスト職の募集要項｜データサイエンティストは、機械学習などの最先端技術を駆使した過去データに基づいて、各プロダクトに関わるクライアントのシステムやプロセスのDX化を目指します。不動産業界を牽引する非連続的な成長に向けた、PoC・開発プロジェクトに携わっていただきます。"
+    />
+    <meta
+      property="twitter:image"
+      content="https://the-connect-web.com/novel-holdings/img/ogp-image.jpg"
+    />
+
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="/novel-holdings/icons/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="/novel-holdings/icons/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="/novel-holdings/icons/favicon-16x16.png"
+    />
+    <link
+      rel="mask-icon"
+      href="/novel-holdings/icons/safari-pinned-tab.svg"
+      color="#5bbad5"
+    />
+    <link rel="shortcut icon" href="/novel-holdings/icons/favicon.ico" />
+    <meta name="msapplication-TileColor" content="#da532c" />
+    <meta name="msapplication-config" content="/icons/browserconfig.xml" />
+    <meta name="theme-color" content="#ffffff" />
+
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/destyle.css@4.0.1/destyle.min.css"
+    />
+    <link rel="stylesheet" href="../css/style.css" />
+    <link rel="stylesheet" href="css/data-scientist.css" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@700&display=swap"
+      rel="stylesheet"
+    />
+
+    <script
+      src="https://code.jquery.com/jquery-3.7.1.min.js"
+      integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo="
+      crossorigin="anonymous"
+    ></script>
+
+    <meta name="robots" content="noindex" />
+  </head>
+
+  <body class="data-scientist position-detail sub-page">
+    <!--#include virtual="/novel-holdings/ssi/header/header_sub-page.shtml"-->
+    <div class="position-detail-fv">
+      <div
+        class="position-detail-fv__heading-container position-detail-fv__heading-container--data-scientist"
+      >
+        <div class="position-detail-fv__heading-group">
+          <h4 class="position-detail-fv__subtitle">キャリア採用</h4>
+          <h1
+            class="position-detail-fv__title position-detail-fv__title--data-scientist"
+          >
+            データ<br class="sp-break" />サイエンティスト職
+          </h1>
+        </div>
+      </div>
+      <div class="position-detail-fv__text-wrapper">
+        <p class="position-detail-fv__text">
+          データサイエンティストは、<span class="text-inline-blocked"
+            >機械学習</span
+          ><span class="text-inline-blocked">などの</span
+          ><span class="text-inline-blocked">最先端技術を</span
+          ><span class="text-inline-blocked">駆使した</span
+          ><br class="only-ipad-break" /><span class="text-inline-blocked"
+            >過去</span
+          ><span class="text-inline-blocked">データに</span
+          ><span class="text-inline-blocked">基づいて、</span
+          ><span class="text-inline-blocked">各</span
+          ><span class="text-inline-blocked">プロダクトに</span
+          ><span class="text-inline-blocked">関わる</span
+          ><span class="text-inline-blocked">クライアント</span
+          ><span class="text-inline-blocked">の</span
+          ><br class="only-ipad-break" />システムや<span
+            class="text-inline-blocked"
+            >プロセスの</span
+          ><span class="text-inline-blocked">DX化を</span
+          ><span class="text-inline-blocked">目指します。</span><br /><span
+            class="text-inline-blocked"
+            >都市開発事業の</span
+          ><span class="text-inline-blocked">非連続的成長に</span
+          ><span class="text-inline-blocked">向けた、</span
+          ><br class="only-tab-break" /><span class="text-inline-blocked"
+            >PoC・</span
+          ><span class="text-inline-blocked">開発</span
+          ><span class="text-inline-blocked">プロジェクトに</span
+          ><span class="text-inline-blocked">携わって</span
+          ><span class="text-inline-blocked">いただきます。</span>
+        </p>
+      </div>
+    </div>
+    <main class="main data-scientist __main position-detail-main">
+      <div class="position-detail-main__inner">
+        <h2 class="position-detail-main__title">募集要項</h2>
+        <table class="table position-detail__table">
+          <tr class="table-row position-detail__table-row">
+            <th class="table-heading position-detail__table-heading">
+              職務内容
+            </th>
+            <td class="table-data position-detail__table-data">
+              PoC・開発プロジェクトにおける<br />・データ分析<br />
+              ・AIアルゴリズム<br />・ソフトウェア開発<br />・顧客折衝・報告
+            </td>
+          </tr>
+          <tr class="table-row position-detail__table-row">
+            <th class="table-heading position-detail__table-heading">
+              応募資格
+            </th>
+            <td class="table-data position-detail__table-data">
+              <span class="bold">必須要件</span><br />
+              ・自然言語処理、画像認識、機械学習等のアルゴリズムやソフトウェアの開発経験<br />
+              ・AIフレームワーク(Pytorch、Tensorflow、scikit-learn、statmodels等)の使用経験<br />
+              <span class="bold">歓迎要件</span><br />
+              ・顧客向け設計資料、報告資料の作成及び顧客折衝経験<br />
+              ・クラウド環境でのシステム構築・運用経験（AWS、GCP、MS Azure）<br />・AI技術開発、PoC等のセールス経験<br />
+            </td>
+          </tr>
+          <tr class="table-row position-detail__table-row">
+            <th class="table-heading position-detail__table-heading">
+              選考方法
+            </th>
+            <td class="table-data position-detail__table-data">
+              エントリーシート、適性検査、面接2回（2023年度入社キャリア採用実績）
+            </td>
+          </tr>
+          <tr class="table-row position-detail__table-row">
+            <th class="table-heading position-detail__table-heading">
+              求める人物像・スキル
+            </th>
+            <td class="table-data position-detail__table-data">
+              【必須スキル・経験】<br />
+              ・自然言語処理、画像認識、機械学習等のアルゴリズムやソフトウェアの開発経験<br />
+              ・AIフレームワーク(Pytorch、Tensorflow、scikit-learn、statmodels等)の使用経験<br />
+              【歓迎するスキル・経験】<br />
+              ・顧客向け設計資料、報告資料の作成及び顧客折衝経験<br />
+              ・クラウド環境でのシステム構築・運用経験（AWS、GCP、MS Azure）<br />・AI技術開発、PoC等のセールス経験<br />
+              【求める人物像】<br />
+              ・コミュニケーション能力の高い方<br />
+              ・主体的に業務に取り組める方<br />
+              ・トライアンドエラーをすることに対して適応性のある方
+            </td>
+          </tr>
+          <tr class="table-row position-detail__table-row">
+            <th class="table-heading position-detail__table-heading">給与</th>
+            <td class="table-data position-detail__table-data">
+              450万円～900万円<br
+                class="sp-break"
+              />（本人の能力・経験次第で変化します）
+            </td>
+          </tr>
+          <tr class="table-row position-detail__table-row">
+            <th class="table-heading position-detail__table-heading">
+              勤務時間
+            </th>
+            <td class="table-data position-detail__table-data">
+              フレックス勤務 37.5時間/週（コアタイムなし）<br
+                class="sp-break"
+              />リモート勤務可（条件あり）
+            </td>
+          </tr>
+          <tr class="table-row position-detail__table-row">
+            <th class="table-heading position-detail__table-heading">昇給</th>
+            <td class="table-data position-detail__table-data">年2回</td>
+          </tr>
+          <tr class="table-row position-detail__table-row">
+            <th class="table-heading position-detail__table-heading">賞与</th>
+            <td class="table-data position-detail__table-data">
+              年2回（6月、12月）
+            </td>
+          </tr>
+          <tr class="table-row position-detail__table-row">
+            <th class="table-heading position-detail__table-heading">
+              休日休暇
+            </th>
+            <td class="table-data position-detail__table-data">
+              週休2日制（土・日）、祝日、<br
+                class="sp-break"
+              />創立記念日（10月20日）、<br
+                class="sp-break"
+              />夏期・年末年始休暇（各7～9連休）、<br />
+              年次有給休暇（初年度10日、1時間単位で取得可）、リフレッシュ休暇、特別休暇<br
+                class="sp-break"
+              />※年間休日129日（2023年度）
+            </td>
+          </tr>
+          <tr class="table-row position-detail__table-row">
+            <th class="table-heading position-detail__table-heading">
+              福利厚生
+            </th>
+            <td class="table-data position-detail__table-data">
+              ・各種社会保険完備（雇用・労災・健康・厚生年金）<br />
+              ・交通費（30,000円迄）<br />
+              ・住宅手当（上限50,000円）<br />
+              ・書籍購入し放題（書籍の購入を全額負担します）<br />
+              ・社員同士のシャッフルランチ代全額補助<br />
+              ・社員旅行（過去実績：グアム、タイ、ハワイ、バリ島、ベトナム、ラスベガス）<br />
+              ・オフィスおかん（毎日300円分のランチが無料で食べられます）<br />
+              ・ドリンク無料<br />
+              ・デュアルディスプレイ完備
+            </td>
+          </tr>
+        </table>
+      </div>
+    </main>
+    <!--#include virtual="/novel-holdings/ssi/entry-cta/entry-cta.shtml"-->
+    <!--#include virtual="/novel-holdings/ssi/footer_sub-page.shtml"-->
+    <script src="https://unpkg.com/micromodal/dist/micromodal.min.js"></script>
+    <script src="../js/script.js"></script>
+  </body>
+</html>

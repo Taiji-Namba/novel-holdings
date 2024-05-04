@@ -27,9 +27,16 @@ $(function () {
   //ハンバーガーメニューの実装
   let scrollpos;
 
+  // バーガーボタンの開・閉かかわらず同じ位置に設定
+  let initialTopPosition;
+  let initialRightPosition;
   //バーガーボタンを押したとき
   $(".burger-button").on("click", function () {
     if (!$(this).hasClass("open")) {
+      // .openがない時のY位置を取得
+      initialTopPosition = $(this).offset().top - $(window).scrollTop();
+      initialRightPosition =
+        $(window).width() - ($(this).offset().left + $(this).outerWidth());
       $(".burger-button").addClass("open");
       $(".burger-menu").addClass("open");
       $(".burger-menu a").addClass("burger-menu__anchor");
@@ -38,6 +45,11 @@ $(function () {
       // スクロール位置を保持 & メニューopen時はスクロールできないように
       scrollpos = $(window).scrollTop();
       $("body").addClass("fixed").css({ top: -scrollpos });
+      // Y位置と右端からのX位置を固定
+      $(this).css({
+        top: initialTopPosition + "px",
+        right: initialRightPosition + "px",
+      });
     } else {
       $(".burger-button").removeClass("open");
       $(".burger-menu").removeClass("open");
@@ -49,6 +61,11 @@ $(function () {
         top: scrollpos,
         left: 0,
         behavior: "instant",
+      });
+      // Y位置と右端からのX位置の固定を解除
+      $(this).css({
+        top: "",
+        right: "",
       });
     }
   });

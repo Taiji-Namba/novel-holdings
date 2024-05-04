@@ -4,9 +4,9 @@
 @use "../module";
 
 .position-detail-fv__heading-container--engineer {
-  background-image: url(../../img/frontend.jpg);
+  background-image: url(../../img/engineer.jpeg);
 
   @include mixin.mq(twice) {
-    background-image: url(../../img/frontend@2x.jpg);
+    background-image: url(../../img/engineer@2x.jpeg);
   }
 }

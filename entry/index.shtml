@@ -3,10 +3,12 @@
   <head prefix="og: https://ogp.me/ns#">
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>新卒採用エントリー | 株式会社Igatta Group(イガッタグループ)</title>
+    <title>
+      キャリア採用エントリー | 株式会社Novel Holdings(ノヴェルホールディングス)
+    </title>
     <meta
       name="description"
-      content="新卒採用エントリーページ｜エントリーはこちらから"
+      content="キャリア採用エントリーページ｜エントリーはこちらから"
     />
 
     <meta
@@ -16,15 +18,15 @@
     <meta property="og:type" content="website" />
     <meta
       property="og:title"
-      content="新卒採用エントリー | 株式会社Igatta Group(イガッタグループ)"
+      content="キャリア採用エントリー | 株式会社Novel Holdings(ノヴェルホールディングス)"
     />
     <meta
       property="og:description"
-      content="新卒採用エントリーページ｜エントリーはこちらから"
+      content="キャリア採用エントリーページ｜エントリーはこちらから"
     />
     <meta
       property="og:site_name"
-      content="新卒採用エントリー | 株式会社Igatta Group(イガッタグループ)"
+      content="キャリア採用エントリー | 株式会社Novel Holdings(ノヴェルホールディングス)"
     />
     <meta
       property="og:image"
@@ -38,11 +40,11 @@
     />
     <meta
       property="twitter:title"
-      content="新卒採用エントリー | 株式会社Igatta Group(イガッタグループ)"
+      content="キャリア採用エントリー | 株式会社Novel Holdings(ノヴェルホールディングス)"
     />
     <meta
       property="twitter:description"
-      content="新卒採用エントリーページ｜エントリーはこちらから"
+      content="キャリア採用エントリーページ｜エントリーはこちらから"
     />
     <meta
       property="twitter:image"
@@ -109,7 +111,7 @@
       <div class="main__inner entry-form">
         <div class="entry-form__inner">
           <h1 class="entry__title">
-            新卒採用<br class="sp-break" /><span class="orange-text"
+            キャリア採用<br class="sp-break" /><span class="orange-text"
               >エントリーフォーム</span
             >
           </h1>
@@ -197,9 +199,9 @@
                       class="entry-form__radio-button"
                       type="radio"
                       name="応募職種"
-                      value="Webディレクター"
+                      value="ソフトウェアエンジニア"
                     /><span class="entry-form__radio-text"
-                      >Webディレクター</span
+                      >ソフトウェアエンジニア</span
                     >
                   </label>
                   <label class="entry-form__radio-label">
@@ -207,24 +209,28 @@
                       class="entry-form__radio-button"
                       type="radio"
                       name="応募職種"
-                      value="Webエンジニア"
-                    /><span class="entry-form__radio-text">Webエンジニア</span>
+                      value="SaaS企画営業"
+                    /><span class="entry-form__radio-text">SaaS企画営業</span>
                   </label>
                   <label class="entry-form__radio-label">
                     <input
                       class="entry-form__radio-button"
                       type="radio"
                       name="応募職種"
-                      value="Webデザイナー"
-                    /><span class="entry-form__radio-text">Webデザイナー</span>
+                      value="データサイエンティスト"
+                    /><span class="entry-form__radio-text"
+                      >データサイエンティスト</span
+                    >
                   </label>
                   <label class="entry-form__radio-label">
                     <input
                       class="entry-form__radio-button"
                       type="radio"
                       name="応募職種"
-                      value="Webマーケター"
-                    /><span class="entry-form__radio-text">Webマーケター</span>
+                      value="不動産売買エージェント"
+                    /><span class="entry-form__radio-text"
+                      >不動産売買エージェント</span
+                    >
                   </label>
                 </td>
               </tr>

@@ -2,13 +2,25 @@
 $layout-width-inner: 1440px;
 
 // ブレークポイント
+// 該ブレークポイントから次のブレークポイントまでの範囲が、それぞれの領域にあたる。
+// 例) 実機iphoneSEは375pxのため、413px以下〜375p以上になるよう、値を指定。
+// $wide-breakpointのみ最小値の指定。
+$sp-the-most-small: 374px;
+$iphone-se: 413px;
 $sp-breakpoint: 767px;
+$ipad-mini: 819px;
+$ipad: 1023px;
+$tab: #{$layout-width-inner - 1px};
 $wide-breakpoint: 1440px;
 
 $breakpoints: (
   // ディスプレイ幅
+  "sp-ms": "screen and (max-width: #{$sp-the-most-small})",
+  "ip-se": "screen and (max-width: #{$iphone-se})",
   "sp": "screen and (max-width: #{$sp-breakpoint})",
-  "tab": "screen and (max-width: #{$layout-width-inner - 1px})",
+  "ipad-mini": "screen and (max-width: #{$ipad-mini})",
+  "ipad": "screen and (max-width: #{$ipad})",
+  "tab": "screen and (max-width: #{$tab})",
   "pc": "screen and (min-width: #{$layout-width-inner})",
 
   // 解像度

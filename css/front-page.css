@@ -74,11 +74,11 @@ tbody {
 }
 
 .button__my-page {
-  background-color: #ffb800;
+  background-color: #e38414;
 }
 
 .button__entry {
-  background-color: #ff8a00;
+  background-color: #12852d;
 }
 
 .entry-cta {
@@ -90,7 +90,7 @@ tbody {
 }
 
 .translucent-orange-gradation {
-  background: linear-gradient(to bottom, rgba(255, 138, 0, 0.9) 0%, rgba(255, 184, 0, 0.9) 100%);
+  background: linear-gradient(to bottom, rgba(27, 187, 64, 0.9) 0%, rgba(137, 227, 91, 0.9) 100%);
   height: auto;
   width: 100%;
 }
@@ -307,18 +307,8 @@ tbody {
   z-index: 100;
   visibility: visible;
   width: 100%;
-  -webkit-animation: slideDown 0.3s ease-in-out;
-          animation: slideDown 0.3s ease-in-out;
+  animation: slideDown 0.3s ease-in-out;
   background-color: #fff;
-}
-
-@-webkit-keyframes slideDown {
-  0% {
-    transform: translateY(-100%);
-  }
-  100% {
-    transform: translateY(0%);
-  }
 }
 
 @keyframes slideDown {
@@ -394,7 +384,6 @@ tbody {
   background-image: url(/novel-holdings/ssi/header/img/close.svg);
   position: fixed;
   right: 1.6rem;
-  top: 3.3rem;
 }
 
 .burger-menu.open {
@@ -569,12 +558,16 @@ tbody {
 }
 
 .logo-group__text {
-  color: #ff8a00;
+  color: #12852d;
   vertical-align: top;
   display: inline-block;
   margin-top: auto;
   margin-bottom: 0;
   text-align: left;
+}
+
+.loading .logo-group__text {
+  vertical-align: bottom;
 }
 
 .logo-group__text--large {
@@ -663,7 +656,7 @@ tbody {
   content: "";
   width: 100svw;
   height: calc(50% + 1.5rem);
-  background-color: #e9dbb5;
+  background-color: #f3f7f1;
 }
 
 .position-detail-fv__heading-container::after {
@@ -692,7 +685,7 @@ tbody {
 }
 
 .position-detail-fv__subtitle {
-  color: #ffb800;
+  color: #89e35b;
   font-size: 1.4rem;
   font-weight: 400;
   position: absolute;
@@ -735,7 +728,7 @@ tbody {
 
 .position-detail-fv__text-wrapper {
   width: 100%;
-  background-color: #e9dbb5;
+  background-color: #f3f7f1;
   padding-block: 8.4rem;
 }
 @media screen and (max-width: 1439px) {
@@ -963,73 +956,48 @@ tbody {
   width: 100%;
   height: 100%;
   opacity: 0;
-  -webkit-animation: fv-slider 24s linear infinite;
-          animation: fv-slider 24s linear infinite;
+  animation: fv-slider 24s linear infinite;
 }
 .fv-slide__picture:nth-child(1) {
-  background-image: url(../img/firstview-img01.jpg);
-  -webkit-animation-delay: -2s;
-          animation-delay: -2s;
+  background-image: url(../img/firstview-img01.jpeg);
+  animation-delay: -2s;
 }
 @media screen and (-webkit-min-device-pixel-ratio: 1.5) {
   .fv-slide__picture:nth-child(1) {
-    background-image: url(../img/firstview-img01@2x.jpg);
-  }
-}
-@media screen and (-webkit-min-device-pixel-ratio: 2.5) {
-  .fv-slide__picture:nth-child(1) {
-    background-image: url(../img/firstview-img01@3x.jpg);
+    background-image: url(../img/firstview-img01@2x.jpeg);
   }
 }
 .fv-slide__picture:nth-child(2) {
-  background-image: url(../img/firstview-img02.jpg);
-  -webkit-animation-delay: 6s;
-          animation-delay: 6s;
+  background-image: url(../img/firstview-img02.jpeg);
+  animation-delay: 6s;
 }
 @media screen and (-webkit-min-device-pixel-ratio: 1.5) {
   .fv-slide__picture:nth-child(2) {
-    background-image: url(../img/firstview-img02@2x.jpg);
-  }
-}
-@media screen and (-webkit-min-device-pixel-ratio: 2.5) {
-  .fv-slide__picture:nth-child(2) {
-    background-image: url(../img/firstview-img02@3x.jpg);
+    background-image: url(../img/firstview-img02@2x.jpeg);
   }
 }
 .fv-slide__picture:nth-child(3) {
-  background-image: url(../img/firstview-img03.jpg);
-  -webkit-animation-delay: 14s;
-          animation-delay: 14s;
+  background-image: url(../img/firstview-img03.jpeg);
+  animation-delay: 14s;
 }
 @media screen and (-webkit-min-device-pixel-ratio: 1.5) {
   .fv-slide__picture:nth-child(3) {
-    background-image: url(../img/firstview-img03@2x.jpg);
-  }
-}
-@media screen and (-webkit-min-device-pixel-ratio: 2.5) {
-  .fv-slide__picture:nth-child(3) {
-    background-image: url(../img/firstview-img03@3x.jpg);
+    background-image: url(../img/firstview-img03@2x.jpeg);
   }
 }
 
-@-webkit-keyframes fv-slider {
-  0% {
-    opacity: 0;
-    transform: scale(1);
+@media only screen and (max-width: 1024px) {
+  .fv-slide__picture {
+    background-position: 70% center;
   }
-  4.16% {
-    opacity: 1;
+  .fv-slide__picture:nth-child(3) {
+    background-position: 60% center;
   }
-  33.33% {
-    opacity: 1;
-  }
-  41.66% {
-    opacity: 0;
-    transform: scale(1.2);
-  }
-  100% {
-    opacity: 0;
-  }
+}
+.semi-transparent {
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.05);
 }
 
 @keyframes fv-slider {
@@ -1055,7 +1023,7 @@ tbody {
   content: "";
   width: 87.3611111111svw;
   height: 39.9305555556svw;
-  background: linear-gradient(to bottom, #ff8a00 0%, #ffb800 100%);
+  background: linear-gradient(to bottom, #12852d 0%, #89e35b 100%);
   position: absolute;
   left: 0;
   bottom: 0;
@@ -1075,16 +1043,22 @@ tbody {
 }
 
 .fv__message {
+  font-size: clamp(5.6rem, 3.5424rem + 6.43vw, 12.8rem);
+  line-height: 1.5;
+  color: #fff;
   position: absolute;
   left: 9.2361111111%;
   bottom: 16.7481662592%;
   z-index: 9;
 }
+@media screen and (max-width: 1439px) {
+  .fv__message {
+    bottom: calc(16.7481662592% + 3svh);
+  }
+}
 @media screen and (max-width: 767px) {
   .fv__message {
-    max-width: 341px;
     left: 4.5333333333vw;
-    bottom: 11.0944527736svh;
   }
 }
 
@@ -1184,7 +1158,7 @@ tbody {
 }
 @media screen and (max-width: 767px) {
   .mission-and-vision__contents {
-    margin-top: 4.2rem;
+    margin-top: 6.2rem;
   }
 }
 
@@ -1242,12 +1216,17 @@ tbody {
 }
 
 .mission__text {
-  width: 88%;
+  width: 100%;
 }
 
 .vision__text {
-  width: 95%;
+  width: 100%;
   margin-inline: auto 0;
+}
+@media screen and (max-width: 767px) {
+  .vision__text {
+    width: 90%;
+  }
 }
 
 .message__inner {
@@ -1297,7 +1276,7 @@ tbody {
 @media screen and (max-width: 767px) {
   .message__text-group {
     margin-inline: 1.6rem;
-    margin-top: 18rem;
+    margin-top: 14rem;
   }
 }
 
@@ -1435,51 +1414,51 @@ tbody {
     width: 431px;
   }
 }
-.job-list__item--director {
-  background-image: url(/novel-holdings/img/director.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center center;
-}
-@media screen and (-webkit-min-device-pixel-ratio: 1.5) {
-  .job-list__item--director {
-    background-image: url(/novel-holdings/img/director@2x.jpg);
-  }
-}
-
 .job-list__item--engineer {
-  background-image: url(/novel-holdings/img/frontend.jpg);
+  background-image: url(/novel-holdings/img/engineer.jpeg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
 }
 @media screen and (-webkit-min-device-pixel-ratio: 1.5) {
   .job-list__item--engineer {
-    background-image: url(/novel-holdings/img/frontend@2x.jpg);
+    background-image: url(/novel-holdings/img/engineer@2x.jpeg);
   }
 }
 
-.job-list__item--designer {
-  background-image: url(/novel-holdings/img/designer.jpg);
+.job-list__item--sales {
+  background-image: url(/novel-holdings/img/sales.jpeg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
 }
 @media screen and (-webkit-min-device-pixel-ratio: 1.5) {
-  .job-list__item--designer {
-    background-image: url(/novel-holdings/img/designer@2x.jpg);
+  .job-list__item--sales {
+    background-image: url(/novel-holdings/img/sales@2x.jpeg);
   }
 }
 
-.job-list__item--marketer {
-  background-image: url(/novel-holdings/img/marketer.jpg);
+.job-list__item--data-scientist {
+  background-image: url(/novel-holdings/img/data-scientist.jpeg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
 }
 @media screen and (-webkit-min-device-pixel-ratio: 1.5) {
-  .job-list__item--marketer {
-    background-image: url(/novel-holdings/img/marketer@2x.jpg);
+  .job-list__item--data-scientist {
+    background-image: url(/novel-holdings/img/data-scientist@2x.jpeg);
+  }
+}
+
+.job-list__item--agent {
+  background-image: url(/novel-holdings/img/agent.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+@media screen and (-webkit-min-device-pixel-ratio: 1.5) {
+  .job-list__item--agent {
+    background-image: url(/novel-holdings/img/agent@2x.jpeg);
   }
 }
 
@@ -1540,5 +1519,4 @@ tbody {
   width: 90%;
   max-width: 30.5rem;
 }
-
 /*# sourceMappingURL=front-page.css.map */

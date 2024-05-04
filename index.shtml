@@ -3,10 +3,10 @@
   <head prefix="og: https://ogp.me/ns#">
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>採用情報 | 株式会社Igatta Group(イガッタグループ)</title>
+    <title>採用情報 | 株式会社Novel Holdings(ノヴェルホールディングス)</title>
     <meta
       name="description"
-      content="Webマーケティングを中心にクライアントの売上向上に特化した精鋭集団、株式会社Igatta Groupの採用サイトです。"
+      content="持続可能でなめらかな、10年後の街作りに貢献する、株式会社Novel Holdingsの採用サイトです。"
     />
 
     <meta
@@ -16,15 +16,15 @@
     <meta property="og:type" content="website" />
     <meta
       property="og:title"
-      content="採用情報 | 株式会社Igatta Group(イガッタグループ)"
+      content="採用情報 | 株式会社Novel Holdings(ノヴェルホールディングス)"
     />
     <meta
       property="og:description"
-      content="Webマーケティングを中心にクライアントの売上向上に特化した精鋭集団、株式会社Igatta Groupの採用サイトです。"
+      content="持続可能でなめらかな、10年後の街作りに貢献する、株式会社Novel Holdingsの採用サイトです。"
     />
     <meta
       property="og:site_name"
-      content="採用情報 | 株式会社Igatta Group(イガッタグループ)"
+      content="採用情報 | 株式会社Novel Holdings(ノヴェルホールディングス)"
     />
     <meta
       property="og:image"
@@ -38,11 +38,11 @@
     />
     <meta
       property="twitter:title"
-      content="採用情報 | 株式会社Igatta Group(イガッタグループ)"
+      content="採用情報 | 株式会社Novel Holdings(ノヴェルホールディングス)"
     />
     <meta
       property="twitter:description"
-      content="Webマーケティングを中心にクライアントの売上向上に特化した精鋭集団、株式会社Igatta Groupの採用サイトです。"
+      content="持続可能でなめらかな、10年後の街作りに貢献する、株式会社Novel Holdingsの採用サイトです。"
     />
     <meta
       property="twitter:image"
@@ -190,17 +190,24 @@
     <div class="fv">
       <div class="fv__inner">
         <div class="fv__slide-container fv-slide">
-          <div class="fv-slide__picture"></div>
-          <div class="fv-slide__picture"></div>
-          <div class="fv-slide__picture"></div>
+          <div class="fv-slide__picture">
+            <div class="semi-transparent"></div>
+          </div>
+          <div class="fv-slide__picture">
+            <div class="semi-transparent"></div>
+          </div>
+          <div class="fv-slide__picture">
+            <div class="semi-transparent"></div>
+          </div>
         </div>
         <div class="fv__colored-background"></div>
         <h2 class="fv__message">
-          <img
+          革新で繋げ<br />人と街
+          <!-- <img
             src="./img/firstview-message.svg"
             alt="最高に面白い仕事で、この世界を揺らせ。"
             class="fv__message-img"
-          />
+          /> -->
         </h2>
       </div>
     </div>
@@ -218,7 +225,7 @@
                 />
               </h5>
               <h2 class="section__title section__title--top-page">
-                Igatta Groupの<br class="sp-break" />ミッション・ビジョン
+                Novel Holdingsの<br class="sp-break" />ミッション・ビジョン
               </h2>
             </div>
             <div class="mission-and-vision__contents">
@@ -231,48 +238,43 @@
                   />
                 </h3>
                 <h4 class="mission__catchphrase">
-                  未来のビジネスを創る、<br />クライアントのWebパートナー<br
-                    class="sp-break"
-                  />として共に成功を
+                  創造性と共に、<br />
+                  なめらかで持続可能な街作りを
                 </h4>
                 <p class="mission__text">
-                  Igatta GroupはWebの<span class="text-inline-blocked"
-                    >トータル</span
-                  ><span class="text-inline-blocked">サポート</span
+                  私たちNovel Holdingsは、<span class="text-inline-blocked"
+                    >誰もが</span
+                  ><span class="text-inline-blocked">快適に</span
+                  ><span class="text-inline-blocked">暮らし</span
+                  ><span class="text-inline-blocked">続け</span
+                  ><span class="text-inline-blocked">られる</span
+                  ><span class="text-inline-blocked">街作り</span
+                  ><span class="text-inline-blocked">に</span
+                  ><span class="text-inline-blocked">取り組んでいます。</span
+                  ><br />
+                  <span class="text-inline-blocked">10年後</span
+                  ><span class="text-inline-blocked">の</span
+                  ><span class="text-inline-blocked">未来</span
                   ><span class="text-inline-blocked">を</span
-                  ><span class="text-inline-blocked">行う</span
-                  ><span class="text-inline-blocked">会社であり、</span
-                  ><span class="text-inline-blocked">クライアントの</span
-                  ><span class="text-inline-blocked">売上を</span
-                  ><span class="text-inline-blocked">伸ばす</span
-                  ><span class="text-inline-blocked">ことを</span
-                  ><span class="text-inline-blocked">専門と</span
-                  ><span class="text-inline-blocked">しています。</span><br />
-                  <span class="text-inline-blocked">"Webパートナー"</span
-                  ><span class="text-inline-blocked">という</span
-                  ><span class="text-inline-blocked">表現は、</span
-                  ><span class="text-inline-blocked">IgattaGroupが</span
-                  ><span class="text-inline-blocked">単なる</span
-                  ><span class="text-inline-blocked">サービス</span
-                  ><span class="text-inline-blocked">提供者</span
-                  ><span class="text-inline-blocked">ではなく、</span
-                  ><span class="text-inline-blocked">クライアント</span
-                  ><span class="text-inline-blocked">と</span
-                  ><span class="text-inline-blocked">共に</span
-                  ><span class="text-inline-blocked">連携し、</span
-                  ><span class="text-inline-blocked">協力して</span
-                  ><span class="text-inline-blocked">ビジネス</span
+                  ><span class="text-inline-blocked">形作る</span
+                  ><span class="text-inline-blocked">創造性</span
+                  ><span class="text-inline-blocked">と、</span
+                  ><span class="text-inline-blocked">想像</span
                   ><span class="text-inline-blocked">を</span
-                  ><span class="text-inline-blocked">進化</span
-                  ><span class="text-inline-blocked">させて</span
-                  ><span class="text-inline-blocked">いく</span
-                  ><span class="text-inline-blocked">存在</span
-                  ><span class="text-inline-blocked">で</span
-                  ><span class="text-inline-blocked">ある</span
-                  ><span class="text-inline-blocked">こと</span
-                  ><span class="text-inline-blocked">を</span
-                  ><span class="text-inline-blocked">表して</span
-                  ><span class="text-inline-blocked">います。</span>
+                  ><span class="text-inline-blocked">現実</span
+                  ><span class="text-inline-blocked">に</span
+                  ><span class="text-inline-blocked">変える</span
+                  ><span class="text-inline-blocked">技術力</span
+                  ><span class="text-inline-blocked">で、</span
+                  ><br class="pc-and-tab-break" />
+                  <span class="text-inline-blocked">縁</span
+                  ><span class="text-inline-blocked">の</span
+                  ><span class="text-inline-blocked">下</span
+                  ><span class="text-inline-blocked">の</span
+                  ><span class="text-inline-blocked">力</span
+                  ><span class="text-inline-blocked">持ち</span
+                  ><span class="text-inline-blocked">として</span
+                  ><span class="text-inline-blocked">支え続けます。</span>
                 </p>
               </section>
               <section class="vision">
@@ -284,20 +286,32 @@
                   />
                 </h3>
                 <h4 class="vision__catchphrase">
-                  日本の魅力をWebで輝かせる<br />Igatta Groupが目指す社会を創る
+                  飽くなき挑戦と熱意で、<br />
+                  豊かなコミュニティを<br class="sp-ms-break" />育む街を築く
                 </h4>
                 <p class="vision__text">
-                  Igatta Groupが目指す社会は、<br
-                    class="sp-break"
-                  />優れたサービスや商品が世に出て<br
-                    class="sp-break"
-                  />皆の役に立つことです。<br />Webを活用することで、<br
-                    class="sp-break"
-                  />これらの優れたサービスや商品を<br
-                    class="sp-break"
-                  />より多くの人々に知ってもらい、<br />売上を伸ばし、事業を成長させる<br
-                    class="sp-break"
-                  />ことができる社会を目指します。
+                  私たちは、常に新たな挑戦と<span class="text-inline-blocked"
+                    >情熱</span
+                  >を<span class="text-inline-blocked">持ち、</span
+                  ><span class="text-inline-blocked">豊かな</span
+                  ><span class="text-inline-blocked">コミュニティを</span
+                  ><span class="text-inline-blocked">築く</span
+                  ><span class="text-inline-blocked">街を</span
+                  ><span class="text-inline-blocked">創造していきます。</span
+                  ><br />
+                  未来を見据えた取り組みで<span class="text-inline-blocked"
+                    >日々</span
+                  ><span class="text-inline-blocked">挑戦し、</span
+                  ><span class="text-inline-blocked">人々の</span
+                  ><span class="text-inline-blocked">心に</span
+                  ><span class="text-inline-blocked">明日</span
+                  ><span class="text-inline-blocked">への</span
+                  ><span class="text-inline-blocked">期待を</span
+                  ><span class="text-inline-blocked">灯す、</span
+                  ><br class="pc-and-tab-break" />
+                  <span class="text-inline-blocked"
+                    >未来の暮らしを提供します。</span
+                  >
                 </p>
               </section>
             </div>
@@ -320,13 +334,24 @@
             <div class="message__contents">
               <div class="message__text-group">
                 <h3 class="message__heading">
-                  技術革新をも乗りこなし、<br class="tab-break" />未来を切り拓け
+                  冷たい情熱をもって、<br class="tab-break" />理想を掴み取る
                 </h3>
                 <p class="message__text">
-                  Igatta
-                  Groupのルーツは、1990年代初頭のインターネット黎明期の頃にさかのぼります。<br />まだWebマーケティングという言葉が一般に知れ渡る前に「この先の時代、インターネットでの集客がメインになるはず！」と当時大手印刷会社に努めていた私はIgatta
-                  Groupの創業を決めます。<br />しかし、当初は荒波の連続でした。なにせ「チラシ」と「ポスター」で集客をしていた時代です。「ネットで集客なんてできるの？」という懐疑的な声を沢山いただき、クライアント先に営業をするたびにお断りを頂いておりました。「何か怪しいもの」と捉えられていたのです。<br />しかし、1999年にとある町工場のサイトを弊社が公開した後に、その町工場はBBCなどで世界的に取り上げられることになります。<br />
-                  日本への取材前にWebブラウジングしていたBBC記者が、弊社作のサイトを偶然見つけたのです。サイト内では「クライアントの魅力を伝える」ことを徹底したため、それが伝わったのだと思います。<br />これにより国内でも大きな話題となり、大手企業を中心に受注をいただくことになりました。<br />挑戦で成長してきた会社です。みなさんの熱い応募、お待ちしています。
+                  Novel Holdingsは創業7期目の若い会社です。<br />
+                  時に果敢に、時に無謀に、挑戦を続け、非連続的な成長を続けてきました。<br />
+                  都市開発分野において、新しい風を吹かせるのは並大抵なことでは務まらないと、創業以来骨身に沁みて感じています。<br />
+                  その中で、いつも私の胸に去来する言葉。<br />
+                  冷たい情熱を持て。<br />
+                  思うように理想を現実に変えることができず胸が張り裂けそうだった創業当初、当時すでに旅立っていた父が私の夢の中にふっと現れ、そう話してくれました。冷静な頭脳とブレぬ情熱の両輪が必要だと。<br />
+                  地に足のついた難題に挑戦し、それをどうにかして乗り越えろと。<br />
+                  その言葉に打たれた私に、社員たちも共感してくれました。<br />
+                  その結果社員一丸となって生まれたのが、当社の顧客ニーズ予測AI「TIDE」と、街作りコンサルティングAI「DIVA」です。<br />
+                  これから加速度的に世界は変わるでしょう。ここからです。<br />
+                  凄まじいスピードで技術革新が生まれる時世、<br
+                    class="pc-break"
+                  />
+                  その先頭で活躍したくはありませんか？<br />
+                  皆さんのご応募お待ちしています。
                 </p>
               </div>
               <div class="ceo">
@@ -364,56 +389,50 @@
             <div class="job-list__group-wrapper">
               <div class="job-list__group">
                 <a
-                  href="./director/"
-                  class="job-list__item job-list__item--director"
-                >
-                  <div class="job-list__explanation">
-                    <p class="job-list__name">WEB DIRECTOR</p>
-                    <div class="job-list__text-panel">
-                      <p class="job-list__text">
-                        Webディレクターはクライアントとの打ち合わせから、プロジェクト全体の進捗管理までを行います。
-                      </p>
-                    </div>
-                  </div>
-                </a>
-
-                <a
                   href="./engineer/"
                   class="job-list__item job-list__item--engineer"
                 >
                   <div class="job-list__explanation">
-                    <p class="job-list__name">WEB ENGINEER</p>
+                    <p class="job-list__name">ソフトウェアエンジニア</p>
                     <div class="job-list__text-panel">
                       <p class="job-list__text">
-                        WebエンジニアはクライアントのWebサイトや自社サイトのフロント・バックエンド両方の開発・改修を行います。
+                        ソフトウェアエンジニアは、日本有数の不動産テクノロジー集団を目指し、提案〜開発、運用まで幅広く担当します。
+                      </p>
+                    </div>
+                  </div>
+                </a>
+
+                <a href="./sales/" class="job-list__item job-list__item--sales">
+                  <div class="job-list__explanation">
+                    <p class="job-list__name">SaaS企画営業</p>
+                    <div class="job-list__text-panel">
+                      <p class="job-list__text">
+                        SaaS企画営業は、クライアント向けのサービス企画開発を担当しながら、ソリューション提案まで行います。
                       </p>
                     </div>
                   </div>
                 </a>
 
                 <a
-                  href="./designer/"
-                  class="job-list__item job-list__item--designer"
+                  href="./data-scientist/"
+                  class="job-list__item job-list__item--data-scientist"
                 >
                   <div class="job-list__explanation">
-                    <p class="job-list__name">WEB DESIGNER</p>
+                    <p class="job-list__name">データサイエンティスト</p>
                     <div class="job-list__text-panel">
                       <p class="job-list__text">
-                        WebデザイナーはクライアントのWebサイトや自社サイトのデザイン・コーディングを行います。
+                        データサイエンティストは、データに基づいた分析やAI技術活用を行い、各種プロセスのスマート化や新規アイディアの創出などを行います。
                       </p>
                     </div>
                   </div>
                 </a>
 
-                <a
-                  href="./marketer/"
-                  class="job-list__item job-list__item--marketer"
-                >
+                <a href="./agent/" class="job-list__item job-list__item--agent">
                   <div class="job-list__explanation">
-                    <p class="job-list__name">WEB MARKETER</p>
+                    <p class="job-list__name">不動産売買エージェント</p>
                     <div class="job-list__text-panel">
                       <p class="job-list__text">
-                        WebマーケターはクライアントのWebサイトや自社サイトの広告運用やLPO、EC運用などを行います。
+                        不動産売買エージェントは、不動産売買を検討しているお客様に対して、より良い物件の提案などを行います。
                       </p>
                     </div>
                   </div>
@@ -429,7 +448,7 @@
       <div class="footer__inner">
         <!--#include virtual="/novel-holdings/ssi/logo-group/logo-group_top-page.shtml"-->
         <p class="copy-right">
-          Copyright© IGATTA GROUP co.,Ltd. All Rights Reserved.
+          Copyright© Novel Holdings co.,Ltd. All Rights Reserved.
         </p>
       </div>
     </footer>
