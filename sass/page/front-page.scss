@@ -190,7 +190,7 @@
 
   @include mixin.mq(sp) {
     left: calc(17 / 375 * 100vw);
-    bottom: calc(137 / 818 * 100% + 2.5svh);
+    bottom: calc(137 / 818 * 100% - 3svh);
   }
 }
 
