@@ -1059,7 +1059,7 @@ tbody {
 @media screen and (max-width: 767px) {
   .fv__message {
     left: 4.5333333333vw;
-    bottom: calc(16.7481662592% + 2.5svh);
+    bottom: calc(16.7481662592% - 3svh);
   }
 }
 
