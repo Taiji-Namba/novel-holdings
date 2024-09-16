@@ -210,13 +210,13 @@
         <section class="section mission-and-vision" id="mission-and-vision">
           <div class="section__inner mission-and-vision__inner">
             <div class="section__title-group">
-              <h5 class="section__sub-title">
+              <p class="section__sub-title">
                 <img
                   src="./img/mission-and-vision.svg"
                   alt="Mission&Vision"
                   class="section__img"
                 />
-              </h5>
+              </p>
               <h2 class="section__title section__title--top-page">
                 Novel Holdingsの<br class="sp-break" />ミッション・ビジョン
               </h2>
@@ -313,13 +313,13 @@
         <section class="section message" id="message">
           <div class="section__inner message__inner">
             <div class="section__title-group">
-              <h5 class="section__sub-title">
+              <p class="section__sub-title">
                 <img
                   src="./img/message.svg"
                   alt="Message"
                   class="section__img"
                 />
-              </h5>
+              </p>
               <h2 class="section__title section__title--top-page">
                 社長メッセージ
               </h2>
@@ -363,13 +363,13 @@
         <section class="section job-list" id="job-list">
           <div class="section__inner job-list__inner">
             <div class="section__title-group">
-              <h5 class="section__sub-title">
+              <p class="section__sub-title">
                 <img
                   src="./img/job-list.svg"
                   alt="Job List"
                   class="section__img"
                 />
-              </h5>
+              </p>
               <h2 class="section__title section__title--top-page">
                 募集職種一覧
               </h2>
