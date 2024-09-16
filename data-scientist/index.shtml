@@ -113,7 +113,7 @@
         class="position-detail-fv__heading-container position-detail-fv__heading-container--data-scientist"
       >
         <div class="position-detail-fv__heading-group">
-          <h4 class="position-detail-fv__subtitle">キャリア採用</h4>
+          <p class="position-detail-fv__subtitle">キャリア採用</p>
           <h1
             class="position-detail-fv__title position-detail-fv__title--data-scientist"
           >
