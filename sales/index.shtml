@@ -112,7 +112,7 @@
         class="position-detail-fv__heading-container position-detail-fv__heading-container--sales"
       >
         <div class="position-detail-fv__heading-group">
-          <h4 class="position-detail-fv__subtitle">キャリア採用</h4>
+          <p class="position-detail-fv__subtitle">キャリア採用</p>
           <h1 class="position-detail-fv__title">
             SaaS<br class="sp-break" />企画営業職
           </h1>
